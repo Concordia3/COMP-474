@@ -1,0 +1,508 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Student a rdfs:Class .
+
+ns1:40122345 a ns1:Student ;
+    ns1:hasFirstName "Mason" ;
+    ns1:hasGrade "82",
+        "95" ;
+    ns1:hasId 40122345 ;
+    ns1:hasLastName "Gonzalez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40123456 a ns1:Student ;
+    ns1:hasFirstName "James",
+        "Nathan" ;
+    ns1:hasGrade "79",
+        "85",
+        "90",
+        "93" ;
+    ns1:hasId 40123456 ;
+    ns1:hasLastName "Davis",
+        "Thomas" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40123489 a ns1:Student ;
+    ns1:hasFirstName "Harper" ;
+    ns1:hasGrade "77",
+        "91" ;
+    ns1:hasId 40123489 ;
+    ns1:hasLastName "Garcia" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40127534 a ns1:Student ;
+    ns1:hasFirstName "Emily" ;
+    ns1:hasGrade "78",
+        "85" ;
+    ns1:hasId 40127534 ;
+    ns1:hasLastName "Brown" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40127654 a ns1:Student ;
+    ns1:hasFirstName "Levi" ;
+    ns1:hasGrade "75",
+        "90" ;
+    ns1:hasId 40127654 ;
+    ns1:hasLastName "Hill" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40128576 a ns1:Student ;
+    ns1:hasFirstName "Noah" ;
+    ns1:hasGrade "79",
+        "90" ;
+    ns1:hasId 40128576 ;
+    ns1:hasLastName "Taylor" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40128976 a ns1:Student ;
+    ns1:hasFirstName "Ellie" ;
+    ns1:hasGrade "76",
+        "92" ;
+    ns1:hasId 40128976 ;
+    ns1:hasLastName "Hernandez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40213465 a ns1:Student ;
+    ns1:hasFirstName "Chloe" ;
+    ns1:hasGrade "69",
+        "94" ;
+    ns1:hasId 40213465 ;
+    ns1:hasLastName "Robinson" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40218976 a ns1:Student ;
+    ns1:hasFirstName "Maya" ;
+    ns1:hasGrade "79",
+        "91" ;
+    ns1:hasId 40218976 ;
+    ns1:hasLastName "Green" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40230456 a ns1:Student ;
+    ns1:hasFirstName "Sebastian" ;
+    ns1:hasGrade "74",
+        "88" ;
+    ns1:hasId 40230456 ;
+    ns1:hasLastName "Jackson" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40234187 a ns1:Student ;
+    ns1:hasFirstName "Lily" ;
+    ns1:hasGrade "71",
+        "83" ;
+    ns1:hasId 40234187 ;
+    ns1:hasLastName "Anderson" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40234567 a ns1:Student ;
+    ns1:hasFirstName "Eva" ;
+    ns1:hasGrade "71",
+        "88" ;
+    ns1:hasId 40234567 ;
+    ns1:hasLastName "Scott" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40236487 a ns1:Student ;
+    ns1:hasFirstName "Elizabeth" ;
+    ns1:hasGrade "68",
+        "94" ;
+    ns1:hasId 40236487 ;
+    ns1:hasLastName "Lopez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40247553 a ns1:Student ;
+    ns1:hasFirstName "John" ;
+    ns1:hasGrade "73",
+        "92" ;
+    ns1:hasId 40247553 ;
+    ns1:hasLastName "Doe" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40247726 a ns1:Student ;
+    ns1:hasFirstName "Jane" ;
+    ns1:hasGrade "65",
+        "88" ;
+    ns1:hasId 40247726 ;
+    ns1:hasLastName "Smith" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40247864 a ns1:Student ;
+    ns1:hasFirstName "Michael" ;
+    ns1:hasGrade "70",
+        "96" ;
+    ns1:hasId 40247864 ;
+    ns1:hasLastName "Johnson" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40268519 a ns1:Student ;
+    ns1:hasFirstName "William" ;
+    ns1:hasGrade "76",
+        "89" ;
+    ns1:hasId 40268519 ;
+    ns1:hasLastName "Jones" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40321098 a ns1:Student ;
+    ns1:hasFirstName "Mary" ;
+    ns1:hasGrade "72",
+        "83" ;
+    ns1:hasId 40321098 ;
+    ns1:hasLastName "Martinez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40329876 a ns1:Student ;
+    ns1:hasFirstName "Lincoln" ;
+    ns1:hasGrade "79",
+        "91" ;
+    ns1:hasId 40329876 ;
+    ns1:hasLastName "Young" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40341298 a ns1:Student ;
+    ns1:hasFirstName "Nova" ;
+    ns1:hasGrade "77",
+        "92" ;
+    ns1:hasId 40341298 ;
+    ns1:hasLastName "Flores" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40345678 a ns1:Student ;
+    ns1:hasFirstName "Grace" ;
+    ns1:hasGrade "72",
+        "88" ;
+    ns1:hasId 40345678 ;
+    ns1:hasLastName "Clark" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40432987 a ns1:Student ;
+    ns1:hasFirstName "Luna" ;
+    ns1:hasGrade "79",
+        "82" ;
+    ns1:hasId 40432987 ;
+    ns1:hasLastName "Walker" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40453987 a ns1:Student ;
+    ns1:hasFirstName "Grace" ;
+    ns1:hasGrade "78",
+        "91" ;
+    ns1:hasId 40453987 ;
+    ns1:hasLastName "Hill" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40456789 a ns1:Student ;
+    ns1:hasFirstName "Evelyn",
+        "Liam" ;
+    ns1:hasGrade "77",
+        "80",
+        "92" ;
+    ns1:hasId 40456789 ;
+    ns1:hasLastName "Thompson",
+        "Young" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40458690 a ns1:Student ;
+    ns1:hasFirstName "Charlotte" ;
+    ns1:hasGrade "77",
+        "91" ;
+    ns1:hasId 40458690 ;
+    ns1:hasLastName "Moore" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40561234 a ns1:Student ;
+    ns1:hasFirstName "Aria" ;
+    ns1:hasGrade "71",
+        "83" ;
+    ns1:hasId 40561234 ;
+    ns1:hasLastName "Murphy" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40561823 a ns1:Student ;
+    ns1:hasFirstName "Benjamin" ;
+    ns1:hasGrade "76",
+        "93" ;
+    ns1:hasId 40561823 ;
+    ns1:hasLastName "Lewis" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40564321 a ns1:Student ;
+    ns1:hasFirstName "Nora" ;
+    ns1:hasGrade "72",
+        "86" ;
+    ns1:hasId 40564321 ;
+    ns1:hasLastName "Wright" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40567123 a ns1:Student ;
+    ns1:hasFirstName "Riley" ;
+    ns1:hasGrade "78",
+        "85" ;
+    ns1:hasId 40567123 ;
+    ns1:hasLastName "Baker" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40578129 a ns1:Student ;
+    ns1:hasFirstName "Henry" ;
+    ns1:hasGrade "73",
+        "89" ;
+    ns1:hasId 40578129 ;
+    ns1:hasLastName "Harris" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40675329 a ns1:Student ;
+    ns1:hasFirstName "Isabella" ;
+    ns1:hasGrade "71",
+        "90" ;
+    ns1:hasId 40675329 ;
+    ns1:hasLastName "Lee" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40678123 a ns1:Student ;
+    ns1:hasFirstName "Lillian" ;
+    ns1:hasGrade "75",
+        "90" ;
+    ns1:hasId 40678123 ;
+    ns1:hasLastName "Allen" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40678901 a ns1:Student ;
+    ns1:hasFirstName "Alexander" ;
+    ns1:hasGrade "87",
+        "90" ;
+    ns1:hasId 40678901 ;
+    ns1:hasLastName "Hernandez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40678923 a ns1:Student ;
+    ns1:hasFirstName "Harper" ;
+    ns1:hasGrade "68",
+        "95" ;
+    ns1:hasId 40678923 ;
+    ns1:hasLastName "Hall" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40759812 a ns1:Student ;
+    ns1:hasFirstName "Sophia" ;
+    ns1:hasGrade "68",
+        "95" ;
+    ns1:hasId 40759812 ;
+    ns1:hasLastName "White" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40768923 a ns1:Student ;
+    ns1:hasFirstName "Emma" ;
+    ns1:hasGrade "78",
+        "91" ;
+    ns1:hasId 40768923 ;
+    ns1:hasLastName "Garcia" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40879012 a ns1:Student ;
+    ns1:hasFirstName "Hazel" ;
+    ns1:hasGrade "73",
+        "89" ;
+    ns1:hasId 40879012 ;
+    ns1:hasLastName "Nguyen" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40892134 a ns1:Student ;
+    ns1:hasFirstName "Ella" ;
+    ns1:hasGrade "83",
+        "96" ;
+    ns1:hasId 40892134 ;
+    ns1:hasLastName "Hall" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40892765 a ns1:Student ;
+    ns1:hasFirstName "Lucas" ;
+    ns1:hasGrade "74",
+        "89" ;
+    ns1:hasId 40892765 ;
+    ns1:hasLastName "Rodriguez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40893215 a ns1:Student ;
+    ns1:hasFirstName "Olivia" ;
+    ns1:hasGrade "80",
+        "92" ;
+    ns1:hasId 40893215 ;
+    ns1:hasLastName "Miller" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40893456 a ns1:Student ;
+    ns1:hasFirstName "Jack" ;
+    ns1:hasGrade "76",
+        "92" ;
+    ns1:hasId 40893456 ;
+    ns1:hasLastName "Wilson" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40897234 a ns1:Student ;
+    ns1:hasFirstName "Amelia" ;
+    ns1:hasGrade "75",
+        "86" ;
+    ns1:hasId 40897234 ;
+    ns1:hasLastName "Martin" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40982365 a ns1:Student ;
+    ns1:hasFirstName "Luna" ;
+    ns1:hasGrade "79",
+        "84" ;
+    ns1:hasId 40982365 ;
+    ns1:hasLastName "Perez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40986543 a ns1:Student ;
+    ns1:hasFirstName "Liam" ;
+    ns1:hasGrade "78",
+        "85" ;
+    ns1:hasId 40986543 ;
+    ns1:hasLastName "Martinez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40987612 a ns1:Student ;
+    ns1:hasFirstName "Leo" ;
+    ns1:hasGrade "80",
+        "94" ;
+    ns1:hasId 40987612 ;
+    ns1:hasLastName "Adams" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40987623 a ns1:Student ;
+    ns1:hasFirstName "Julian" ;
+    ns1:hasGrade "74",
+        "87" ;
+    ns1:hasId 40987623 ;
+    ns1:hasLastName "Young" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40987645 a ns1:Student ;
+    ns1:hasFirstName "Landon" ;
+    ns1:hasGrade "78",
+        "85" ;
+    ns1:hasId 40987645 ;
+    ns1:hasLastName "King" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:40987654 a ns1:Student ;
+    ns1:hasFirstName "Joseph" ;
+    ns1:hasGrade "74",
+        "87" ;
+    ns1:hasId 40987654 ;
+    ns1:hasLastName "Rodriguez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:hasFirstName a rdf:Property .
+
+ns1:hasGrade a rdf:Property .
+
+ns1:hasId a rdf:Property .
+
+ns1:hasLastName a rdf:Property .
+
+ns1:isEnrolled a rdf:Property .
+
+ns1:studiesAt a rdf:Property .
+
+ns1:ConcordiaUniversity a ns1:University ;
+    ns1:universityLink dbp:Concordia_University ;
+    ns1:universityName "Concordia University" .
+
+ns1:Lecture1 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/1_intro_to_ai.pdf> ;
+    ns1:lectureName "Introduction to Artificial Intelligence" ;
+    ns1:lectureNumber "1" .
+
+ns1:Lecture2 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/2_state_space_search.pdf> ;
+    ns1:lectureName "State Space Search" ;
+    ns1:lectureNumber "2" .
+
+ns1:Lecture3 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/3_intro_to_ml_naive_bayes_classification.pdf> ;
+    ns1:lectureName "Introduction to Machine Learning: Naive Bayes Classification" ;
+    ns1:lectureNumber "3" .
+
+ns1:Lecture4 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/4_decision_trees_k_means_clustering.pdf> ;
+    ns1:lectureName "Decision Trees and K-Means Clustering" ;
+    ns1:lectureNumber "4" .
+
+ns1:Lecture5 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/5_intro_to_ann.pdf> ;
+    ns1:lectureName "Introduction to Artificial Neural Networks" ;
+    ns1:lectureNumber "5" .
+
+ns1:Lecture6 a ns1:Lecture ;
+    ns1:lectureLink <file:///comp472_data/6_dl_cnn.pdf> ;
+    ns1:lectureName "Deep Learning: Convolutional Neural Networks" ;
+    ns1:lectureNumber "6" .
+
+ns1:COMP472 a ns1:Course ;
+    ns1:courseCredits "4" ;
+    ns1:courseDescription "Introduction to Artificial Intelligence." ;
+    ns1:courseLink ns1:COMP472 ;
+    ns1:courseName "Artificial Intelligence" ;
+    ns1:courseNumber "472" ;
+    ns1:courseOfferedAt ns1:ConcordiaUniversity,
+        ns1:Lecture1,
+        ns1:Lecture2,
+        ns1:Lecture3,
+        ns1:Lecture4,
+        ns1:Lecture5,
+        ns1:Lecture6 ;
+    ns1:courseSubject "COMP" .
+
