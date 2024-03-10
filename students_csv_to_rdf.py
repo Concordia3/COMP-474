@@ -32,7 +32,7 @@ g.add((ex.hasGradeVal, RDF.type, RDF.Property))    # value property
 g.add((ex.gradeOf, RDF.type, RDF.Property))        # grade of whom property
 g.add((ex.gradeFor, RDF.type, RDF.Property))       # grade for what property
 
-g.add((UNIVERSITY, RDF.type, RDFS.Class))      # concordia university class
+g.add((UNIVERSITY, RDF.type, RDFS.Class))          # concordia university class
 
 # define relationships between classes
 g.add((ex.studiesAt, RDFS.domain, ex.Student))     # student studies at a university
@@ -54,7 +54,7 @@ g.add((ex.gradeFor, RDFS.range, ex.Course))
 def add_attributes_to_student(id, first_name, last_name, courses, grades):
     student_uri = URIRef(ex + str(id))                              # create a URI for the student
     g.add((student_uri, RDF.type, ex.Student))                      # specify that the URI is a student
-    g.add((student_uri, ex.studiesAt, UNIVERSITY))              # specify that the student studies at concordia
+    g.add((student_uri, ex.studiesAt, UNIVERSITY))                  # specify that the student studies at concordia
     g.add((student_uri, ex.hasId, Literal(id)))                     # add the id 
     g.add((student_uri, ex.hasFirstName, Literal(first_name)))      # add the first name
     g.add((student_uri, ex.hasLastName, Literal(last_name)))        # add the last name
@@ -65,7 +65,7 @@ def add_attributes_to_student(id, first_name, last_name, courses, grades):
     for course, grade in zip(courses, grades):
         course_uri = URIRef(ex + course)                            # create a URI for the course
         g.add((course_uri, RDF.type, ex.Course))                    # specify that the URI is a course
-        g.add((course_uri, ex.courseAt, UNIVERSITY))            # specify that the course is at concordia
+        g.add((course_uri, ex.courseAt, UNIVERSITY))                # specify that the course is at concordia
         g.add((course_uri, ex.hasCourseCode, Literal(course)))      # add the course code
         g.add((student_uri, ex.isEnrolled, course_uri))             # enroll the student in the course
 
