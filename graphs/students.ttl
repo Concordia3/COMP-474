@@ -15,15 +15,11 @@ ns1:40122345 a ns1:Student ;
         ns1:COMP474 .
 
 ns1:40123456 a ns1:Student ;
-    ns1:hasFirstName "James",
-        "Nathan" ;
+    ns1:hasFirstName "Nathan" ;
     ns1:hasGrade "79",
-        "85",
-        "90",
-        "93" ;
+        "90" ;
     ns1:hasId 40123456 ;
-    ns1:hasLastName "Davis",
-        "Thomas" ;
+    ns1:hasLastName "Thomas" ;
     ns1:isEnrolled ns1:COMP472,
         ns1:COMP474 .
 
@@ -441,6 +437,15 @@ ns1:40987654 a ns1:Student ;
         "87" ;
     ns1:hasId 40987654 ;
     ns1:hasLastName "Rodriguez" ;
+    ns1:isEnrolled ns1:COMP472,
+        ns1:COMP474 .
+
+ns1:42123456 a ns1:Student ;
+    ns1:hasFirstName "James" ;
+    ns1:hasGrade "85",
+        "93" ;
+    ns1:hasId 42123456 ;
+    ns1:hasLastName "Davis" ;
     ns1:isEnrolled ns1:COMP472,
         ns1:COMP474 .
 
