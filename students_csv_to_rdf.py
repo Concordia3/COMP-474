@@ -6,7 +6,7 @@ from rdflib.namespace import FOAF, RDF, RDFS, XSD
 ex = Namespace("http://example.org/")
 
 # read the csv file
-df = pd.read_csv('students.csv')
+df = pd.read_csv('data/students.csv')
 
 # create an empty graph
 g = Graph()
@@ -40,4 +40,4 @@ for index, row in df.iterrows():
     add_attributes_to_student(row['id'], row['first_name'], row['last_name'], row['courses'], row['grades'])
 
 # Serialize and print the RDF graph
-g.serialize(destination="students.ttl", format="turtle")
+g.serialize(destination="graphs/students.ttl", format="turtle")
