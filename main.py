@@ -1,15 +1,14 @@
-from rdflib import Graph
+from tools_libs import *
 
-# create 2 empty graphs
-university_g = Graph()
-students_g   = Graph()
+courses_graph = Graph()
+profiles_graph = Graph()
 
-# parse the rdf files
-university_g.parse("graphs/university.ttl", format="ttl")
-students_g.parse("graphs/students.ttl", format="ttl")
+# load the graphs
+courses_graph.parse("graphs/courses.ttl", format="turtle")
+profiles_graph.parse("graphs/profiles.ttl", format="turtle")
 
 # merge the graphs
-merged_g = university_g + students_g
+university_graph = courses_graph + profiles_graph
 
-# save merged graph
-merged_g.serialize(destination="graphs/merged.ttl", format="turtle")
+# save the merged graph
+university_graph.serialize(destination="graphs/university.ttl", format="turtle")
