@@ -42,35 +42,37 @@ g.add((ex.gradeFor, RDFS.range, course_class))
 
 # function to add attributes to a student
 def add_attributes_to_student(id, first_name, last_name, email, courses, grades):
-    student_uri = URIRef(ex + str(id))                                              # create a URI for the student
+    student_uri = URIRef(ex + str(id))                                                      # create a URI for the student
 
-    g.add((student_uri, RDF.type, ex.Student))                                      # specify that the URI is a student
-    g.add((student_uri, ex.studiesAt, UNIVERSITY))                                  # specify that the student studies at concordia
-    g.add((student_uri, ex.hasId, Literal(id)))                                     # add the id 
-    g.add((student_uri, FOAF.firstName, Literal(first_name)))                       # add the first name
-    g.add((student_uri, FOAF.lastName, Literal(last_name)))                         # add the last name
-    g.add((student_uri, FOAF.mbox, Literal(email)))                                 # add the email
+    g.add((student_uri, RDF.type, ex.Student))                                              # specify that the URI is a student
+    g.add((student_uri, ex.studiesAt, UNIVERSITY))                                          # specify that the student studies at concordia
+    g.add((student_uri, ex.hasId, Literal(id)))                                             # add the id 
+    g.add((student_uri, FOAF.firstName, Literal(first_name)))                               # add the first name
+    g.add((student_uri, FOAF.lastName, Literal(last_name)))                                 # add the last name
+    g.add((student_uri, FOAF.mbox, Literal(email)))                                         # add the email
 
-    courses = ast.literal_eval(courses)                                             # convert the string to a list
-    grades  = ast.literal_eval(grades)                                              # convert the string to a dictionary
+    courses = ast.literal_eval(courses)                                                     # convert the string to a list
+    grades  = ast.literal_eval(grades)                                                      # convert the string to a dictionary
 
     for course_code, course_number in courses:
-        course_uri = URIRef(ex + course_code + '/' + course_number)                 # create a URI for the course
+        course_uri = URIRef(ex + course_code + '/' + course_number)                         # create a URI for the course
 
-        g.add((course_uri, RDF.type, course_class))                                    # specify that the URI is a course
+        g.add((course_uri, RDF.type, course_class))                                         # specify that the URI is a course
 
         if (course_code, course_number) in grades:
-            grades_per_course = grades[(course_code, course_number)]                # get the grade(s) for the course
+            grades_per_course = grades[(course_code, course_number)]                        # get the grade(s) for the course
 
             counter = 0
             for grade in grades_per_course:
                 counter += 1
 
-                grade_uri = URIRef(course_uri + '/' + str(id) + '/' + str(counter)) # create a URI for the grade
-                g.add((grade_uri, RDF.type, ex.Grade))                              # specify that the URI is a grade
-                g.add((grade_uri, ex.hasGradeVal, Literal(grade)))                  # add the grade value
-                g.add((grade_uri, ex.gradeOf, student_uri))                         # specify that the grade is of the student
-                g.add((grade_uri, ex.gradeFor, course_uri))                         # specify that the grade is for the course
+                grade_uri = URIRef(course_uri + '/' + str(id) + '/' + str(counter))         # create a URI for the grade
+                g.add((grade_uri, RDF.type, ex.Grade))                                      # specify that the URI is a grade
+                g.add((grade_uri, ex.hasGradeVal, Literal(grade)))                          # add the grade value
+                g.add((grade_uri, ex.gradeOf, student_uri))                                 # specify that the grade is of the student
+                g.add((grade_uri, ex.gradeFor, course_uri))                                 # specify that the grade is for the course
+
+                if counter > 1: g.add((grade_uri, RDFS.comment, Literal('Retake grade')))   # add a comment if the grade is a re-exam
 
 # convert the dataframe to rdf
 for index, row in df.iterrows():
