@@ -24,23 +24,9 @@ g.add((ex.hasTitle, RDF.type, RDF.Property))            # title property
 g.add((ex.hasCredits, RDF.type, RDF.Property))          # credits property
 g.add((ex.hasDescription, RDF.type, RDF.Property))      # description property
 
-g.add((ex.Lecture, RDF.type, RDFS.Class))               # slides subclass of course class
-g.add((ex.Lecture, RDFS.subClassOf, ex.Course))         # slides subclass of course class
-g.add((ex.lectureNumber, RDF.type, RDF.Property))       # lecture number property
-g.add((ex.lectureName, RDF.type, RDF.Property))         # lecture name property
-
-g.add((ex.Worksheet, RDF.type, RDFS.Class))             # worksheet subclass of course class
-g.add((ex.Worksheet, RDFS.subClassOf, ex.Course))
-g.add((ex.worksheetNumber, RDF.type, RDF.Property))     # worksheet number property
-g.add((ex.worksheetName, RDF.type, RDF.Property))       # worksheet name property
-g.add((ex.associatedWith, RDF.type, RDF.Property))      # associated lecture property
-
 # define relationships between classes
 g.add((ex.courseAt, RDFS.domain, ex.Course))            # course is at a university
 g.add((ex.courseAt, RDFS.range, UNIVERSITY))
-
-g.add((ex.associatedWith, RDFS.domain, ex.Worksheet))   # worksheet is associated with a lecture
-g.add((ex.associatedWith, RDFS.range, ex.Lecture))
 
 # Convert selected data to RDF
 for index, row in merged_df.iterrows():
