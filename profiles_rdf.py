@@ -6,8 +6,8 @@ courses_graph.parse("graphs/courses.ttl", format="turtle")
 
 # iterate over the courses graph and extract the course class
 course_class = None
-for s, p, o in courses_graph.triples((None, RDF.type, None)):
-    if o == RDFS.Class:
+for s, p, o in courses_graph.triples((None, RDF.type, RDFS.Class)):
+    if s == ex.Course:
         course_class = s
 
 # read the csv file
