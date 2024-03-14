@@ -12,6 +12,6 @@
 5. finally, run main to merge courses graph and profiles graph together -> university.ttl
 
 ## Organization
-data -> contains raw courses data and csv files generated from code
-graphs -> contains graph outputs from code (comp_courses.ttl not done)
-instructions -> contains project instructions
+- data -> contains raw courses data and csv files generated from code
+- graphs -> contains graph outputs from code (comp_courses.ttl not done)
+- instructions -> contains project instructions
