@@ -23,7 +23,6 @@ g.add((ex.hasCourseNumber, RDF.type, RDF.Property))     # catalog property
 g.add((ex.hasTitle, RDF.type, RDF.Property))            # title property
 g.add((ex.hasCredits, RDF.type, RDF.Property))          # credits property
 g.add((ex.hasDescription, RDF.type, RDF.Property))      # description property
-g.add((ex.hasWebsite, RDF.type, RDF.Property))          # website property
 
 # define relationships between classes
 g.add((ex.courseAt, RDFS.domain, ex.Course))            # course is at a university
@@ -43,7 +42,7 @@ for index, row in merged_df.iterrows():
     g.add((subject, ex.hasTitle, Literal(row['Long Title'])))
     g.add((subject, ex.hasCredits, Literal(row['Class Units'], datatype=XSD.float)))
     g.add((subject, ex.hasDescription, Literal(row['Description'])))
-    g.add((subject, ex.hasWebsite, Literal(row['Website'])))
+    g.add((subject, RDFS.seeAlso, Literal(row['Website'])))
 
 # save the graph
 g.serialize(destination="graphs/courses.ttl", format="turtle") 
