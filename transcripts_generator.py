@@ -23,7 +23,7 @@ def transcripts_generator(csv_file, num_students=50):
 
             # check and see if the student needs to retake the class
             if grade < 60:
-                retake_grade = random.randint(50, 100)
+                retake_grade = random.randint(60, 100)
                 grades[course].append(retake_grade)
 
         transcripts.append({'courses': courses, 'grades': grades})
