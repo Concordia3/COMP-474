@@ -2,7 +2,7 @@
 
 ## Execution
 - run main.py script
-### note: make sure to have a students csv file first before you run step 3 (check my format)
+### note: make sure to have a students csv file first before you run main script (check my format)
 
 ## Organization
 - data -> contains raw courses data and csv files generated from code
