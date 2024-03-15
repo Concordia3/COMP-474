@@ -31,8 +31,4 @@ def transcripts_generator(csv_file, num_students=50):
     # create a dataframe from the transcripts
     transcripts_df = pd.DataFrame(transcripts)
 
-    # convert the df into a csv file
-    transcripts_df.to_csv('data/students/transcripts.csv', index=False)
-
-# randomly generate 50 transcripts
-transcripts_generator('data/courses/processed_course_info_2024.csv', 50)
+    return transcripts_df
