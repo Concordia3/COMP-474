@@ -59,7 +59,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACCO/425> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/ACCO/435> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -74,13 +75,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACCO/455> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "" .
 
 <http://example.org/ACCO/465/40218976/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACCO/465> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 99 .
+    ns1:hasGradeVal 99 ;
+    rdfs:comment "" .
 
 <http://example.org/ACCO/495> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -131,7 +134,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACCO/654> ;
     ns1:gradeOf ns1:40561234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 86 .
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "" .
 
 <http://example.org/ACCO/655> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -182,13 +186,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACTT/201> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 99 .
+    ns1:hasGradeVal 99 ;
+    rdfs:comment "" .
 
 <http://example.org/ACTT/202/40987623/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACTT/202> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/ACTT/209> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -347,7 +353,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACTT/435> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "" .
 
 <http://example.org/ACTT/436> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -416,13 +423,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACTT/480> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/ACTT/481/40218976/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACTT/481> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/ACTT/498> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -464,7 +473,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/ACTU/486> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/ADED/344> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -488,13 +498,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AERO/201> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/AERO/371/40987612/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AERO/371> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 87 .
+    ns1:hasGradeVal 87 ;
+    rdfs:comment "" .
 
 <http://example.org/AERO/390> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -536,13 +548,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AERO/481> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/AERO/482/40345678/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AERO/482> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 86 .
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "" .
 
 <http://example.org/AERO/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -584,7 +598,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/322> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/322/40987645/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/322> ;
@@ -624,7 +639,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/361> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/371> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -648,7 +664,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/422> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/422/40768923/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/422> ;
@@ -716,7 +733,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/439> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/439/40128976/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/439> ;
@@ -756,7 +774,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/451> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 51 .
+    ns1:hasGradeVal 51 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/451/40675329/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/451> ;
@@ -787,7 +806,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/490> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 96 .
+    ns1:hasGradeVal 96 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/491> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -829,7 +849,8 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/527> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/530> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -844,13 +865,15 @@ ns1:Worksheet a rdfs:Class ;
     ns1:gradeFor <http://example.org/AHSC/533> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/537/40561823/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/537> ;
     ns1:gradeOf ns1:40561823 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/538> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -912,7 +935,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/AHSC/660> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/AHSC/660/40268519/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/AHSC/660> ;
@@ -971,7 +995,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/ANTH/315> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/ANTH/450> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1058,13 +1083,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/APLI/635> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 63 .
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "" .
 
 <http://example.org/APLI/636/40128576/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/APLI/636> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/APLI/644> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1106,13 +1133,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/ARTT/470> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/ARTT/471/40128576/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ARTT/471> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/ARTT/472> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1208,31 +1237,36 @@ projects""" ;
     ns1:gradeFor <http://example.org/BCEE/371> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/201/40236487/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BIOL/201> ;
     ns1:gradeOf ns1:40236487 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/227/40234567/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BIOL/227> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 76 .
+    ns1:hasGradeVal 76 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/322/40982365/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BIOL/322> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/330/40675329/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BIOL/330> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/337> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1292,7 +1326,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BIOL/422> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/423> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1361,7 +1396,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BIOL/498> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/BIOL/510> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1494,7 +1530,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/366> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 68 .
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/371> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1509,7 +1546,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/390> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/463> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1551,7 +1589,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/492> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/492/40247864/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/492> ;
@@ -1564,7 +1603,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/492> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6071> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1615,7 +1655,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6581> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6581/40982365/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6581> ;
@@ -1637,7 +1678,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6601> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6611> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1697,7 +1739,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6721> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6721/40987654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6721> ;
@@ -1710,7 +1753,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6731> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6731/40128976/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6731> ;
@@ -1723,13 +1767,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6731> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6741/40892765/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6741> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6741/40892765/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6741> ;
@@ -1751,7 +1797,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6781> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6781/40578129/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6781> ;
@@ -1764,13 +1811,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6791> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6801/40986543/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6801> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6801/40986543/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6801> ;
@@ -1783,7 +1832,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/6851> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/6851/40987623/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BLDG/6851> ;
@@ -1841,7 +1891,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BLDG/7841> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/BLDG/7861> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -1910,7 +1961,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BTM/440> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/BTM/440/40768923/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/BTM/440> ;
@@ -1950,7 +2002,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/BTM/496> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/BTM/633> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2028,13 +2081,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/CATA/437> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/CATA/439/40236487/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CATA/439> ;
     ns1:gradeOf ns1:40236487 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/CATA/441> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2076,19 +2131,22 @@ projects""" ;
     ns1:gradeFor <http://example.org/CATA/495> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/CATA/495/40564321/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CATA/495> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/CERA/201/40897234/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CERA/201> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/CERA/230> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2112,7 +2170,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CERA/391> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/CERA/392> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2182,7 +2241,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CERA/498> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/CERA/499> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2197,13 +2257,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/205> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/205/40879012/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CHEM/205> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/205/40879012/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CHEM/205> ;
@@ -2225,7 +2287,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/212> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/212/40567123/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CHEM/212> ;
@@ -2256,7 +2319,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/221> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/221/40578129/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CHEM/221> ;
@@ -2341,7 +2405,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/325> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/333> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2356,7 +2421,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/335> ;
     ns1:gradeOf ns1:40127534 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/341> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2371,7 +2437,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/375> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/419> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2386,7 +2453,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHEM/431> ;
     ns1:gradeOf ns1:40329876 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/CHEM/431/40329876/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CHEM/431> ;
@@ -2462,7 +2530,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CHST/606> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/CHST/608> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2495,25 +2564,29 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/321> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 63 .
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/361/40678123/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/361> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 76 .
+    ns1:hasGradeVal 76 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/361/40759812/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/361> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/381/40234187/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/381> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/381/40234187/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/381> ;
@@ -2526,13 +2599,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/382> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/390/40675329/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/390> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/390/40675329/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/390> ;
@@ -2545,19 +2620,22 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/390> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/432/40564321/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/432> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/432/40567123/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/432> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/453> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2581,7 +2659,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/465> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/469> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2641,7 +2720,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6051> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 86 .
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6061> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2683,13 +2763,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6331> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6381/40759812/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/6381> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6381/40759812/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/6381> ;
@@ -2711,7 +2793,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6411> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6441> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2771,7 +2854,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6521> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6531> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2813,7 +2897,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6621> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 68 .
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6631> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2873,7 +2958,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6691> ;
     ns1:gradeOf ns1:40561234 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/6691/40561234/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CIVI/6691> ;
@@ -2886,7 +2972,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CIVI/6711> ;
     ns1:gradeOf ns1:42123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/CIVI/7001> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2937,7 +3024,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CLAS/370> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/CLAS/383> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -2988,7 +3076,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CLAS/411> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/CLAS/411/40234187/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CLAS/411> ;
@@ -3001,7 +3090,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CLAS/411> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/CLAS/411/40456788/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/CLAS/411> ;
@@ -3023,7 +3113,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CLAS/421> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/CLAS/460> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3038,7 +3129,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/CLAS/470> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/CLAS/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3053,37 +3145,43 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/212> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 73 .
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/212/40892134/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/212> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/212/40987612/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/212> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/311/40341298/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/311> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/311/40987645/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/311> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 80 .
+    ns1:hasGradeVal 80 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/313/40987654/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/313> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/313/40987654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/313> ;
@@ -3096,7 +3194,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/315> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/316> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3165,7 +3264,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/451> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3189,7 +3289,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/6311> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/6311/40893456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COEN/6311> ;
@@ -3274,7 +3375,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/6531> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/6541> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3289,7 +3391,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COEN/6551> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 62 .
+    ns1:hasGradeVal 62 ;
+    rdfs:comment "" .
 
 <http://example.org/COEN/6711> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3340,7 +3443,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMM/401> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/COMM/499> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3365,7 +3469,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/208> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/208/40986543/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/208> ;
@@ -3396,13 +3501,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/345> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/346/40458690/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/346> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/353> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3435,19 +3542,22 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/376> ;
     ns1:gradeOf ns1:40561823 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/426/40879012/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/426> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/426/40987645/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/426> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 73 .
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/428> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3596,7 +3706,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/476> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/477> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3620,13 +3731,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/479> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/479/40123488/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/479> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3641,7 +3754,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/492> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/5201> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3656,7 +3770,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/5361> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/5361/40230456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/5361> ;
@@ -3678,7 +3793,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/5481> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/5481/40458690/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/5481> ;
@@ -3691,7 +3807,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/5511> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/5541> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3706,13 +3823,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/6311> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/6311/40678123/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/6311> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/6321> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3763,7 +3882,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/6721> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/6721/40341298/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/6721> ;
@@ -3794,7 +3914,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMP/6761> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/COMP/6761/40128576/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMP/6761> ;
@@ -3861,7 +3982,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMS/324> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/COMS/324/40213465/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/COMS/324> ;
@@ -3901,7 +4023,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMS/384> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/COMS/407> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3925,7 +4048,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMS/477> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 60 .
+    ns1:hasGradeVal 60 ;
+    rdfs:comment "" .
 
 <http://example.org/COMS/484> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3994,7 +4118,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMS/570> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/COMS/606> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4018,7 +4143,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/COMS/876> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 97 .
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "" .
 
 <http://example.org/DANC/201> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4033,7 +4159,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DANC/205> ;
     ns1:gradeOf ns1:42123456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/DANC/205/42123456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DANC/205> ;
@@ -4136,7 +4263,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/212> ;
     ns1:gradeOf ns1:40768923 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 51 .
+    ns1:hasGradeVal 51 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/212/40768923/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/212> ;
@@ -4176,13 +4304,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/311> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/311/40678901/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/311> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 74 .
+    ns1:hasGradeVal 74 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/315> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4233,7 +4363,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/335> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/336> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4257,7 +4388,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/341> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/341/40268519/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/341> ;
@@ -4270,7 +4402,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/341> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/345> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4285,7 +4418,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/350> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/350/40127654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/350> ;
@@ -4298,7 +4432,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/350> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/350/40456789/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/350> ;
@@ -4320,7 +4455,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/371> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/371/40268519/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/371> ;
@@ -4351,7 +4487,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/405> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/450> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4376,7 +4513,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/471> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/471/40893456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/471> ;
@@ -4389,7 +4527,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/DFTT/498> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/DFTT/498/40234187/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DFTT/498> ;
@@ -4411,13 +4550,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/DRAW/300> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/DRAW/310/40247864/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DRAW/310> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/DRAW/312> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4450,19 +4591,22 @@ projects""" ;
     ns1:gradeFor <http://example.org/DRAW/399> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/DRAW/399/40892134/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DRAW/399> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/DRAW/400/40268519/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/DRAW/400> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/DRAW/410> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4612,7 +4756,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/ECON/319> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/ECON/324> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4645,7 +4790,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/ECON/422> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/ECON/423> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4705,13 +4851,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/EDUC/264> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/EDUC/301/40234187/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/EDUC/301> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 67 .
+    ns1:hasGradeVal 67 ;
+    rdfs:comment "" .
 
 <http://example.org/EDUC/302> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4771,7 +4919,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/EDUC/362> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/EDUC/382> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4831,7 +4980,8 @@ projects""" ;
     ns1:gradeFor <http://example.org/ELEC/273> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/273/40123488/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/273> ;
@@ -4844,13 +4994,15 @@ projects""" ;
     ns1:gradeFor <http://example.org/ELEC/275> ;
     ns1:gradeOf ns1:40127534 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 74 .
+    ns1:hasGradeVal 74 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/275/40321098/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/275> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/311> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4876,7 +5028,8 @@ Laboratory pre-labs, extensive simulation exercises""" ;
     ns1:gradeFor <http://example.org/ELEC/321> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/331> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4891,7 +5044,8 @@ Laboratory pre-labs, extensive simulation exercises""" ;
     ns1:gradeFor <http://example.org/ELEC/342> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/367> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4906,13 +5060,15 @@ Laboratory pre-labs, extensive simulation exercises""" ;
     ns1:gradeFor <http://example.org/ELEC/372> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 73 .
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/390/40458690/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/390> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 73 .
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/421> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4956,13 +5112,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/425> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 97 .
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/425/40987654/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/425> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/430> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5049,7 +5207,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/441> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/441/40893215/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/441> ;
@@ -5062,13 +5221,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/442> ;
     ns1:gradeOf ns1:40329876 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/442/40456788/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/442> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/442/40456788/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/442> ;
@@ -5099,7 +5260,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/463> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/465> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5114,7 +5276,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/466> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/466/40453987/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/466> ;
@@ -5127,7 +5290,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/472> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/481> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5151,7 +5315,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/483> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5166,7 +5331,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6041> ;
     ns1:gradeOf ns1:42123456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6041/42123456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/6041> ;
@@ -5179,7 +5345,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6051> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6061> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5212,7 +5379,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6131> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 68 .
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6141> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5263,7 +5431,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6231> ;
     ns1:gradeOf ns1:40329876 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6241> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5323,7 +5492,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6311> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6341> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5392,7 +5562,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6421> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6431> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5479,7 +5650,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6641> ;
     ns1:gradeOf ns1:40561234 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6641/40561234/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ELEC/6641> ;
@@ -5546,7 +5718,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ELEC/6871> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 63 .
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "" .
 
 <http://example.org/ELEC/6881> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5696,7 +5869,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/EMBA/676> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/EMBA/690> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5792,7 +5966,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENCS/6043> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "" .
 
 <http://example.org/ENCS/6044> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5915,7 +6090,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGL/384> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGL/384/40456789/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ENGL/384> ;
@@ -5928,7 +6104,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGL/396> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 96 .
+    ns1:hasGradeVal 96 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGL/414> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -5970,7 +6147,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGL/428> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGL/429> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6138,7 +6316,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGR/308> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGR/392> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6163,7 +6342,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGR/472> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 74 .
+    ns1:hasGradeVal 74 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGR/8901> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6178,7 +6358,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENGR/8911> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/ENGR/8911/40986543/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ENGR/8911> ;
@@ -6191,7 +6372,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ENVS/608> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/ENVS/664> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6206,19 +6388,22 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ESL/205> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/ESL/205/40321098/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ESL/205> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/ESL/205/40987654/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ESL/205> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/ESL/205/40987654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ESL/205> ;
@@ -6241,7 +6426,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ESTU/670> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 51 .
+    ns1:hasGradeVal 51 ;
+    rdfs:comment "" .
 
 <http://example.org/ESTU/670/40897234/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ESTU/670> ;
@@ -6272,7 +6458,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/ETEC/650> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/ETEC/650/40892765/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ETEC/650> ;
@@ -6439,13 +6626,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FBRS/240> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/FBRS/260/40561234/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FBRS/260> ;
     ns1:gradeOf ns1:40561234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 68 .
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "" .
 
 <http://example.org/FBRS/341> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6469,13 +6658,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FBRS/371> ;
     ns1:gradeOf ns1:42123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/FBRS/372/40458690/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FBRS/372> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 67 .
+    ns1:hasGradeVal 67 ;
+    rdfs:comment "" .
 
 <http://example.org/FBRS/385> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6590,7 +6781,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FINA/385> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/FINA/395> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6713,7 +6905,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FINA/481> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/FINA/482> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6773,7 +6966,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FLIT/496> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/FLIT/498> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6788,7 +6982,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FLIT/690> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/FLIT/691> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6812,7 +7007,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FLIT/693> ;
     ns1:gradeOf ns1:40236487 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/FMAN/203> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6845,7 +7041,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FMST/202> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/FMST/203> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -6860,7 +7057,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FMST/204> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/FPST/297> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7002,7 +7200,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FRAN/319> ;
     ns1:gradeOf ns1:40127534 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/301> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7053,7 +7252,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/438> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/438/40879012/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/438> ;
@@ -7084,25 +7284,29 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/492> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 96 .
+    ns1:hasGradeVal 96 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/498/40345678/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/498> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/498/40678923/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/498> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/499/40897234/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/499> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 87 .
+    ns1:hasGradeVal 87 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/527> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7163,13 +7367,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/612> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/612/40458690/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/612> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/612/40458690/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/612> ;
@@ -7317,13 +7523,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/681> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 74 .
+    ns1:hasGradeVal 74 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/682/40561234/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/682> ;
     ns1:gradeOf ns1:40561234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 62 .
+    ns1:hasGradeVal 62 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/683> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7347,7 +7555,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/685> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/685/40127654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/685> ;
@@ -7360,19 +7569,22 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/FTRA/685> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/685/40987645/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/685> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/686/40986543/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/686> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/FTRA/686/40986543/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/FTRA/686> ;
@@ -7403,7 +7615,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/GEOG/260> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/260/40218976/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/GEOG/260> ;
@@ -7452,7 +7665,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/GEOG/362> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/363> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7512,19 +7726,22 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/GEOG/465> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/465/40759812/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/GEOG/465> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/466/40247553/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/GEOG/466> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/466/40247553/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/GEOG/466> ;
@@ -7537,7 +7754,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/GEOG/466> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 68 .
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "" .
 
 <http://example.org/GEOG/467> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7624,7 +7842,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/GIIM/655> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/HENV/655> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7693,13 +7912,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/HIST/307> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/HIST/307/40247726/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/HIST/307> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/HIST/338> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7741,7 +7962,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/HIST/381> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/HIST/387> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7774,7 +7996,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/HIST/397> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/HIST/403> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7825,7 +8048,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/HIST/498> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/HIST/685> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -7903,7 +8127,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/IMCA/222> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/IMCA/222/40247726/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/IMCA/222> ;
@@ -8042,7 +8267,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/IMCA/482> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/IMCA/482/40453987/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/IMCA/482> ;
@@ -8082,7 +8308,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/323> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 97 .
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/324> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8124,13 +8351,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/421> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/423/40893456/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/423> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/423/40893456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/423> ;
@@ -8161,7 +8390,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/6111> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6111/40564321/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/6111> ;
@@ -8228,7 +8458,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/6231> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6231/40759812/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/6231> ;
@@ -8277,13 +8508,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/6341> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6341/40247726/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/6341> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 80 .
+    ns1:hasGradeVal 80 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6351> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8316,7 +8549,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/6421> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6421/40123456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/6421> ;
@@ -8329,7 +8563,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INDU/6421> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/INDU/6421/40213465/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INDU/6421> ;
@@ -8360,13 +8595,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INSE/6130> ;
     ns1:gradeOf ns1:40127534 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6130/40892765/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INSE/6130> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 74 .
+    ns1:hasGradeVal 74 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6140> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8381,7 +8618,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INSE/6150> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6160> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8477,7 +8715,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INSE/6270> ;
     ns1:gradeOf ns1:40236487 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 80 .
+    ns1:hasGradeVal 80 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6280> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8546,7 +8785,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INSE/6411> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6411/40432987/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/INSE/6411> ;
@@ -8604,7 +8844,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/INSE/6640> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 63 .
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "" .
 
 <http://example.org/INSE/6650> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8799,7 +9040,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JOUR/209> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/303> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8850,7 +9092,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JOUR/402> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/402/40128976/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/JOUR/402> ;
@@ -8899,13 +9142,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JOUR/445> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/445/40567123/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/JOUR/445> ;
     ns1:gradeOf ns1:40567123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/450> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -8992,7 +9237,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JOUR/528> ;
     ns1:gradeOf ns1:40128576 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 73 .
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/530> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9043,7 +9289,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JOUR/605> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 76 .
+    ns1:hasGradeVal 76 ;
+    rdfs:comment "" .
 
 <http://example.org/JOUR/630> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9094,7 +9341,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JPER/324> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/JPER/325> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9109,7 +9357,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JPER/341> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/JPER/341/40987623/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/JPER/341> ;
@@ -9131,7 +9380,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/JPER/424> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/JPER/425> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9164,7 +9414,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/KCEP/349> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/KCEP/383> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9188,13 +9439,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/KCEP/483> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/KCEP/483/40128976/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/KCEP/483> ;
     ns1:gradeOf ns1:40128976 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/KCEP/483/40128976/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/KCEP/483> ;
@@ -9234,7 +9487,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/LING/472> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 65 .
+    ns1:hasGradeVal 65 ;
+    rdfs:comment "" .
 
 <http://example.org/LING/490> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9474,7 +9728,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/301> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/301/40897234/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/301> ;
@@ -9514,13 +9769,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/452> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/453/40879012/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/453> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/454> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9544,7 +9801,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/458> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/458/40234567/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/458> ;
@@ -9557,7 +9815,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/458> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/462> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9608,13 +9867,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/491> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/492/40892134/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/492> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/492/40892134/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/492> ;
@@ -9636,19 +9897,22 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MARK/495> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 67 .
+    ns1:hasGradeVal 67 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/495/40341298/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/495> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 87 .
+    ns1:hasGradeVal 87 ;
+    rdfs:comment "" .
 
 <http://example.org/MARK/671/42123456/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MARK/671> ;
     ns1:gradeOf ns1:42123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/MAST/232> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9717,13 +9981,15 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MBA/645> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/MBA/645/40578129/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MBA/645> ;
     ns1:gradeOf ns1:40578129 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "" .
 
 <http://example.org/MBA/647> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9756,7 +10022,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MBA/654> ;
     ns1:gradeOf ns1:40564321 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/MBA/657> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9816,7 +10083,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MCHI/200> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "" .
 
 <http://example.org/MCHI/206> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9840,7 +10108,8 @@ Laboratory: 15 hours total""" ;
     ns1:gradeFor <http://example.org/MCHI/250> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 94 .
+    ns1:hasGradeVal 94 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/211> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9883,7 +10152,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/343> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/343/40213465/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/343> ;
@@ -9896,7 +10166,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/351> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/351/40432987/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/351> ;
@@ -9909,7 +10180,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/352> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/352/40123456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/352> ;
@@ -9922,7 +10194,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/352> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/361> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9955,7 +10228,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/371> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/375> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -9970,13 +10244,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/390> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/390/40345678/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/390> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/412> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10018,7 +10294,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/424> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/425> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10033,7 +10310,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/447> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/452> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10084,7 +10362,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/472> ;
     ns1:gradeOf ns1:40230456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/472/40230456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/472> ;
@@ -10133,7 +10412,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6021> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6041> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10157,7 +10437,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6061> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6091> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10244,7 +10525,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6191> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6231> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10277,7 +10559,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6301> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6301/40247864/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/6301> ;
@@ -10290,7 +10573,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6301> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6311> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10377,7 +10661,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6481> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 96 .
+    ns1:hasGradeVal 96 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6491> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10437,7 +10722,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6551> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6561> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10506,7 +10792,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6641> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 57 .
+    ns1:hasGradeVal 57 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6641/40759812/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/6641> ;
@@ -10573,7 +10860,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/6751> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/6751/40678901/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/6751> ;
@@ -10631,7 +10919,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MECH/7501> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/MECH/7501/40247553/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/7501> ;
@@ -10734,25 +11023,29 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MSCA/654> ;
     ns1:gradeOf ns1:40122345 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 60 .
+    ns1:hasGradeVal 60 ;
+    rdfs:comment "" .
 
 <http://example.org/MSCA/654/40982365/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MSCA/654> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 60 .
+    ns1:hasGradeVal 60 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/201/40759812/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/201> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/481/40678923/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/481> ;
     ns1:gradeOf ns1:40678923 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 56 .
+    ns1:hasGradeVal 56 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/481/40678923/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/481> ;
@@ -10765,13 +11058,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MUSI/482> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/482/40678123/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/482> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 51 .
+    ns1:hasGradeVal 51 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/482/40678123/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/482> ;
@@ -10784,7 +11079,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/MUSI/482> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/MUSI/482/40893456/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MUSI/482> ;
@@ -10797,13 +11093,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/209> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 87 .
+    ns1:hasGradeVal 87 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/210/40234567/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/210> ;
     ns1:gradeOf ns1:40234567 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/210/40234567/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/210> ;
@@ -10816,7 +11114,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/211> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/212> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10831,7 +11130,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/298> ;
     ns1:gradeOf ns1:40329876 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 86 .
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/311> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10846,7 +11146,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/318> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/321> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10861,7 +11162,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/322> ;
     ns1:gradeOf ns1:40678123 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/324> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10876,19 +11178,22 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/351> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 87 .
+    ns1:hasGradeVal 87 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/356/40123456/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/356> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/356/40456789/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/356> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 79 .
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/384> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -10912,13 +11217,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/398> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 62 .
+    ns1:hasGradeVal 62 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/399/40123488/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/399> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/399/40123488/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/399> ;
@@ -10985,7 +11292,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/462> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/462/40987654/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/462> ;
@@ -11007,7 +11315,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/471> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 50 .
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/471/40345678/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/471> ;
@@ -11020,7 +11329,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PERC/471> ;
     ns1:gradeOf ns1:40561823 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/PERC/471/40561823/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PERC/471> ;
@@ -11187,7 +11497,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PHOT/211> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/PHOT/300> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11247,13 +11558,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PHOT/398> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/PHOT/399/40458690/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PHOT/399> ;
     ns1:gradeOf ns1:40458690 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/PHOT/400> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11286,7 +11599,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PHOT/472> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 53 .
+    ns1:hasGradeVal 53 ;
+    rdfs:comment "" .
 
 <http://example.org/PHOT/472/40247726/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PHOT/472> ;
@@ -11542,13 +11856,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/POLI/392> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 75 .
+    ns1:hasGradeVal 75 ;
+    rdfs:comment "" .
 
 <http://example.org/POLI/392/40678901/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/POLI/392> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 72 .
+    ns1:hasGradeVal 72 ;
+    rdfs:comment "" .
 
 <http://example.org/POLI/393> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11563,7 +11879,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/POLI/397> ;
     ns1:gradeOf ns1:40127534 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 86 .
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "" .
 
 <http://example.org/POLI/419> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11614,13 +11931,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/POLI/683> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/POLI/683/40892134/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/POLI/683> ;
     ns1:gradeOf ns1:40892134 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 54 .
+    ns1:hasGradeVal 54 ;
+    rdfs:comment "" .
 
 <http://example.org/POLI/683/40892134/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/POLI/683> ;
@@ -11651,7 +11970,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/221> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/231> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11675,7 +11995,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/271> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 71 .
+    ns1:hasGradeVal 71 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/291> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11744,7 +12065,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/371> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 90 .
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/381> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11795,7 +12117,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/421> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 99 .
+    ns1:hasGradeVal 99 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/431> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11828,7 +12151,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/470> ;
     ns1:gradeOf ns1:40123456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/471> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11852,7 +12176,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PRIN/481> ;
     ns1:gradeOf ns1:40982365 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/PRIN/498> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -11903,13 +12228,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PSYC/387> ;
     ns1:gradeOf ns1:40456789 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 98 .
+    ns1:hasGradeVal 98 ;
+    rdfs:comment "" .
 
 <http://example.org/PSYC/485/40987645/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PSYC/485> ;
     ns1:gradeOf ns1:40987645 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 80 .
+    ns1:hasGradeVal 80 ;
+    rdfs:comment "" .
 
 <http://example.org/PSYC/487> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12005,7 +12332,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PSYC/712> ;
     ns1:gradeOf ns1:40236487 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/PSYC/712/40236487/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PSYC/712> ;
@@ -12037,7 +12365,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PSYC/824> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/PSYC/824/40675329/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/PSYC/824> ;
@@ -12113,7 +12442,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PSYC/841> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/PSYC/842> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12155,7 +12485,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PTNG/300> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/PTNG/312> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12188,7 +12519,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/PTNG/398> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/PTNG/399> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12320,13 +12652,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/RELI/214> ;
     ns1:gradeOf ns1:40893456 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 76 .
+    ns1:hasGradeVal 76 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/215/40432987/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/RELI/215> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 .
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/220> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12432,25 +12766,29 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/RELI/409> ;
     ns1:gradeOf ns1:40321098 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 60 .
+    ns1:hasGradeVal 60 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/409/40986543/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/RELI/409> ;
     ns1:gradeOf ns1:40986543 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/6007/40127654/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/RELI/6007> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/6007/40675329/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/RELI/6007> ;
     ns1:gradeOf ns1:40675329 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 85 ;
+    rdfs:comment "" .
 
 <http://example.org/RELI/6008> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12483,19 +12821,22 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCEN/347> ;
     ns1:gradeOf ns1:40247726 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 78 .
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "" .
 
 <http://example.org/SCEN/411/40678901/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SCEN/411> ;
     ns1:gradeOf ns1:40678901 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/SCEN/411/40987623/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SCEN/411> ;
     ns1:gradeOf ns1:40987623 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 97 .
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "" .
 
 <http://example.org/SCEN/448> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12510,7 +12851,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCOL/290> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/SCOL/391> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12543,7 +12885,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCOM/492> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 93 .
+    ns1:hasGradeVal 93 ;
+    rdfs:comment "" .
 
 <http://example.org/SCOM/498> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12603,7 +12946,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCPA/509> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 83 .
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "" .
 
 <http://example.org/SCPA/510> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12627,19 +12971,22 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCUL/210> ;
     ns1:gradeOf ns1:40268519 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/SCUL/251/40247553/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SCUL/251> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 66 .
+    ns1:hasGradeVal 66 ;
+    rdfs:comment "" .
 
 <http://example.org/SCUL/251/40453987/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SCUL/251> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/SCUL/310> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12690,7 +13037,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SCUL/398> ;
     ns1:gradeOf ns1:40987654 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 69 .
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "" .
 
 <http://example.org/SCUL/399> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12769,19 +13117,22 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SOEN/228> ;
     ns1:gradeOf ns1:40345678 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 61 ;
+    rdfs:comment "" .
 
 <http://example.org/SOEN/228/40561823/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SOEN/228> ;
     ns1:gradeOf ns1:40561823 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/SOEN/228/40759812/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SOEN/228> ;
     ns1:gradeOf ns1:40759812 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 97 .
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "" .
 
 <http://example.org/SOEN/341> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12832,7 +13183,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SOEN/487> ;
     ns1:gradeOf ns1:40247553 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 58 .
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "" .
 
 <http://example.org/SOEN/487/40247553/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SOEN/487> ;
@@ -12881,7 +13233,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SPAN/202> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 84 .
+    ns1:hasGradeVal 84 ;
+    rdfs:comment "" .
 
 <http://example.org/SPAN/240> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12896,13 +13249,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SSDB/220> ;
     ns1:gradeOf ns1:40897234 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 60 .
+    ns1:hasGradeVal 60 ;
+    rdfs:comment "" .
 
 <http://example.org/SSDB/275/40453987/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SSDB/275> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/SSDB/275/40453987/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/SSDB/275> ;
@@ -12915,7 +13270,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/SSDB/425> ;
     ns1:gradeOf ns1:40432987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/SSDB/426> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -12948,7 +13304,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/STAT/280> ;
     ns1:gradeOf ns1:40561823 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 59 .
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "" .
 
 <http://example.org/STAT/280/40561823/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/STAT/280> ;
@@ -13024,7 +13381,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/TESL/221> ;
     ns1:gradeOf ns1:40893215 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 62 .
+    ns1:hasGradeVal 62 ;
+    rdfs:comment "" .
 
 <http://example.org/TESL/231> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13048,7 +13406,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/TESL/326> ;
     ns1:gradeOf ns1:40247864 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 55 .
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "" .
 
 <http://example.org/TESL/326/40247864/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/TESL/326> ;
@@ -13061,7 +13420,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/TESL/326> ;
     ns1:gradeOf ns1:40892765 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 91 .
+    ns1:hasGradeVal 91 ;
+    rdfs:comment "" .
 
 <http://example.org/TESL/330> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13112,7 +13472,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/TESL/426> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 95 .
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "" .
 
 <http://example.org/TESL/427> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13154,7 +13515,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/THEO/234> ;
     ns1:gradeOf ns1:40456788 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 62 .
+    ns1:hasGradeVal 62 ;
+    rdfs:comment "" .
 
 <http://example.org/THEO/243> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13178,7 +13540,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/THEO/692> ;
     ns1:gradeOf ns1:40987612 ;
     ns1:gradeStatus "F" ;
-    ns1:hasGradeVal 52 .
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "" .
 
 <http://example.org/THEO/692/40987612/2> a ns1:Grade ;
     ns1:gradeFor <http://example.org/THEO/692> ;
@@ -13191,13 +13554,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/URBS/250> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/URBS/260/40123488/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/URBS/260> ;
     ns1:gradeOf ns1:40123488 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 70 .
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "" .
 
 <http://example.org/URBS/333> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13248,7 +13613,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/URBS/433> ;
     ns1:gradeOf ns1:40453987 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 81 .
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "" .
 
 <http://example.org/URBS/483> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13263,13 +13629,15 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/URBS/484> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/URBS/484/40329876/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/URBS/484> ;
     ns1:gradeOf ns1:40329876 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 77 .
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "" .
 
 <http://example.org/VDEO/350> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -13356,7 +13724,8 @@ Using Arduino - a type of microcontroller board used for mechatronics and roboti
     ns1:gradeFor <http://example.org/WSDB/498> ;
     ns1:gradeOf ns1:40213465 ;
     ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 88 .
+    ns1:hasGradeVal 88 ;
+    rdfs:comment "" .
 
 ns1:associatedWith a rdf:Property ;
     rdfs:domain ns1:Worksheet ;
