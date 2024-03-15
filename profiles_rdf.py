@@ -21,6 +21,7 @@ def profiles_rdf(df, courses_graph_path):
 
     g.add((ex.Grade, RDF.type, RDFS.Class))            # grade class
     g.add((ex.hasGradeVal, RDF.type, RDF.Property))    # value property
+    g.add((ex.gradeStatus, RDF.type, RDF.Property))    # grade status property
     g.add((ex.gradeOf, RDF.type, RDF.Property))        # grade of whom property
     g.add((ex.gradeFor, RDF.type, RDF.Property))       # grade for what course property
 
@@ -72,8 +73,12 @@ def profiles_rdf(df, courses_graph_path):
                     counter += 1
 
                     grade_uri = URIRef(course_uri + '/' + str(id) + '/' + str(counter))         # create a URI for the grade
+
+                    if grade < 60: g.add((grade_uri, ex.gradeStatus, Literal('F')))             # grade < 60 is a fail
+                    else:          g.add((grade_uri, ex.gradeStatus, Literal('P')))             # otherwise, it's a pass
+
                     g.add((grade_uri, RDF.type, ex.Grade))                                      # specify that the URI is a grade
-                    g.add((grade_uri, ex.hasGradeVal, Literal(grade)))                          # add the grade value
+                    g.add((grade_uri, ex.hasGradeVal, Literal(grade, datatype=XSD.integer)))    # add the grade value
                     g.add((grade_uri, ex.gradeOf, student_uri))                                 # specify that the grade is of the student
                     g.add((grade_uri, ex.gradeFor, course_uri))                                 # specify that the grade is for the course
 
