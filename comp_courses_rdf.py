@@ -56,8 +56,8 @@ def comp_courses_rdf(courses_path, courses_graph_path):
             for content_type in sorted(os.listdir(course_path)):
                 content_type_path = os.path.join(course_path, content_type)
 
-                lecture_uris = []
                 if content_type == 'lectures':
+                    lecture_uris = []
                     count = 1
                     for lecture in sorted(os.listdir(content_type_path)):
                         lecture_path = os.path.join(content_type_path, lecture)
