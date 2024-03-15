@@ -13,7 +13,17 @@ def transcripts_generator(csv_file, num_students=50):
     for student in range(num_students):
         # select random courses (5 - 10 courses per student)
         num_courses = random.randint(5, 10)
-        courses = random.sample(list(zip(course_codes, course_nums)), num_courses)
+
+        # probabilities of taking comp472 and comp474
+        comp472_prob, comp474_prob = 0.01, 0.01
+
+        courses = []
+        for i in range(num_courses):
+            if   random.random() < comp472_prob: courses.append(('COMP', '472'))                                          # if random number is less than comp472_prob, add comp472 to the list
+            elif random.random() < comp474_prob: courses.append(('COMP', '474'))                                          # if random number is less than comp474_prob, add comp474 to the list
+            else                               : courses.append(random.choice(list(zip(course_codes, course_nums))))    # else, add a random course to the list
+
+        courses = list(set(courses))    # remove duplicates
 
         # generate grade(s) for each class
         grades = {}
