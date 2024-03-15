@@ -18,6 +18,10 @@ df_info.rename(columns={'Subject': 'Course code', 'Catalog': 'Course number'}, i
 # merge the dataframes
 merged_df = pd.merge(df_info, df_web, on=['Course code', 'Course number'], how='inner')
 
+# replace NaN values with 'No website provided'
+merged_df['Website'] = merged_df['Website'].fillna('No website provided')
+merged_df['Website'] = merged_df['Website'].replace(" ", 'No website provided')
+
 # save the merged dataframe
 merged_df.to_csv('data/courses/processed_course_info_2024.csv', index=False)
 
