@@ -56,12 +56,14 @@ def comp_courses_rdf(courses_path, courses_graph_path):
             for content_type in sorted(os.listdir(course_path)):
                 content_type_path = os.path.join(course_path, content_type)
 
+                lecture_uris = []
                 if content_type == 'lectures':
                     count = 1
                     for lecture in sorted(os.listdir(content_type_path)):
                         lecture_path = os.path.join(content_type_path, lecture)
 
                         lecture_uri = URIRef(comp_course + '/' + content_type + '/' + lecture)
+                        lecture_uris.append(lecture_uri)
 
                         comp_courses_graph.add((lecture_uri, RDF.type, lecture_class))
                         comp_courses_graph.add((lecture_uri, content_for, comp_course))
@@ -83,6 +85,7 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((worksheet_uri, content_link, Literal(worksheet_path)))
                         comp_courses_graph.add((worksheet_uri, content_name, Literal(worksheet)))
                         comp_courses_graph.add((worksheet_uri, content_number, Literal(count)))
+                        comp_courses_graph.add((worksheet_uri, assiocated_with, lecture_uris[count-1]))
 
                         count += 1
 
