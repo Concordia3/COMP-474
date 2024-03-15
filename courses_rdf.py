@@ -1,48 +1,55 @@
 from tools_libs import *
 
-# load the csv files
-df_info = pd.read_csv('data/courses/raw_course_info_2024.csv')
-df_web  = pd.read_csv('data/courses/raw_course_websites_2024.csv')
+def courses_rdf(df):
+    # create RDF graph
+    g = Graph()
 
-# Rename column in df_info to match the column name in df_web
-df_info.rename(columns={'Subject': 'Course code', 'Catalog': 'Course number'}, inplace=True)
+    # define RDF schema
+    g.add((ex.Course, RDF.type, RDFS.Class))                # course class
+    g.add((ex.hasCourseCode, RDF.type, RDF.Property))       # subject property
+    g.add((ex.hasCourseNumber, RDF.type, RDF.Property))     # catalog property
+    g.add((ex.hasTitle, RDF.type, RDF.Property))            # title property
+    g.add((ex.hasCredits, RDF.type, RDF.Property))          # credits property
+    g.add((ex.hasDescription, RDF.type, RDF.Property))      # description property
 
-# merge the dataframes
-merged_df = pd.merge(df_info, df_web, on=['Course code', 'Course number'], how='inner')
+    # define private RDF schema
+    g.add((ex.Syllabus, RDF.type, RDFS.Class))              # syllabus class
+    g.add((ex.Syllabus, RDFS.subClassOf, ex.Course))
 
-# save the merged dataframe
-merged_df.to_csv('data/courses/processed_course_info_2024.csv', index=False)
+    g.add((ex.Lecture, RDF.type, RDFS.Class))               # slides subclass of course class
+    g.add((ex.Lecture, RDFS.subClassOf, ex.Course))
 
-# create RDF graph
-g = Graph()
+    g.add((ex.Worksheet, RDF.type, RDFS.Class))             # worksheet subclass of course class
+    g.add((ex.Worksheet, RDFS.subClassOf, ex.Course))
+    g.add((ex.associatedWith, RDF.type, RDF.Property))      # associated lecture property
 
-# define RDF schema
-g.add((ex.Course, RDF.type, RDFS.Class))                # course class
-g.add((ex.hasCourseCode, RDF.type, RDF.Property))       # subject property
-g.add((ex.hasCourseNumber, RDF.type, RDF.Property))     # catalog property
-g.add((ex.hasTitle, RDF.type, RDF.Property))            # title property
-g.add((ex.hasCredits, RDF.type, RDF.Property))          # credits property
-g.add((ex.hasDescription, RDF.type, RDF.Property))      # description property
+    # define common RDF schema
+    g.add((ex.contentFor, RDF.type, RDF.Property))          # content for what class property 
+    g.add((ex.contentLink, RDF.type, RDF.Property))         # content link property
+    g.add((ex.contentName, RDF.type, RDF.Property))         # content name property
+    g.add((ex.contentNumber, RDF.type, RDF.Property))       # content number property
 
-# define relationships between classes
-g.add((ex.courseAt, RDFS.domain, ex.Course))            # course is at a university
-g.add((ex.courseAt, RDFS.range, UNIVERSITY))
+    # define relationships between classes
+    g.add((ex.courseAt, RDFS.domain, ex.Course))            # course is at a university
+    g.add((ex.courseAt, RDFS.range, UNIVERSITY))
 
-# Convert selected data to RDF
-for index, row in merged_df.iterrows():
-    subject = URIRef(ex + row['Course code'] + '/' + row['Course number'])
+    g.add((ex.associatedWith, RDFS.domain, ex.Worksheet))   # worksheet is associated with a lecture
+    g.add((ex.associatedWith, RDFS.range, ex.Lecture))
 
-    # current subject is of course class
-    g.add((subject, RDF.type, ex.Course))
+    # Convert selected data to RDF
+    for index, row in df.iterrows():
+        subject = URIRef(ex + row['Course code'] + '/' + row['Course number'])
 
-    # add properties
-    g.add((subject, ex.courseAt, UNIVERSITY))
-    g.add((subject, ex.hasCourseCode, Literal(row['Course code'])))
-    g.add((subject, ex.hasCourseNumber, Literal(row['Course number'])))
-    g.add((subject, ex.hasTitle, Literal(row['Long Title'])))
-    g.add((subject, ex.hasCredits, Literal(row['Class Units'], datatype=XSD.float)))
-    g.add((subject, ex.hasDescription, Literal(row['Description'])))
-    g.add((subject, RDFS.seeAlso, Literal(row['Website'])))
+        # current subject is of course class
+        g.add((subject, RDF.type, ex.Course))
 
-# save the graph
-g.serialize(destination="graphs/courses.ttl", format="turtle") 
+        # add properties
+        g.add((subject, ex.courseAt, UNIVERSITY))
+        g.add((subject, ex.hasCourseCode, Literal(row['Course code'])))
+        g.add((subject, ex.hasCourseNumber, Literal(row['Course number'])))
+        g.add((subject, ex.hasTitle, Literal(row['Long Title'])))
+        g.add((subject, ex.hasCredits, Literal(row['Class Units'], datatype=XSD.float)))
+        g.add((subject, ex.hasDescription, Literal(row['Description'])))
+        g.add((subject, RDFS.seeAlso, Literal(row['Website'])))
+
+    return g

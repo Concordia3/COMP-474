@@ -5,6 +5,15 @@
 
 ns1:Course a rdfs:Class .
 
+ns1:Lecture a rdfs:Class ;
+    rdfs:subClassOf ns1:Course .
+
+ns1:Syllabus a rdfs:Class ;
+    rdfs:subClassOf ns1:Course .
+
+ns1:Worksheet a rdfs:Class ;
+    rdfs:subClassOf ns1:Course .
+
 <http://example.org/ACCO/330> a ns1:Course ;
     ns1:courseAt <http://dbpedia.org/resource/Concordia_University> ;
     ns1:hasCourseCode "ACCO" ;
@@ -13214,6 +13223,18 @@ Micro Steam Car Competition: students design & build a car powered by a soda-can
     ns1:hasDescription "Practical, hands-on exercises" ;
     ns1:hasTitle "Seminar in Women's Studies" ;
     rdfs:seeAlso "NaN"^^xsd:double .
+
+ns1:associatedWith a rdf:Property ;
+    rdfs:domain ns1:Worksheet ;
+    rdfs:range ns1:Lecture .
+
+ns1:contentFor a rdf:Property .
+
+ns1:contentLink a rdf:Property .
+
+ns1:contentName a rdf:Property .
+
+ns1:contentNumber a rdf:Property .
 
 ns1:courseAt rdfs:domain ns1:Course ;
     rdfs:range <http://dbpedia.org/resource/Concordia_University> .
