@@ -1,0 +1,122 @@
+#########################################################################################
+1. List all courses offered by [university]
+
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course
+WHERE {
+  ?course ns1:courseAt dbp:Concordia_University
+}
+#########################################################################################
+
+#########################################################################################
+2. In which courses is [topic] discussed?
+#########################################################################################
+
+#########################################################################################
+3. Which [topics] are covered in [course] during [lecture number]?
+#########################################################################################
+
+#########################################################################################
+4. List all [courses] offered by [university] within the [subject] (e.g., “COMP”, “SOEN”)
+
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course
+WHERE {
+  ?course ns1:courseAt dbp:Concordia_University;
+  		  ns1:hasCourseCode "COMP" 
+}
+ORDER BY ?course
+#########################################################################################
+
+#########################################################################################
+5. What [materials] (slides, readings) are recommended for [topic] in [course] [number]?
+#########################################################################################
+
+#########################################################################################
+6. How many credits is [course] [number] worth?
+
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?credits
+WHERE {
+	?course ns1:courseAt dbp:Concordia_University;
+    		ns1:hasCourseCode "COMP"; 
+  			ns1:hasCourseNumber "474";
+  			ns1:hasCredits ?credits .
+}
+#########################################################################################
+
+#########################################################################################
+7. For [course] [number], what additional resources (links to web pages) are available?
+
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?course_code ?course_number ?website
+WHERE {
+  ?course ns1:courseAt dbp:Concordia_University;
+    	  ns1:hasCourseCode ?course_code; 
+  		  ns1:hasCourseNumber ?course_number;
+  		  rdfs:seeAlso ?website .
+  FILTER(?website != "No website provided" && ?website != "Contact faculty member directly to inquire about potential openings for a student working in the lab.")
+}
+#########################################################################################
+
+#########################################################################################
+8. Detail the content (slides, worksheets, readings) available for [lecture number] in [course] [number]
+#########################################################################################
+
+#########################################################################################
+9. What reading materials are recommended for studying [topic] in [course]
+#########################################################################################
+
+#########################################################################################
+10. What competencies [topics] does a student gain after completing [course] [number]?
+#########################################################################################
+
+#########################################################################################
+11. What grades did [student] achieve in [course] [number]?
+
+
+#########################################################################################
+
+#########################################################################################
+12. Which [students] have completed [course] [number]?
+
+
+#########################################################################################
+
+#########################################################################################
+13. Print a transcript for a [student], listing all the course taken with their grades
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?student_id ?first_name ?last_name ?course_code ?course_number ?grade_val
+WHERE {
+  ?student ns1:studiesAt dbp:Concordia_University;
+           ns1:hasId ?student_id;
+           foaf:firstName ?first_name;
+           foaf:lastName ?last_name .
+  
+  ?grade ns1:gradeOf ?student; 
+         ns1:gradeFor ?course;
+  	     ns1:hasGradeVal ?grade_val .
+  
+  ?course ns1:hasCourseCode ?course_code;
+          ns1:hasCourseNumber ?course_number .
+  
+  FILTER(?student_id = "40122345"^^xsd:integer)
+  
+}
+ORDERBY ?student_id
+#########################################################################################
