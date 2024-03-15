@@ -83,5 +83,6 @@ def profiles_rdf(df, courses_graph_path):
                     g.add((grade_uri, ex.gradeFor, course_uri))                                 # specify that the grade is for the course
 
                     if counter > 1: g.add((grade_uri, RDFS.comment, Literal('Retake grade')))   # add a comment if the grade is a re-exam
+                    else          : g.add((grade_uri, RDFS.comment, Literal('')))
 
     return g
