@@ -48,7 +48,7 @@ def courses_rdf(df):
         g.add((subject, ex.hasCourseCode, Literal(row['Course code'])))
         g.add((subject, ex.hasCourseNumber, Literal(row['Course number'])))
         g.add((subject, ex.hasTitle, Literal(row['Long Title'])))
-        g.add((subject, ex.hasCredits, Literal(row['Class Units'], datatype=XSD.float)))
+        g.add((subject, ex.hasCredits, Literal(row['Class Units'])))
         g.add((subject, ex.hasDescription, Literal(row['Description'])))
         g.add((subject, RDFS.seeAlso, Literal(row['Website'])))
 
