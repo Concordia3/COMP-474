@@ -1,56 +1,147 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ex: <http://example.org/> .
-@prefix dbp: <http://dbpedia.org/resource/> .
-@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Course information
-ex:COMP472 rdf:type ex:Course ;
-           ex:courseName "Artificial Intelligence" ;
-           ex:courseSubject "COMP" ;
-           ex:courseNumber "472" ;
-           ex:courseCredits "4" ;
-           ex:courseDescription "Introduction to Artificial Intelligence." ;
-           ex:courseLink <http://example.org/COMP472> .
+<http://example.org/COMP/472/lectures/1_intro_to_ai.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/1_intro_to_ai.pdf" ;
+    ns1:contentName "1_intro_to_ai.pdf" ;
+    ns1:contentNumber 1 .
 
-# Lecture instances
-ex:Lecture1 rdf:type ex:Lecture ;
-            ex:lectureNumber "1" ;
-            ex:lectureName "Introduction to Artificial Intelligence" ;
-            ex:lectureLink <file:///comp472_data/1_intro_to_ai.pdf> .
+<http://example.org/COMP/472/lectures/2_state_space_search.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/2_state_space_search.pdf" ;
+    ns1:contentName "2_state_space_search.pdf" ;
+    ns1:contentNumber 2 .
 
-ex:Lecture2 rdf:type ex:Lecture ;
-            ex:lectureNumber "2" ;
-            ex:lectureName "State Space Search" ;
-            ex:lectureLink <file:///comp472_data/2_state_space_search.pdf> .
+<http://example.org/COMP/472/lectures/3_intro_to_ml_naive_bayes_classification.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/3_intro_to_ml_naive_bayes_classification.pdf" ;
+    ns1:contentName "3_intro_to_ml_naive_bayes_classification.pdf" ;
+    ns1:contentNumber 3 .
 
-ex:Lecture3 rdf:type ex:Lecture ;
-            ex:lectureNumber "3" ;
-            ex:lectureName "Introduction to Machine Learning: Naive Bayes Classification" ;
-            ex:lectureLink <file:///comp472_data/3_intro_to_ml_naive_bayes_classification.pdf> .
+<http://example.org/COMP/472/lectures/4_decision_trees_k_means_clustering.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/4_decision_trees_k_means_clustering.pdf" ;
+    ns1:contentName "4_decision_trees_k_means_clustering.pdf" ;
+    ns1:contentNumber 4 .
 
-ex:Lecture4 rdf:type ex:Lecture ;
-            ex:lectureNumber "4" ;
-            ex:lectureName "Decision Trees and K-Means Clustering" ;
-            ex:lectureLink <file:///comp472_data/4_decision_trees_k_means_clustering.pdf> .
+<http://example.org/COMP/472/lectures/5_intro_to_ann.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/5_intro_to_ann.pdf" ;
+    ns1:contentName "5_intro_to_ann.pdf" ;
+    ns1:contentNumber 5 .
 
-ex:Lecture5 rdf:type ex:Lecture ;
-            ex:lectureNumber "5" ;
-            ex:lectureName "Introduction to Artificial Neural Networks" ;
-            ex:lectureLink <file:///comp472_data/5_intro_to_ann.pdf> .
+<http://example.org/COMP/472/lectures/6_dl_cnn.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/6_dl_cnn.pdf" ;
+    ns1:contentName "6_dl_cnn.pdf" ;
+    ns1:contentNumber 6 .
 
-ex:Lecture6 rdf:type ex:Lecture ;
-            ex:lectureNumber "6" ;
-            ex:lectureName "Deep Learning: Convolutional Neural Networks" ;
-            ex:lectureLink <file:///comp472_data/6_dl_cnn.pdf> .
+<http://example.org/COMP/472/worksheets/02_search_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/02_search_ex.pdf" ;
+    ns1:contentName "02_search_ex.pdf" ;
+    ns1:contentNumber 1 .
 
-# Link Course to Lectures
-ex:COMP472 ex:courseOfferedAt ex:Lecture1, ex:Lecture2, ex:Lecture3, ex:Lecture4, ex:Lecture5, ex:Lecture6 .
+<http://example.org/COMP/472/worksheets/03_nb_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/03_nb_ex.pdf" ;
+    ns1:contentName "03_nb_ex.pdf" ;
+    ns1:contentNumber 2 .
 
-# University information
-ex:ConcordiaUniversity rdf:type ex:University ;
-                        ex:universityName "Concordia University" ;
-                        ex:universityLink dbp:Concordia_University .
+<http://example.org/COMP/472/worksheets/04_dt_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/04_dt_ex.pdf" ;
+    ns1:contentName "04_dt_ex.pdf" ;
+    ns1:contentNumber 3 .
 
-# Link Course to University
-ex:COMP472 ex:courseOfferedAt ex:ConcordiaUniversity .
+<http://example.org/COMP/472/worksheets/05_ann_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/05_ann_ex.pdf" ;
+    ns1:contentName "05_ann_ex.pdf" ;
+    ns1:contentNumber 4 .
+
+<http://example.org/COMP/472/worksheets/06_dl_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/06_dl_ex.pdf" ;
+    ns1:contentName "06_dl_ex.pdf" ;
+    ns1:contentNumber 5 .
+
+<http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/1_intro_to_intelligent_systems.pdf" ;
+    ns1:contentName "1_intro_to_intelligent_systems.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/474/lectures/2_knowledge_graphs.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/2_knowledge_graphs.pdf" ;
+    ns1:contentName "2_knowledge_graphs.pdf" ;
+    ns1:contentNumber 2 .
+
+<http://example.org/COMP/474/lectures/3_knowledge_graphs_vocabs_ontologies.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/3_knowledge_graphs_vocabs_ontologies.pdf" ;
+    ns1:contentName "3_knowledge_graphs_vocabs_ontologies.pdf" ;
+    ns1:contentNumber 3 .
+
+<http://example.org/COMP/474/lectures/4_knowledge_base_queries.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/4_knowledge_base_queries.pdf" ;
+    ns1:contentName "4_knowledge_base_queries.pdf" ;
+    ns1:contentNumber 4 .
+
+<http://example.org/COMP/474/lectures/5_recommender_systems.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/5_recommender_systems.pdf" ;
+    ns1:contentName "5_recommender_systems.pdf" ;
+    ns1:contentNumber 5 .
+
+<http://example.org/COMP/474/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
+    ns1:contentName "6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
+    ns1:contentNumber 6 .
+
+<http://example.org/COMP/474/lectures/7_intelligent_agents.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/7_intelligent_agents.pdf" ;
+    ns1:contentName "7_intelligent_agents.pdf" ;
+    ns1:contentNumber 7 .
+
+<http://example.org/COMP/474/worksheets/worksheet01.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet01.pdf" ;
+    ns1:contentName "worksheet01.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/474/worksheets/worksheet02.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet02.pdf" ;
+    ns1:contentName "worksheet02.pdf" ;
+    ns1:contentNumber 2 .
+
+<http://example.org/COMP/474/worksheets/worksheet03.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet03.pdf" ;
+    ns1:contentName "worksheet03.pdf" ;
+    ns1:contentNumber 3 .
+
+<http://example.org/COMP/474/worksheets/worksheet04.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet04.pdf" ;
+    ns1:contentName "worksheet04.pdf" ;
+    ns1:contentNumber 4 .
+
+<http://example.org/COMP/474/worksheets/worksheet05.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet05.pdf" ;
+    ns1:contentName "worksheet05.pdf" ;
+    ns1:contentNumber 5 .
+
+<http://example.org/COMP/474/worksheets/worksheet06.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet06.pdf" ;
+    ns1:contentName "worksheet06.pdf" ;
+    ns1:contentNumber 6 .
+

@@ -8,2281 +8,2259 @@ ns1:Grade a rdfs:Class .
 
 ns1:Student a rdfs:Class .
 
-<http://example.org/ACCO/655/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACCO/655> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 58 .
+<http://example.org/ACCO/495/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACCO/495> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 89 .
 
-<http://example.org/ACCO/655/40564321/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACCO/655> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 50 ;
-    rdfs:comment "Retake grade" .
+<http://example.org/ACCO/650/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACCO/650> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 81 .
 
-<http://example.org/ACCO/655/40987654/1> a ns1:Grade ;
+<http://example.org/ACCO/655/40456789/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACCO/655> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 51 .
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 70 .
 
-<http://example.org/ACCO/655/40987654/2> a ns1:Grade ;
+<http://example.org/ACCO/655/40879012/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACCO/655> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 98 ;
-    rdfs:comment "Retake grade" .
+    ns1:gradeOf ns1:40879012 ;
+    ns1:hasGradeVal 92 .
 
-<http://example.org/ACTT/201/40893456/1> a ns1:Grade ;
+<http://example.org/ACTT/201/40432987/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACTT/201> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 60 .
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 69 .
 
-<http://example.org/ACTT/209/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/209> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 90 .
+<http://example.org/ACTT/202/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/202> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 70 .
 
-<http://example.org/ACTT/209/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/209> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 88 .
+<http://example.org/ACTT/202/40987612/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/202> ;
+    ns1:gradeOf ns1:40987612 ;
+    ns1:hasGradeVal 98 .
 
-<http://example.org/ACTT/210/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/210> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 53 .
+<http://example.org/ACTT/211/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/211> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 80 .
 
-<http://example.org/ACTT/210/40982365/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/210> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 92 ;
-    rdfs:comment "Retake grade" .
+<http://example.org/ACTT/332/40329876/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/332> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 55 .
 
-<http://example.org/ACTT/231/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/231> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/ACTT/231/40127534/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/231> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 58 ;
+<http://example.org/ACTT/332/40329876/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/332> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 69 ;
     rdfs:comment "Retake grade" .
 
 <http://example.org/ACTT/370/40678923/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ACTT/370> ;
     ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 66 .
-
-<http://example.org/ACTT/399/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/399> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/ACTT/440/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/440> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/ACTT/458/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/458> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/ACTT/460/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTT/460> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 62 .
-
-<http://example.org/ACTU/286/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ACTU/286> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/AERO/371/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AERO/371> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/AERO/371/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AERO/371> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/AERO/390/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AERO/390> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 53 .
-
-<http://example.org/AERO/390/40987623/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AERO/390> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 96 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/AHSC/232/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/232> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/AHSC/322/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/322> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/AHSC/350/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/350> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/AHSC/361/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/361> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/AHSC/422/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/422> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/AHSC/432/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/432> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/AHSC/436/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/436> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 63 .
-
-<http://example.org/AHSC/436/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/436> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 74 .
-
-<http://example.org/AHSC/439/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/439> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/AHSC/444/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/444> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/AHSC/451/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/451> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 59 .
-
-<http://example.org/AHSC/451/40678923/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/451> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 92 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/AHSC/498/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/498> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/AHSC/527/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/527> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/AHSC/527/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/527> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 64 .
-
-<http://example.org/AHSC/533/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/AHSC/533> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/APLI/610/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/610> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/APLI/626/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/626> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/APLI/626/40987623/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/626> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 93 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/APLI/634/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/634> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/APLI/634/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/634> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/APLI/660/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/APLI/660> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/ARTT/470/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ARTT/470> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 63 .
-
-<http://example.org/ARTX/491/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ARTX/491> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/ARTX/491/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ARTX/491> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/ARTX/491/40578129/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ARTX/491> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 87 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ARTX/491/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ARTX/491> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/BIOL/337/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/337> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 83 .
-
-<http://example.org/BIOL/351/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/351> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 55 .
-
-<http://example.org/BIOL/351/40678123/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/351> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 79 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/368/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/368> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 87 .
-
-<http://example.org/BIOL/422/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/422> ;
-    ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/BIOL/450/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/450> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/BIOL/450/40123489/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/450> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 79 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/480/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/480> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 50 .
-
-<http://example.org/BIOL/480/40578129/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/480> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 56 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/480/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/480> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 58 .
-
-<http://example.org/BIOL/480/40893215/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/480> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 97 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/486/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/486> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/BIOL/510/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/510> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/BIOL/516/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/516> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/BIOL/516/40122345/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/516> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 62 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/524/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/524> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/BIOL/614/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/614> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 58 .
-
-<http://example.org/BIOL/614/40321098/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/614> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 64 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BIOL/614/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/614> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/BIOL/630/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/630> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/BIOL/631/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/631> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 73 .
-
-<http://example.org/BIOL/680/40345678/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BIOL/680> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/BLDG/366/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/366> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/BLDG/371/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/371> ;
-    ns1:gradeOf ns1:40247864 ;
     ns1:hasGradeVal 72 .
 
-<http://example.org/BLDG/6111/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/6111> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 100 .
-
-<http://example.org/BLDG/6621/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/6621> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 64 .
-
-<http://example.org/BLDG/6701/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/6701> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/BLDG/7811/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/7811> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 61 .
-
-<http://example.org/BLDG/7831/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/7831> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 50 .
-
-<http://example.org/BLDG/7831/40247864/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/7831> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 77 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/BLDG/7871/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BLDG/7871> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 68 .
-
-<http://example.org/BTM/633/40234187/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BTM/633> ;
-    ns1:gradeOf ns1:40234187 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/BTM/633/40234187/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/BTM/633> ;
-    ns1:gradeOf ns1:40234187 ;
-    ns1:hasGradeVal 88 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CART/451/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CART/451> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/CATA/262/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CATA/262> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/CATA/263/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CATA/263> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 97 .
-
-<http://example.org/CATA/437/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CATA/437> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/CATA/475/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CATA/475> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 61 .
-
-<http://example.org/CATA/485/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CATA/485> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/CERA/230/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CERA/230> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/CERA/230/40329876/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CERA/230> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 78 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CERA/452/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CERA/452> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/CERA/452/40678923/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CERA/452> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 72 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CHEM/206/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/206> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/CHEM/212/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/212> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/CHEM/221/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/221> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/CHEM/221/40230456/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/221> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 61 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CHEM/241/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/241> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/CHEM/241/40234567/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/241> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 75 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CHEM/324/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/324> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/CHEM/324/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/324> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/CHEM/333/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/333> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/CHEM/419/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/419> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 69 .
-
-<http://example.org/CHEM/436/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHEM/436> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/CHST/605/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CHST/605> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 87 .
-
-<http://example.org/CIVI/231/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/231> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/CIVI/390/40128976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/390> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/CIVI/465/40675329/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/465> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 50 .
-
-<http://example.org/CIVI/465/40675329/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/465> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 93 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/CIVI/6411/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/6411> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/CIVI/6451/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/6451> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 100 .
-
-<http://example.org/CIVI/6491/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/6491> ;
-    ns1:gradeOf ns1:40879012 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/CIVI/6671/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/6671> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 85 .
-
-<http://example.org/CIVI/7111/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CIVI/7111> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 87 .
-
-<http://example.org/CLAS/383/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CLAS/383> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/CLAS/392/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CLAS/392> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/CLAS/420/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CLAS/420> ;
+<http://example.org/ACTT/372/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/372> ;
     ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 82 .
+    ns1:hasGradeVal 89 .
 
-<http://example.org/CLAS/420/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CLAS/420> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/CLAS/420/40893456/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/CLAS/420> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 63 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/COEN/212/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/212> ;
-    ns1:gradeOf ns1:40678123 ;
+<http://example.org/ACTT/398/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/398> ;
+    ns1:gradeOf ns1:40247864 ;
     ns1:hasGradeVal 90 .
 
-<http://example.org/COEN/212/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/212> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 88 .
-
-<http://example.org/COEN/311/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/311> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/COEN/311/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/311> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/COEN/313/40432987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/313> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/COEN/313/40432987/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/313> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 90 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/COEN/421/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/421> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 83 .
-
-<http://example.org/COEN/421/40345678/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/421> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 72 .
-
-<http://example.org/COEN/490/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/490> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/COEN/6312/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/6312> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/COEN/6551/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/6551> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/COEN/7741/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COEN/7741> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 95 .
-
-<http://example.org/COMP/208/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/208> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/COMP/249/40345678/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/249> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/COMP/345/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/345> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 100 .
-
-<http://example.org/COMP/353/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/353> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/COMP/354/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/354> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/COMP/354/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/354> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/COMP/376/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/376> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/COMP/426/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/426> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/COMP/477/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/477> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 88 .
-
-<http://example.org/COMP/478/40432987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/478> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/COMP/479/40675329/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/479> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/COMP/6421/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/6421> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/COMP/6461/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/6461> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 63 .
-
-<http://example.org/COMP/6521/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/6521> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/COMP/6741/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMP/6741> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/COMS/361/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/361> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/COMS/384/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/384> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/COMS/384/40127534/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/384> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 93 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/COMS/407/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/407> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/COMS/477/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/477> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/COMS/484/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/484> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 72 .
-
-<http://example.org/COMS/562/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/COMS/562> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 85 .
-
-<http://example.org/DANC/201/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DANC/201> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 59 .
-
-<http://example.org/DANC/201/40986543/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DANC/201> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 55 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/DANC/205/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DANC/205> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 68 .
-
-<http://example.org/DANC/305/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DANC/305> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/DFTT/212/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/212> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/DFTT/212/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/212> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/DFTT/311/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/311> ;
-    ns1:gradeOf ns1:40123456 ;
+<http://example.org/ACTT/399/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/399> ;
+    ns1:gradeOf ns1:40678901 ;
     ns1:hasGradeVal 74 .
 
-<http://example.org/DFTT/311/40128976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/311> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 65 .
+<http://example.org/ACTT/450/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/450> ;
+    ns1:gradeOf ns1:40341298 ;
+    ns1:hasGradeVal 74 .
 
-<http://example.org/DFTT/311/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/311> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 83 .
+<http://example.org/ACTT/465/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTT/465> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 76 .
 
-<http://example.org/DFTT/315/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/315> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 99 .
+<http://example.org/ACTU/286/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTU/286> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 55 .
 
-<http://example.org/DFTT/337/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/337> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/DFTT/337/40678901/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/337> ;
-    ns1:gradeOf ns1:40678901 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/DFTT/345/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/345> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 66 .
-
-<http://example.org/DFTT/350/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/350> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 95 .
-
-<http://example.org/DFTT/401/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/401> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 83 .
-
-<http://example.org/DFTT/405/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DFTT/405> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 66 .
-
-<http://example.org/DRAW/399/40675329/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DRAW/399> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/DRAW/414/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DRAW/414> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 83 .
-
-<http://example.org/DRAW/471/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DRAW/471> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/DRAW/471/40247726/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/DRAW/471> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 52 ;
+<http://example.org/ACTU/286/40230456/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ACTU/286> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 80 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/EAST/451/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EAST/451> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/ECON/696/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ECON/696> ;
-    ns1:gradeOf ns1:40268519 ;
+<http://example.org/AERO/201/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AERO/201> ;
+    ns1:gradeOf ns1:40234187 ;
     ns1:hasGradeVal 84 .
 
-<http://example.org/EDUC/303/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EDUC/303> ;
-    ns1:gradeOf ns1:40892765 ;
+<http://example.org/AERO/371/40987612/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AERO/371> ;
+    ns1:gradeOf ns1:40987612 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/AHSC/435/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AHSC/435> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 93 .
+
+<http://example.org/AHSC/439/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AHSC/439> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 65 .
+
+<http://example.org/AHSC/442/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AHSC/442> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 76 .
+
+<http://example.org/AHSC/533/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AHSC/533> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/AHSC/680/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/AHSC/680> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 68 .
+
+<http://example.org/ANTH/315/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ANTH/315> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 97 .
+
+<http://example.org/APLI/634/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/APLI/634> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/ARTX/201/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ARTX/201> ;
+    ns1:gradeOf ns1:40564321 ;
     ns1:hasGradeVal 62 .
 
-<http://example.org/EDUC/307/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EDUC/307> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 98 .
+<http://example.org/ARTX/280/40893456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ARTX/280> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 73 .
 
-<http://example.org/EDUC/361/40678901/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EDUC/361> ;
-    ns1:gradeOf ns1:40678901 ;
-    ns1:hasGradeVal 87 .
+<http://example.org/ARTX/480/40268519/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ARTX/480> ;
+    ns1:gradeOf ns1:40268519 ;
+    ns1:hasGradeVal 80 .
 
-<http://example.org/ELEC/275/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/275> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 75 .
-
-<http://example.org/ELEC/321/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/321> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 72 .
-
-<http://example.org/ELEC/321/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/321> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/ELEC/321/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/321> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/ELEC/321/40986543/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/321> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 62 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ELEC/331/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/331> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 85 .
-
-<http://example.org/ELEC/331/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/331> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/ELEC/367/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/367> ;
-    ns1:gradeOf ns1:40236487 ;
+<http://example.org/BIOL/201/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/201> ;
+    ns1:gradeOf ns1:40234187 ;
     ns1:hasGradeVal 58 .
 
-<http://example.org/ELEC/367/40236487/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/367> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 82 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ELEC/390/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/390> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/ELEC/421/40234187/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/421> ;
-    ns1:gradeOf ns1:40234187 ;
-    ns1:hasGradeVal 53 .
-
-<http://example.org/ELEC/421/40234187/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/421> ;
+<http://example.org/BIOL/201/40234187/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/201> ;
     ns1:gradeOf ns1:40234187 ;
     ns1:hasGradeVal 86 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/ELEC/431/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/431> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 55 .
+<http://example.org/BIOL/340/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/340> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 94 .
 
-<http://example.org/ELEC/431/40678923/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/431> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 57 ;
-    rdfs:comment "Retake grade" .
+<http://example.org/BIOL/340/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/340> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 74 .
 
-<http://example.org/ELEC/436/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/436> ;
-    ns1:gradeOf ns1:40127534 ;
+<http://example.org/BIOL/351/40892765/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/351> ;
+    ns1:gradeOf ns1:40892765 ;
     ns1:hasGradeVal 68 .
 
-<http://example.org/ELEC/436/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/436> ;
-    ns1:gradeOf ns1:40879012 ;
-    ns1:hasGradeVal 95 .
+<http://example.org/BIOL/422/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/422> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 94 .
 
-<http://example.org/ELEC/438/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/438> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 57 .
+<http://example.org/BIOL/480/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/480> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 96 .
 
-<http://example.org/ELEC/438/40218976/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/438> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 70 ;
+<http://example.org/BIOL/490/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/490> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/BIOL/498/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/498> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 51 .
+
+<http://example.org/BIOL/498/40678123/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/498> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 78 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/ELEC/441/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/441> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 97 .
+<http://example.org/BIOL/622/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/622> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 88 .
 
-<http://example.org/ELEC/472/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/472> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 83 .
+<http://example.org/BIOL/630/40987645/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/630> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 59 .
 
-<http://example.org/ELEC/481/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/481> ;
+<http://example.org/BIOL/630/40987645/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BIOL/630> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/BLDG/471/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/471> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/BLDG/476/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/476> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/BLDG/476/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/476> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 59 .
+
+<http://example.org/BLDG/476/40578129/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/476> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/BLDG/6241/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/6241> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 79 .
+
+<http://example.org/BLDG/7831/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/7831> ;
     ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 75 .
-
-<http://example.org/ELEC/483/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/483> ;
-    ns1:gradeOf ns1:40247864 ;
     ns1:hasGradeVal 55 .
 
-<http://example.org/ELEC/483/40247864/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/483> ;
+<http://example.org/BLDG/7831/40982365/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BLDG/7831> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 82 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/BSTA/445/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BSTA/445> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/BTM/430/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BTM/430> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/BTM/440/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BTM/440> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 82 .
+
+<http://example.org/BTM/496/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/BTM/496> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/CART/451/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CART/451> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/CATA/262/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/262> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 58 .
+
+<http://example.org/CATA/262/40247726/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/262> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 69 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CATA/365/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/365> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/CATA/439/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/439> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 79 .
+
+<http://example.org/CATA/439/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/439> ;
+    ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 56 .
+
+<http://example.org/CATA/439/40567123/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/439> ;
+    ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 83 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CATA/475/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/475> ;
+    ns1:gradeOf ns1:40341298 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/CATA/485/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CATA/485> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/CERA/391/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CERA/391> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/CERA/391/40122345/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CERA/391> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CERA/399/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CERA/399> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/CERA/399/40123456/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CERA/399> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CERA/498/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CERA/498> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/CHEM/205/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/205> ;
+    ns1:gradeOf ns1:40879012 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/CHEM/218/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/218> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/CHEM/241/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/241> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/CHEM/242/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/242> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/CHEM/271/40987645/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/271> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/CHEM/312/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/312> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/CHEM/312/40892765/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/312> ;
+    ns1:gradeOf ns1:40892765 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/CHEM/324/40892765/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/324> ;
+    ns1:gradeOf ns1:40892765 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/CHEM/335/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/335> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/CHEM/375/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/375> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/CHEM/375/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/375> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/CHEM/477/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHEM/477> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 77 .
+
+<http://example.org/CHST/605/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHST/605> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/CHST/605/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHST/605> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/CHST/618/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHST/618> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/CHST/618/40768923/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CHST/618> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/231/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/231> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 65 .
+
+<http://example.org/CIVI/231/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/231> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/CIVI/231/40268519/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/231> ;
+    ns1:gradeOf ns1:40268519 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/CIVI/231/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/231> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/CIVI/321/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/321> ;
+    ns1:gradeOf ns1:40879012 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/CIVI/361/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/361> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 69 .
+
+<http://example.org/CIVI/382/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/382> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/CIVI/390/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/390> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/CIVI/432/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/432> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 58 .
+
+<http://example.org/CIVI/432/40432987/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/432> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 80 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/432/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/432> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/CIVI/432/40678923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/432> ;
+    ns1:gradeOf ns1:40678923 ;
+    ns1:hasGradeVal 72 .
+
+<http://example.org/CIVI/453/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/453> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/CIVI/453/40893456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/453> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 50 .
+
+<http://example.org/CIVI/453/40893456/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/453> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 77 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/465/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/465> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 57 .
+
+<http://example.org/CIVI/465/40247553/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/465> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/465/40678923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/465> ;
+    ns1:gradeOf ns1:40678923 ;
+    ns1:hasGradeVal 74 .
+
+<http://example.org/CIVI/484/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/484> ;
     ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 97 .
+
+<http://example.org/CIVI/6021/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6021> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/CIVI/6071/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6071> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/CIVI/6301/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6301> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 55 .
+
+<http://example.org/CIVI/6301/40987654/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6301> ;
+    ns1:gradeOf ns1:40987654 ;
     ns1:hasGradeVal 91 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/ELEC/6151/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6151> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 90 .
-
-<http://example.org/ELEC/6171/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6171> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/ELEC/6221/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6221> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/ELEC/6241/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6241> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/ELEC/6241/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6241> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/ELEC/6241/40893215/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6241> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 85 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ELEC/6281/40678901/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6281> ;
-    ns1:gradeOf ns1:40678901 ;
-    ns1:hasGradeVal 75 .
-
-<http://example.org/ELEC/6601/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6601> ;
-    ns1:gradeOf ns1:40123456 ;
+<http://example.org/CIVI/6481/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6481> ;
+    ns1:gradeOf ns1:40456789 ;
     ns1:hasGradeVal 85 .
 
-<http://example.org/ELEC/6611/40678901/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6611> ;
-    ns1:gradeOf ns1:40678901 ;
-    ns1:hasGradeVal 62 .
-
-<http://example.org/ELEC/6841/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6841> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/ELEC/7151/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/7151> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 90 .
-
-<http://example.org/ELEC/7451/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/7451> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/EMBA/621/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/621> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/EMBA/625/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/625> ;
-    ns1:gradeOf ns1:40268519 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/EMBA/631/40987645/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/631> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 53 .
-
-<http://example.org/EMBA/631/40987645/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/631> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 50 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/EMBA/635/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/635> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/EMBA/640/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/640> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/EMBA/640/40759812/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/640> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 65 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/EMBA/645/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/645> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/EMBA/645/40759812/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EMBA/645> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 65 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ENCS/6043/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENCS/6043> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 75 .
-
-<http://example.org/ENCS/691/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENCS/691> ;
+<http://example.org/CIVI/6531/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6531> ;
     ns1:gradeOf ns1:40218976 ;
     ns1:hasGradeVal 56 .
 
-<http://example.org/ENCS/691/40218976/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENCS/691> ;
+<http://example.org/CIVI/6531/40218976/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6531> ;
     ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 63 ;
+    ns1:hasGradeVal 86 ;
     rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/6651/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6651> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/CIVI/6651/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/6651> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/CIVI/7001/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/7001> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 75 .
+
+<http://example.org/CIVI/7001/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/7001> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 59 .
+
+<http://example.org/CIVI/7001/40893215/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/7001> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/CIVI/7311/40893456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/CIVI/7311> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/COEN/212/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/212> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 75 .
+
+<http://example.org/COEN/311/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/311> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 97 .
+
+<http://example.org/COEN/311/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/311> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/COEN/315/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/315> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/COEN/317/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/317> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 76 .
+
+<http://example.org/COEN/317/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/317> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/COEN/345/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/345> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/COEN/345/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/345> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/COEN/346/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/346> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 56 .
+
+<http://example.org/COEN/346/40127534/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/346> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 97 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/COEN/421/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/421> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/COEN/451/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/451> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/COEN/6321/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COEN/6321> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 87 .
+
+<http://example.org/COMP/249/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/249> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/COMP/346/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/346> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/COMP/346/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/346> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/COMP/353/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/353> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/COMP/354/40759812/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/354> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 76 .
+
+<http://example.org/COMP/473/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/473> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/COMP/477/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/477> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/COMP/478/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/478> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 57 .
+
+<http://example.org/COMP/478/40234187/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/478> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/COMP/479/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/479> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 72 .
+
+<http://example.org/COMP/5361/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/5361> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/COMP/5481/40893456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/5481> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 69 .
+
+<http://example.org/COMP/5511/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/5511> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 72 .
+
+<http://example.org/COMP/6721/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/6721> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 68 .
+
+<http://example.org/COMP/6731/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/6731> ;
+    ns1:gradeOf ns1:40453987 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/COMP/6731/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/6731> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/COMP/6791/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMP/6791> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/COMS/361/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/361> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 69 .
+
+<http://example.org/COMS/376/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/376> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/COMS/376/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/376> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/COMS/384/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/384> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/COMS/384/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/384> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 58 .
+
+<http://example.org/COMS/384/40456789/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/384> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/COMS/562/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/562> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/COMS/562/40564321/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/562> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 52 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/COMS/570/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/COMS/570> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/DANC/405/40987623/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DANC/405> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 60 .
+
+<http://example.org/DFTT/298/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/298> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/DFTT/298/40236487/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/298> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 67 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/DFTT/301/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/301> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/DFTT/301/40123456/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/301> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/DFTT/305/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/305> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/DFTT/311/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/311> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/DFTT/321/40987645/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/321> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/DFTT/326/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/326> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/DFTT/335/40987623/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/335> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 93 .
+
+<http://example.org/DFTT/337/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/337> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/DFTT/345/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/345> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/DFTT/350/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/350> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/DFTT/351/40678923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/351> ;
+    ns1:gradeOf ns1:40678923 ;
+    ns1:hasGradeVal 93 .
+
+<http://example.org/DFTT/371/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/371> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 55 .
+
+<http://example.org/DFTT/371/40247864/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/371> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/DFTT/401/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/401> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 75 .
+
+<http://example.org/DFTT/401/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/401> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/DFTT/451/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/451> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/DFTT/498/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/498> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 79 .
+
+<http://example.org/DFTT/498/40892765/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DFTT/498> ;
+    ns1:gradeOf ns1:40892765 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/DRAW/472/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/DRAW/472> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/EAST/481/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EAST/481> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 59 .
+
+<http://example.org/EAST/481/40127654/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EAST/481> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 50 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/EAST/482/40987612/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EAST/482> ;
+    ns1:gradeOf ns1:40987612 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/ECON/324/40268519/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ECON/324> ;
+    ns1:gradeOf ns1:40268519 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/ECON/330/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ECON/330> ;
+    ns1:gradeOf ns1:40341298 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/ECON/330/40341298/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ECON/330> ;
+    ns1:gradeOf ns1:40341298 ;
+    ns1:hasGradeVal 76 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ECON/683/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ECON/683> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 82 .
+
+<http://example.org/EDUC/264/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EDUC/264> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 50 .
+
+<http://example.org/EDUC/264/40247864/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EDUC/264> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/EDUC/303/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EDUC/303> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/EDUC/304/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EDUC/304> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 78 .
+
+<http://example.org/ELEC/273/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/273> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/ELEC/321/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/321> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/ELEC/321/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/321> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 69 .
+
+<http://example.org/ELEC/367/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/367> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/ELEC/372/40987645/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/372> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 55 .
+
+<http://example.org/ELEC/372/40987645/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/372> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 70 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ELEC/423/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/423> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/ELEC/430/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/430> ;
+    ns1:gradeOf ns1:40453987 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/ELEC/435/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/435> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/ELEC/435/40892134/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/435> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ELEC/463/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/463> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/ELEC/465/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/465> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 97 .
+
+<http://example.org/ELEC/465/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/465> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 65 .
+
+<http://example.org/ELEC/465/40987623/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/465> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ELEC/472/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/472> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/ELEC/6061/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6061> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ELEC/6061/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6061> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ELEC/6081/40987612/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6081> ;
+    ns1:gradeOf ns1:40987612 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ELEC/6251/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6251> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 62 .
+
+<http://example.org/ELEC/6311/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6311> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/ELEC/6391/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6391> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 57 .
+
+<http://example.org/ELEC/6391/40564321/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6391> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 99 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ELEC/6421/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6421> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/ELEC/6421/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6421> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/ELEC/6471/40987623/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6471> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/ELEC/6471/40987623/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6471> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ELEC/6631/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6631> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 81 .
+
+<http://example.org/ELEC/6641/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6641> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ELEC/6841/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6841> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/ELEC/6841/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6841> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/ELEC/6851/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6851> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 86 .
+
+<http://example.org/ELEC/6861/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6861> ;
+    ns1:gradeOf ns1:40453987 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/ELEC/6871/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6871> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/ELEC/6871/40127534/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6871> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 78 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ELEC/7451/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/7451> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/ELEC/7451/40678123/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/7451> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/EMBA/610/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EMBA/610> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/EMBA/610/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EMBA/610> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/EMBA/610/40675329/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EMBA/610> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 68 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/EMBA/632/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EMBA/632> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/ENCS/282/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/282> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 58 .
+
+<http://example.org/ENCS/282/40247726/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/282> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 59 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ENCS/6043/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/6043> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/ENCS/6043/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/6043> ;
+    ns1:gradeOf ns1:40453987 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/ENCS/691/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/691> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 79 .
 
 <http://example.org/ENCS/691/40453987/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/ENCS/691> ;
     ns1:gradeOf ns1:40453987 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/ENGL/342/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/342> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 87 .
-
-<http://example.org/ENGL/396/40678901/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/396> ;
-    ns1:gradeOf ns1:40678901 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/ENGL/416/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/416> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 97 .
-
-<http://example.org/ENGL/417/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/417> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 81 .
-
-<http://example.org/ENGL/417/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/417> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 88 .
-
-<http://example.org/ENGL/474/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGL/474> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 62 .
-
-<http://example.org/ENGR/108/40432987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGR/108> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/ENGR/208/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGR/208> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/ENGR/412/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ENGR/412> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/ESL/205/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ESL/205> ;
-    ns1:gradeOf ns1:40268519 ;
-    ns1:hasGradeVal 93 .
-
-<http://example.org/ESL/206/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ESL/206> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/ESL/206/40561823/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ESL/206> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 77 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/ETEC/613/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ETEC/613> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 85 .
-
-<http://example.org/ETEC/651/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ETEC/651> ;
-    ns1:gradeOf ns1:40247726 ;
     ns1:hasGradeVal 70 .
 
-<http://example.org/ETEC/651/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ETEC/651> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 82 .
+<http://example.org/ENCS/691/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/691> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 65 .
 
-<http://example.org/ETEC/669/40345678/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ETEC/669> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 58 .
-
-<http://example.org/ETEC/669/40345678/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ETEC/669> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 89 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/EXCI/258/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EXCI/258> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/EXCI/259/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EXCI/259> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/EXCI/351/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EXCI/351> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/EXCI/351/40127534/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EXCI/351> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 80 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/EXCI/352/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/EXCI/352> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/FBRS/201/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/201> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 87 .
-
-<http://example.org/FBRS/240/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/240> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 83 .
-
-<http://example.org/FBRS/386/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/386> ;
-    ns1:gradeOf ns1:40678923 ;
+<http://example.org/ENCS/8511/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENCS/8511> ;
+    ns1:gradeOf ns1:40453987 ;
     ns1:hasGradeVal 80 .
 
-<http://example.org/FBRS/396/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/396> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 61 .
+<http://example.org/ENGL/480/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENGL/480> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 94 .
 
-<http://example.org/FBRS/396/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/396> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 76 .
+<http://example.org/ENGL/672/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENGL/672> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 63 .
 
-<http://example.org/FBRS/397/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/397> ;
+<http://example.org/ENGR/412/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENGR/412> ;
     ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 81 .
-
-<http://example.org/FBRS/397/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/397> ;
-    ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/FBRS/482/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FBRS/482> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 81 .
-
-<http://example.org/FINA/385/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FINA/385> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/FINA/385/40127654/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FINA/385> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 61 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/FINA/471/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FINA/471> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/FINA/481/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FINA/481> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/FLIT/486/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FLIT/486> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/FMAN/203/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FMAN/203> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 74 .
-
-<http://example.org/FRAA/523/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FRAA/523> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 90 .
-
-<http://example.org/FRAN/319/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FRAN/319> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/FTRA/499/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/499> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 72 .
-
-<http://example.org/FTRA/615/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/615> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/FTRA/634/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/634> ;
-    ns1:gradeOf ns1:40892765 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/FTRA/635/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/635> ;
-    ns1:gradeOf ns1:40127654 ;
     ns1:hasGradeVal 52 .
 
-<http://example.org/FTRA/635/40127654/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/635> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 71 ;
+<http://example.org/ENGR/412/40128576/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ENGR/412> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 59 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/FTRA/635/40453987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/635> ;
-    ns1:gradeOf ns1:40453987 ;
-    ns1:hasGradeVal 59 .
+<http://example.org/ESL/205/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ESL/205> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 50 .
 
-<http://example.org/FTRA/635/40453987/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/FTRA/635> ;
-    ns1:gradeOf ns1:40453987 ;
+<http://example.org/ESL/205/40458690/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ESL/205> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 90 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/ETEC/650/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ETEC/650> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/ETEC/650/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ETEC/650> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/ETEC/681/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ETEC/681> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/EXCI/258/40675329/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/258> ;
+    ns1:gradeOf ns1:40675329 ;
+    ns1:hasGradeVal 56 .
+
+<http://example.org/EXCI/258/40675329/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/258> ;
+    ns1:gradeOf ns1:40675329 ;
     ns1:hasGradeVal 56 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/GEOG/361/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/361> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 56 .
+<http://example.org/EXCI/357/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/357> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 57 .
 
-<http://example.org/GEOG/361/40678123/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/361> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 81 ;
+<http://example.org/EXCI/357/40432987/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/357> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 99 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/GEOG/463/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/463> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 73 .
-
-<http://example.org/GEOG/466/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/466> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 69 .
-
-<http://example.org/GEOG/466/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/466> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/GEOG/467/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/467> ;
-    ns1:gradeOf ns1:40268519 ;
-    ns1:hasGradeVal 71 .
-
-<http://example.org/GEOG/467/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOG/467> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/GEOL/210/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GEOL/210> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/GIIM/637/40432987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/GIIM/637> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 92 .
-
-<http://example.org/HENV/655/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HENV/655> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/HIST/338/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/338> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 68 .
-
-<http://example.org/HIST/380/40987645/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/380> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 62 .
-
-<http://example.org/HIST/397/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/397> ;
-    ns1:gradeOf ns1:40578129 ;
+<http://example.org/EXCI/357/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/357> ;
+    ns1:gradeOf ns1:40561234 ;
     ns1:hasGradeVal 82 .
 
-<http://example.org/HIST/486/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/486> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 81 .
+<http://example.org/EXCI/358/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/EXCI/358> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 94 .
 
-<http://example.org/HIST/498/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/498> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 66 .
-
-<http://example.org/HIST/498/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/HIST/498> ;
+<http://example.org/FBRS/240/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FBRS/240> ;
     ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 64 .
+    ns1:hasGradeVal 60 .
 
-<http://example.org/IADI/301/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IADI/301> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 67 .
+<http://example.org/FBRS/385/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FBRS/385> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 90 .
 
-<http://example.org/IMCA/222/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/222> ;
+<http://example.org/FBRS/450/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FBRS/450> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/FBRS/450/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FBRS/450> ;
     ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 85 .
+    ns1:hasGradeVal 84 .
 
-<http://example.org/IMCA/322/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/322> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 100 .
+<http://example.org/FINA/385/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FINA/385> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 83 .
 
-<http://example.org/IMCA/331/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/331> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 97 .
+<http://example.org/FINA/405/40329876/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FINA/405> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 60 .
 
-<http://example.org/IMCA/398/40982365/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/398> ;
-    ns1:gradeOf ns1:40982365 ;
-    ns1:hasGradeVal 51 .
+<http://example.org/FINA/409/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FINA/409> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 56 .
 
-<http://example.org/IMCA/398/40982365/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/398> ;
-    ns1:gradeOf ns1:40982365 ;
+<http://example.org/FINA/409/40897234/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FINA/409> ;
+    ns1:gradeOf ns1:40897234 ;
     ns1:hasGradeVal 73 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/IMCA/471/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/471> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 97 .
+<http://example.org/FLIT/454/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/454> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 53 .
 
-<http://example.org/IMCA/482/40345678/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/482> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/IMCA/482/40345678/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/IMCA/482> ;
-    ns1:gradeOf ns1:40345678 ;
-    ns1:hasGradeVal 54 ;
+<http://example.org/FLIT/454/40234187/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/454> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 75 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/INDU/323/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INDU/323> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 99 .
+<http://example.org/FLIT/486/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/486> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 64 .
 
-<http://example.org/INDU/412/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INDU/412> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/INDU/6231/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INDU/6231> ;
-    ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 70 .
-
-<http://example.org/INDU/6241/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INDU/6241> ;
-    ns1:gradeOf ns1:40268519 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/INDU/6341/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INDU/6341> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/INSE/6110/40678123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6110> ;
-    ns1:gradeOf ns1:40678123 ;
-    ns1:hasGradeVal 99 .
-
-<http://example.org/INSE/6130/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6130> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/INSE/6140/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6140> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 60 .
-
-<http://example.org/INSE/6270/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6270> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 77 .
-
-<http://example.org/INSE/6310/40675329/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6310> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 100 .
-
-<http://example.org/INSE/6311/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6311> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 61 .
-
-<http://example.org/INSE/6320/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6320> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 55 .
-
-<http://example.org/INSE/6320/42123456/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6320> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 88 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/INSE/6400/40432987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6400> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 59 .
-
-<http://example.org/INSE/6400/40432987/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6400> ;
-    ns1:gradeOf ns1:40432987 ;
-    ns1:hasGradeVal 64 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/INSE/6411/40128976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/6411> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 68 .
-
-<http://example.org/INSE/8901/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/INSE/8901> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/JAZZ/481/40678923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JAZZ/481> ;
-    ns1:gradeOf ns1:40678923 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/JOUR/206/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/206> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/JOUR/206/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/206> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 97 .
-
-<http://example.org/JOUR/208/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/208> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 90 .
-
-<http://example.org/JOUR/303/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/303> ;
-    ns1:gradeOf ns1:40879012 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/JOUR/303/40879012/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/303> ;
-    ns1:gradeOf ns1:40879012 ;
-    ns1:hasGradeVal 72 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/JOUR/443/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/443> ;
-    ns1:gradeOf ns1:40268519 ;
+<http://example.org/FLIT/486/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/486> ;
+    ns1:gradeOf ns1:40987654 ;
     ns1:hasGradeVal 87 .
 
-<http://example.org/JOUR/505/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/505> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 77 .
+<http://example.org/FLIT/496/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/496> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 90 .
 
-<http://example.org/JOUR/507/40987612/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/507> ;
-    ns1:gradeOf ns1:40987612 ;
-    ns1:hasGradeVal 91 .
+<http://example.org/FLIT/690/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FLIT/690> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 85 .
 
-<http://example.org/JOUR/531/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/JOUR/531> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/KCEP/349/40987645/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/KCEP/349> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/KCEP/349/40987645/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/KCEP/349> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 92 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/LOYC/240/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/LOYC/240> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/LOYC/240/40247553/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/LOYC/240> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 94 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/LOYC/320/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/LOYC/320> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/LOYC/320/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/LOYC/320> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/MANA/447/40321098/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MANA/447> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 55 .
-
-<http://example.org/MANA/447/40321098/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MANA/447> ;
-    ns1:gradeOf ns1:40321098 ;
-    ns1:hasGradeVal 97 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MARK/493/40578129/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MARK/493> ;
-    ns1:gradeOf ns1:40578129 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/MAST/324/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/324> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/MAST/324/40456789/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/324> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 89 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MAST/324/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/324> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 59 .
-
-<http://example.org/MAST/324/40986543/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/324> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 60 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MAST/324/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/324> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/MAST/333/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/333> ;
-    ns1:gradeOf ns1:40341298 ;
+<http://example.org/FMPR/451/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FMPR/451> ;
+    ns1:gradeOf ns1:40987654 ;
     ns1:hasGradeVal 71 .
 
-<http://example.org/MAST/397/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MAST/397> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 60 .
+<http://example.org/FMST/202/40892765/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FMST/202> ;
+    ns1:gradeOf ns1:40892765 ;
+    ns1:hasGradeVal 59 .
 
-<http://example.org/MBA/657/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MBA/657> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 55 .
+<http://example.org/FMST/202/40892765/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FMST/202> ;
+    ns1:gradeOf ns1:40892765 ;
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "Retake grade" .
 
-<http://example.org/MBA/657/40567123/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MBA/657> ;
+<http://example.org/FMST/203/40329876/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FMST/203> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/FMST/203/40329876/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FMST/203> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 58 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/FPST/397/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FPST/397> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/FRAA/498/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FRAA/498> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/FRAA/523/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FRAA/523> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 78 .
+
+<http://example.org/FRAN/212/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FRAN/212> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/FTRA/416/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/416> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 87 .
+
+<http://example.org/FTRA/438/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/438> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/FTRA/492/40247726/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/492> ;
+    ns1:gradeOf ns1:40247726 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/FTRA/527/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/527> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/FTRA/538/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/538> ;
+    ns1:gradeOf ns1:40453987 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/FTRA/613/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/613> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/FTRA/635/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/635> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 74 .
+
+<http://example.org/FTRA/638/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/638> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/FTRA/684/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/684> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 71 .
+
+<http://example.org/FTRA/685/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/FTRA/685> ;
     ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 87 .
+
+<http://example.org/GEOG/260/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/260> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/GEOG/264/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/264> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 50 .
+
+<http://example.org/GEOG/264/40561234/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/264> ;
+    ns1:gradeOf ns1:40561234 ;
     ns1:hasGradeVal 52 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/MBA/657/40675329/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MBA/657> ;
-    ns1:gradeOf ns1:40675329 ;
-    ns1:hasGradeVal 88 .
+<http://example.org/GEOG/264/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/264> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 73 .
 
-<http://example.org/MECH/211/40234187/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/211> ;
-    ns1:gradeOf ns1:40234187 ;
-    ns1:hasGradeVal 87 .
+<http://example.org/GEOG/363/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/363> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 85 .
 
-<http://example.org/MECH/215/40234187/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/215> ;
-    ns1:gradeOf ns1:40234187 ;
+<http://example.org/GEOG/363/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/363> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/GEOG/363/40987645/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/363> ;
+    ns1:gradeOf ns1:40987645 ;
+    ns1:hasGradeVal 82 .
+
+<http://example.org/GEOG/371/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/371> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 65 .
+
+<http://example.org/GEOG/374/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/374> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/GEOG/466/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GEOG/466> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/GERM/200/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GERM/200> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/GERM/240/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GERM/240> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 71 .
+
+<http://example.org/GIIM/637/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/GIIM/637> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/HENV/801/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/HENV/801> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 62 .
+
+<http://example.org/HIST/493/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/HIST/493> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/HIST/685/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/HIST/685> ;
+    ns1:gradeOf ns1:40879012 ;
     ns1:hasGradeVal 76 .
 
-<http://example.org/MECH/311/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/311> ;
+<http://example.org/IMCA/332/40759812/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/IMCA/332> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/IMCA/398/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/IMCA/398> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 82 .
+
+<http://example.org/IMCA/471/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/IMCA/471> ;
     ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/IMCA/482/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/IMCA/482> ;
+    ns1:gradeOf ns1:40567123 ;
     ns1:hasGradeVal 80 .
+
+<http://example.org/INDU/311/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INDU/311> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/INDU/6221/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INDU/6221> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/INDU/6341/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INDU/6341> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/INSE/6270/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6270> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/INSE/6400/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6400> ;
+    ns1:gradeOf ns1:40879012 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/INSE/6411/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6411> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 51 .
+
+<http://example.org/INSE/6411/40321098/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6411> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/INSE/6411/40892134/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6411> ;
+    ns1:gradeOf ns1:40892134 ;
+    ns1:hasGradeVal 71 .
+
+<http://example.org/INSE/6630/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6630> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 79 .
+
+<http://example.org/INSE/6640/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/INSE/6640> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/IRST/346/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/IRST/346> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 99 .
+
+<http://example.org/ITAL/200/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ITAL/200> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 56 .
+
+<http://example.org/ITAL/200/40230456/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ITAL/200> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 86 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/JOUR/206/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/206> ;
+    ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/JOUR/206/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/206> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/JOUR/206/40578129/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/206> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 64 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/JOUR/208/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/208> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 69 .
+
+<http://example.org/JOUR/443/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/443> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 78 .
+
+<http://example.org/JOUR/450/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/450> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 89 .
+
+<http://example.org/JOUR/521/40321098/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JOUR/521> ;
+    ns1:gradeOf ns1:40321098 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/JPER/225/40759812/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JPER/225> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 63 .
+
+<http://example.org/JPER/325/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JPER/325> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 58 .
+
+<http://example.org/JPER/325/40218976/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/JPER/325> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 96 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/LBCL/295/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/LBCL/295> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/MACF/401/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MACF/401> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/MANA/343/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MANA/343> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/MANA/420/40678923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MANA/420> ;
+    ns1:gradeOf ns1:40678923 ;
+    ns1:hasGradeVal 79 .
+
+<http://example.org/MANA/447/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MANA/447> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 91 .
+
+<http://example.org/MARA/206/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARA/206> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/MARA/240/40268519/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARA/240> ;
+    ns1:gradeOf ns1:40268519 ;
+    ns1:hasGradeVal 83 .
+
+<http://example.org/MARA/240/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARA/240> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/MARK/451/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/451> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 72 .
+
+<http://example.org/MARK/454/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/454> ;
+    ns1:gradeOf ns1:40456789 ;
+    ns1:hasGradeVal 96 .
+
+<http://example.org/MARK/457/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/457> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/MARK/462/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/462> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 82 .
+
+<http://example.org/MARK/486/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/486> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 53 .
+
+<http://example.org/MARK/486/40234187/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/486> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 79 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/MARK/486/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/486> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 55 .
+
+<http://example.org/MARK/486/40247864/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/486> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 99 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/MARK/491/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/491> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/MARK/491/40236487/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/491> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 92 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/MARK/491/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/491> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 56 .
+
+<http://example.org/MARK/491/40768923/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/491> ;
+    ns1:gradeOf ns1:40768923 ;
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/MARK/671/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/671> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 52 .
+
+<http://example.org/MARK/671/40578129/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/671> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 89 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/MARK/671/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MARK/671> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/MAST/232/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MAST/232> ;
+    ns1:gradeOf ns1:40879012 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/MAST/324/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MAST/324> ;
+    ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/MAST/397/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MAST/397> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 75 .
+
+<http://example.org/MBA/645/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MBA/645> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/MBA/650/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MBA/650> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/MBA/657/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MBA/657> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 98 .
+
+<http://example.org/MBA/660/40987623/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MBA/660> ;
+    ns1:gradeOf ns1:40987623 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/MECH/215/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/215> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 99 .
 
 <http://example.org/MECH/311/40561234/1> a ns1:Grade ;
     ns1:gradeFor <http://example.org/MECH/311> ;
     ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 92 .
+    ns1:hasGradeVal 65 .
 
-<http://example.org/MECH/321/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/321> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 92 .
+<http://example.org/MECH/311/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/311> ;
+    ns1:gradeOf ns1:40893215 ;
+    ns1:hasGradeVal 93 .
 
-<http://example.org/MECH/343/40453987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/343> ;
+<http://example.org/MECH/351/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/351> ;
+    ns1:gradeOf ns1:40678901 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/MECH/421/40453987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/421> ;
     ns1:gradeOf ns1:40453987 ;
-    ns1:hasGradeVal 61 .
+    ns1:hasGradeVal 76 .
 
-<http://example.org/MECH/351/40458690/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/351> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 51 .
+<http://example.org/MECH/425/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/425> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 65 .
 
-<http://example.org/MECH/351/40458690/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/351> ;
-    ns1:gradeOf ns1:40458690 ;
-    ns1:hasGradeVal 65 ;
-    rdfs:comment "Retake grade" .
+<http://example.org/MECH/425/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/425> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 83 .
 
-<http://example.org/MECH/352/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/352> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/MECH/368/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/368> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/MECH/375/40218976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/375> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/MECH/375/40218976/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/375> ;
-    ns1:gradeOf ns1:40218976 ;
-    ns1:hasGradeVal 64 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MECH/412/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/412> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 79 .
-
-<http://example.org/MECH/423/40987623/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/423> ;
-    ns1:gradeOf ns1:40987623 ;
-    ns1:hasGradeVal 62 .
-
-<http://example.org/MECH/424/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/424> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 90 .
-
-<http://example.org/MECH/471/40892765/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/471> ;
-    ns1:gradeOf ns1:40892765 ;
+<http://example.org/MECH/490A/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/490A> ;
+    ns1:gradeOf ns1:40128576 ;
     ns1:hasGradeVal 94 .
 
-<http://example.org/MECH/473/40453987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/473> ;
-    ns1:gradeOf ns1:40453987 ;
-    ns1:hasGradeVal 78 .
-
-<http://example.org/MECH/474/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/474> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 64 .
-
-<http://example.org/MECH/6041/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6041> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/MECH/6041/40567123/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6041> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 95 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MECH/6101/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6101> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/MECH/6171/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6171> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 51 .
-
-<http://example.org/MECH/6171/40122345/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6171> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 90 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MECH/6321/40987645/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6321> ;
-    ns1:gradeOf ns1:40987645 ;
-    ns1:hasGradeVal 73 .
-
-<http://example.org/MECH/6531/40123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6531> ;
-    ns1:gradeOf ns1:40123456 ;
-    ns1:hasGradeVal 84 .
-
-<http://example.org/MECH/6531/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6531> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 82 .
-
-<http://example.org/MECH/6631/40759812/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6631> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/MECH/6631/40759812/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6631> ;
-    ns1:gradeOf ns1:40759812 ;
-    ns1:hasGradeVal 66 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/MECH/6691/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6691> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/MECH/6781/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MECH/6781> ;
-    ns1:gradeOf ns1:40268519 ;
+<http://example.org/MECH/6011/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6011> ;
+    ns1:gradeOf ns1:40230456 ;
     ns1:hasGradeVal 87 .
 
-<http://example.org/MSCA/632/40986543/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/MSCA/632> ;
-    ns1:gradeOf ns1:40986543 ;
-    ns1:hasGradeVal 95 .
+<http://example.org/MECH/6021/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6021> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 50 .
 
-<http://example.org/PERC/209/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PERC/209> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 72 .
-
-<http://example.org/PERC/298/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PERC/298> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/PERC/311/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PERC/311> ;
-    ns1:gradeOf ns1:40879012 ;
-    ns1:hasGradeVal 63 .
-
-<http://example.org/PERC/318/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PERC/318> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 69 .
-
-<http://example.org/PHIL/260/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHIL/260> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/PHIL/495/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHIL/495> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/PHYS/225/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/225> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 86 .
-
-<http://example.org/PHYS/226/40247553/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/226> ;
-    ns1:gradeOf ns1:40247553 ;
-    ns1:hasGradeVal 88 .
-
-<http://example.org/PHYS/289/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/289> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 73 .
-
-<http://example.org/PHYS/330/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/330> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 55 .
-
-<http://example.org/PHYS/330/40329876/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/330> ;
-    ns1:gradeOf ns1:40329876 ;
-    ns1:hasGradeVal 55 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/PHYS/496/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PHYS/496> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 76 .
-
-<http://example.org/POLI/393/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/POLI/393> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 100 .
-
-<http://example.org/PRIN/221/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/221> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 57 .
-
-<http://example.org/PRIN/221/40234567/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/221> ;
-    ns1:gradeOf ns1:40234567 ;
-    ns1:hasGradeVal 90 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/PRIN/271/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/271> ;
-    ns1:gradeOf ns1:40122345 ;
-    ns1:hasGradeVal 53 .
-
-<http://example.org/PRIN/271/40122345/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/271> ;
-    ns1:gradeOf ns1:40122345 ;
+<http://example.org/MECH/6021/40458690/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6021> ;
+    ns1:gradeOf ns1:40458690 ;
     ns1:hasGradeVal 63 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/PRIN/291/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/291> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 91 .
-
-<http://example.org/PRIN/321/40234187/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/321> ;
-    ns1:gradeOf ns1:40234187 ;
-    ns1:hasGradeVal 61 .
-
-<http://example.org/PRIN/451/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PRIN/451> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 61 .
-
-<http://example.org/PSYC/705/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PSYC/705> ;
-    ns1:gradeOf ns1:40127654 ;
+<http://example.org/MECH/6041/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6041> ;
+    ns1:gradeOf ns1:40123456 ;
     ns1:hasGradeVal 76 .
 
-<http://example.org/PSYC/823/40236487/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PSYC/823> ;
-    ns1:gradeOf ns1:40236487 ;
-    ns1:hasGradeVal 61 .
+<http://example.org/MECH/6041/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6041> ;
+    ns1:gradeOf ns1:40341298 ;
+    ns1:hasGradeVal 89 .
 
-<http://example.org/PSYC/826/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PSYC/826> ;
-    ns1:gradeOf ns1:40893456 ;
-    ns1:hasGradeVal 71 .
-
-<http://example.org/PSYC/828/40567123/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PSYC/828> ;
-    ns1:gradeOf ns1:40567123 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/PSYC/838/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PSYC/838> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 91 .
-
-<http://example.org/PTNG/300/40893215/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/300> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/PTNG/300/40893215/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/300> ;
-    ns1:gradeOf ns1:40893215 ;
-    ns1:hasGradeVal 53 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/PTNG/416/40893456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/416> ;
-    ns1:gradeOf ns1:40893456 ;
+<http://example.org/MECH/6041/40678901/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6041> ;
+    ns1:gradeOf ns1:40678901 ;
     ns1:hasGradeVal 90 .
 
-<http://example.org/PTNG/450/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/450> ;
+<http://example.org/MECH/6111/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6111> ;
     ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 56 .
-
-<http://example.org/PTNG/450/40341298/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/450> ;
-    ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 60 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/PTNG/470/40230456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/470> ;
-    ns1:gradeOf ns1:40230456 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/PTNG/498/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/498> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 94 .
-
-<http://example.org/PTNG/499/40247864/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/499> ;
-    ns1:gradeOf ns1:40247864 ;
-    ns1:hasGradeVal 63 .
-
-<http://example.org/PTNG/499/40564321/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/PTNG/499> ;
-    ns1:gradeOf ns1:40564321 ;
-    ns1:hasGradeVal 65 .
-
-<http://example.org/RELI/214/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/214> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/RELI/215/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/215> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 53 .
-
-<http://example.org/RELI/215/40768923/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/215> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 94 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/RELI/223/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/223> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 52 .
-
-<http://example.org/RELI/223/40213465/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/223> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 92 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/RELI/313/40987654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/313> ;
-    ns1:gradeOf ns1:40987654 ;
-    ns1:hasGradeVal 69 .
-
-<http://example.org/RELI/378/40987645/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/378> ;
-    ns1:gradeOf ns1:40987645 ;
     ns1:hasGradeVal 51 .
 
-<http://example.org/RELI/378/40987645/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/378> ;
-    ns1:gradeOf ns1:40987645 ;
+<http://example.org/MECH/6111/40341298/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6111> ;
+    ns1:gradeOf ns1:40341298 ;
     ns1:hasGradeVal 70 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/RELI/392/40268519/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/RELI/392> ;
-    ns1:gradeOf ns1:40268519 ;
-    ns1:hasGradeVal 93 .
+<http://example.org/MECH/6231/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6231> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 60 .
 
-<http://example.org/SCEN/327/40128976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCEN/327> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 72 .
+<http://example.org/MECH/6361/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6361> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 97 .
 
-<http://example.org/SCOL/290/40123489/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCOL/290> ;
-    ns1:gradeOf ns1:40123489 ;
-    ns1:hasGradeVal 72 .
+<http://example.org/MECH/6361/40567123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6361> ;
+    ns1:gradeOf ns1:40567123 ;
+    ns1:hasGradeVal 76 .
 
-<http://example.org/SCOL/391/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCOL/391> ;
-    ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 75 .
-
-<http://example.org/SCUL/201/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/201> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 96 .
-
-<http://example.org/SCUL/311/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/311> ;
-    ns1:gradeOf ns1:40127654 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/SCUL/311/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/311> ;
+<http://example.org/MECH/6501/40456789/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6501> ;
     ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 54 .
-
-<http://example.org/SCUL/311/40456789/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/311> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 88 ;
-    rdfs:comment "Retake grade" .
-
-<http://example.org/SCUL/397/40456789/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/397> ;
-    ns1:gradeOf ns1:40456789 ;
-    ns1:hasGradeVal 89 .
-
-<http://example.org/SCUL/410/40453987/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/410> ;
-    ns1:gradeOf ns1:40453987 ;
-    ns1:hasGradeVal 67 .
-
-<http://example.org/SCUL/490/40768923/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SCUL/490> ;
-    ns1:gradeOf ns1:40768923 ;
-    ns1:hasGradeVal 80 .
-
-<http://example.org/SOCI/450/40561234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SOCI/450> ;
-    ns1:gradeOf ns1:40561234 ;
-    ns1:hasGradeVal 73 .
-
-<http://example.org/SOEN/228/40234567/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SOEN/228> ;
-    ns1:gradeOf ns1:40234567 ;
     ns1:hasGradeVal 98 .
 
-<http://example.org/SOEN/228/40247726/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SOEN/228> ;
-    ns1:gradeOf ns1:40247726 ;
-    ns1:hasGradeVal 65 .
+<http://example.org/MECH/6691/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6691> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 80 .
 
-<http://example.org/SPAN/201/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SPAN/201> ;
-    ns1:gradeOf ns1:40879012 ;
+<http://example.org/MECH/6741/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/6741> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 97 .
+
+<http://example.org/MECH/7511/40678123/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MECH/7511> ;
+    ns1:gradeOf ns1:40678123 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/MHIS/203/40345678/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/MHIS/203> ;
+    ns1:gradeOf ns1:40345678 ;
+    ns1:hasGradeVal 92 .
+
+<http://example.org/PERC/298/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/298> ;
+    ns1:gradeOf ns1:40122345 ;
     ns1:hasGradeVal 99 .
 
-<http://example.org/SPAN/202/40128976/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SPAN/202> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 55 .
+<http://example.org/PERC/321/40247864/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/321> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 57 .
 
-<http://example.org/SPAN/202/40128976/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SPAN/202> ;
-    ns1:gradeOf ns1:40128976 ;
-    ns1:hasGradeVal 83 ;
+<http://example.org/PERC/321/40247864/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/321> ;
+    ns1:gradeOf ns1:40247864 ;
+    ns1:hasGradeVal 62 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/SSDB/275/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/SSDB/275> ;
-    ns1:gradeOf ns1:40341298 ;
-    ns1:hasGradeVal 86 .
+<http://example.org/PERC/471/40987612/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/471> ;
+    ns1:gradeOf ns1:40987612 ;
+    ns1:hasGradeVal 64 .
 
-<http://example.org/TESL/231/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/231> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 86 .
+<http://example.org/PERC/490/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/490> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 91 .
 
-<http://example.org/TESL/326/40892134/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/326> ;
-    ns1:gradeOf ns1:40892134 ;
-    ns1:hasGradeVal 79 .
+<http://example.org/PERC/499/40982365/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PERC/499> ;
+    ns1:gradeOf ns1:40982365 ;
+    ns1:hasGradeVal 100 .
 
-<http://example.org/TESL/415/40329876/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/415> ;
-    ns1:gradeOf ns1:40329876 ;
+<http://example.org/PHIL/220/40123489/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHIL/220> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 78 .
+
+<http://example.org/PHIL/495/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHIL/495> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 68 .
+
+<http://example.org/PHOT/210/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHOT/210> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 93 .
+
+<http://example.org/PHYS/230/40768923/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHYS/230> ;
+    ns1:gradeOf ns1:40768923 ;
     ns1:hasGradeVal 50 .
 
-<http://example.org/TESL/415/40329876/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/415> ;
-    ns1:gradeOf ns1:40329876 ;
+<http://example.org/PHYS/230/40768923/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHYS/230> ;
+    ns1:gradeOf ns1:40768923 ;
     ns1:hasGradeVal 84 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/TESL/488/40128576/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/488> ;
-    ns1:gradeOf ns1:40128576 ;
-    ns1:hasGradeVal 99 .
+<http://example.org/PHYS/330/40561234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHYS/330> ;
+    ns1:gradeOf ns1:40561234 ;
+    ns1:hasGradeVal 83 .
 
-<http://example.org/TESL/488/40561823/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/TESL/488> ;
-    ns1:gradeOf ns1:40561823 ;
-    ns1:hasGradeVal 88 .
-
-<http://example.org/URBS/250/42123456/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/URBS/250> ;
-    ns1:gradeOf ns1:42123456 ;
-    ns1:hasGradeVal 98 .
-
-<http://example.org/URBS/337/40213465/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/URBS/337> ;
+<http://example.org/PHYS/389/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PHYS/389> ;
     ns1:gradeOf ns1:40213465 ;
-    ns1:hasGradeVal 89 .
+    ns1:hasGradeVal 63 .
 
-<http://example.org/URBS/484/40122345/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/URBS/484> ;
+<http://example.org/PRIN/231/40234567/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/231> ;
+    ns1:gradeOf ns1:40234567 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/PRIN/291/40268519/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/291> ;
+    ns1:gradeOf ns1:40268519 ;
+    ns1:hasGradeVal 80 .
+
+<http://example.org/PRIN/365/42123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/365> ;
+    ns1:gradeOf ns1:42123456 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/PRIN/381/40123489/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/381> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 70 .
+
+<http://example.org/PRIN/381/40218976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/381> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/PRIN/381/40218976/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/381> ;
+    ns1:gradeOf ns1:40218976 ;
+    ns1:hasGradeVal 73 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/PRIN/411/40897234/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PRIN/411> ;
+    ns1:gradeOf ns1:40897234 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/PSYC/311/40458690/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/311> ;
+    ns1:gradeOf ns1:40458690 ;
+    ns1:hasGradeVal 72 .
+
+<http://example.org/PSYC/495/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/495> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 76 .
+
+<http://example.org/PSYC/601/40329876/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/601> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 60 .
+
+<http://example.org/PSYC/709/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/709> ;
     ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/PSYC/712/40123489/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/712> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 64 .
+
+<http://example.org/PSYC/823/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PSYC/823> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 73 .
+
+<http://example.org/PTNG/200/40986543/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PTNG/200> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 55 .
+
+<http://example.org/PTNG/200/40986543/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PTNG/200> ;
+    ns1:gradeOf ns1:40986543 ;
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/PTNG/440/40247553/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PTNG/440> ;
+    ns1:gradeOf ns1:40247553 ;
+    ns1:hasGradeVal 60 .
+
+<http://example.org/PTNG/472/40759812/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PTNG/472> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 59 .
+
+<http://example.org/PTNG/472/40759812/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/PTNG/472> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 63 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/RELI/220/40123489/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/220> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/RELI/312/40564321/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/312> ;
+    ns1:gradeOf ns1:40564321 ;
+    ns1:hasGradeVal 94 .
+
+<http://example.org/RELI/313/40230456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/313> ;
+    ns1:gradeOf ns1:40230456 ;
+    ns1:hasGradeVal 85 .
+
+<http://example.org/RELI/378/40893456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/378> ;
+    ns1:gradeOf ns1:40893456 ;
+    ns1:hasGradeVal 62 .
+
+<http://example.org/RELI/390/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/390> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/RELI/390/40759812/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/390> ;
+    ns1:gradeOf ns1:40759812 ;
+    ns1:hasGradeVal 100 .
+
+<http://example.org/RELI/392/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/392> ;
+    ns1:gradeOf ns1:40127654 ;
+    ns1:hasGradeVal 66 .
+
+<http://example.org/RELI/396/40234187/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/RELI/396> ;
+    ns1:gradeOf ns1:40234187 ;
+    ns1:hasGradeVal 90 .
+
+<http://example.org/SCOL/391/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SCOL/391> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:hasGradeVal 60 .
+
+<http://example.org/SCPA/301/40561823/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SCPA/301> ;
+    ns1:gradeOf ns1:40561823 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/SCUL/311/40213465/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SCUL/311> ;
+    ns1:gradeOf ns1:40213465 ;
+    ns1:hasGradeVal 61 .
+
+<http://example.org/SCUL/450/40893215/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SCUL/450> ;
+    ns1:gradeOf ns1:40893215 ;
     ns1:hasGradeVal 91 .
 
-<http://example.org/WSDB/394/40897234/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/WSDB/394> ;
-    ns1:gradeOf ns1:40897234 ;
-    ns1:hasGradeVal 80 .
+<http://example.org/SCUL/451/40329876/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SCUL/451> ;
+    ns1:gradeOf ns1:40329876 ;
+    ns1:hasGradeVal 84 .
+
+<http://example.org/SOCI/450/40122345/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SOCI/450> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 51 .
+
+<http://example.org/SOCI/450/40122345/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SOCI/450> ;
+    ns1:gradeOf ns1:40122345 ;
+    ns1:hasGradeVal 95 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/SOEN/422/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SOEN/422> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 67 .
+
+<http://example.org/SSDB/425/40578129/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SSDB/425> ;
+    ns1:gradeOf ns1:40578129 ;
+    ns1:hasGradeVal 68 .
+
+<http://example.org/SSDB/426/40236487/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SSDB/426> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 54 .
+
+<http://example.org/SSDB/426/40236487/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/SSDB/426> ;
+    ns1:gradeOf ns1:40236487 ;
+    ns1:hasGradeVal 81 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/STAT/280/40123489/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/STAT/280> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 50 .
+
+<http://example.org/STAT/280/40123489/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/STAT/280> ;
+    ns1:gradeOf ns1:40123489 ;
+    ns1:hasGradeVal 55 ;
+    rdfs:comment "Retake grade" .
+
+<http://example.org/TESL/331/40128976/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/TESL/331> ;
+    ns1:gradeOf ns1:40128976 ;
+    ns1:hasGradeVal 95 .
+
+<http://example.org/URBS/250/40128576/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/URBS/250> ;
+    ns1:gradeOf ns1:40128576 ;
+    ns1:hasGradeVal 74 .
+
+<http://example.org/URBS/333/40987654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/URBS/333> ;
+    ns1:gradeOf ns1:40987654 ;
+    ns1:hasGradeVal 68 .
+
+<http://example.org/URBS/362/40432987/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/URBS/362> ;
+    ns1:gradeOf ns1:40432987 ;
+    ns1:hasGradeVal 88 .
+
+<http://example.org/URBS/433/40123456/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/URBS/433> ;
+    ns1:gradeOf ns1:40123456 ;
+    ns1:hasGradeVal 92 .
 
 ns1:gradeFor a rdf:Property ;
     rdfs:domain ns1:Grade ;
@@ -2304,781 +2282,641 @@ ns1:studiesAt a rdf:Property ;
     rdfs:domain ns1:Student ;
     rdfs:range <http://dbpedia.org/resource/Concordia_University> .
 
+<http://example.org/ACCO/495> a ns1:Course .
+
+<http://example.org/ACCO/650> a ns1:Course .
+
 <http://example.org/ACTT/201> a ns1:Course .
+
+<http://example.org/ACTT/211> a ns1:Course .
 
 <http://example.org/ACTT/370> a ns1:Course .
 
+<http://example.org/ACTT/372> a ns1:Course .
+
+<http://example.org/ACTT/398> a ns1:Course .
+
 <http://example.org/ACTT/399> a ns1:Course .
 
-<http://example.org/ACTT/440> a ns1:Course .
+<http://example.org/ACTT/450> a ns1:Course .
 
-<http://example.org/ACTT/458> a ns1:Course .
+<http://example.org/ACTT/465> a ns1:Course .
 
-<http://example.org/ACTT/460> a ns1:Course .
+<http://example.org/AERO/201> a ns1:Course .
 
-<http://example.org/ACTU/286> a ns1:Course .
+<http://example.org/AERO/371> a ns1:Course .
 
-<http://example.org/AHSC/232> a ns1:Course .
-
-<http://example.org/AHSC/322> a ns1:Course .
-
-<http://example.org/AHSC/350> a ns1:Course .
-
-<http://example.org/AHSC/361> a ns1:Course .
-
-<http://example.org/AHSC/422> a ns1:Course .
-
-<http://example.org/AHSC/432> a ns1:Course .
+<http://example.org/AHSC/435> a ns1:Course .
 
 <http://example.org/AHSC/439> a ns1:Course .
 
-<http://example.org/AHSC/444> a ns1:Course .
-
-<http://example.org/AHSC/498> a ns1:Course .
+<http://example.org/AHSC/442> a ns1:Course .
 
 <http://example.org/AHSC/533> a ns1:Course .
 
-<http://example.org/APLI/610> a ns1:Course .
+<http://example.org/AHSC/680> a ns1:Course .
 
-<http://example.org/APLI/660> a ns1:Course .
+<http://example.org/ANTH/315> a ns1:Course .
 
-<http://example.org/ARTT/470> a ns1:Course .
+<http://example.org/APLI/634> a ns1:Course .
 
-<http://example.org/BIOL/337> a ns1:Course .
+<http://example.org/ARTX/201> a ns1:Course .
 
-<http://example.org/BIOL/368> a ns1:Course .
+<http://example.org/ARTX/280> a ns1:Course .
+
+<http://example.org/ARTX/480> a ns1:Course .
+
+<http://example.org/BIOL/351> a ns1:Course .
 
 <http://example.org/BIOL/422> a ns1:Course .
 
-<http://example.org/BIOL/486> a ns1:Course .
+<http://example.org/BIOL/480> a ns1:Course .
 
-<http://example.org/BIOL/510> a ns1:Course .
+<http://example.org/BIOL/490> a ns1:Course .
 
-<http://example.org/BIOL/524> a ns1:Course .
+<http://example.org/BIOL/622> a ns1:Course .
 
-<http://example.org/BIOL/630> a ns1:Course .
+<http://example.org/BLDG/471> a ns1:Course .
 
-<http://example.org/BIOL/631> a ns1:Course .
+<http://example.org/BLDG/6241> a ns1:Course .
 
-<http://example.org/BIOL/680> a ns1:Course .
+<http://example.org/BSTA/445> a ns1:Course .
 
-<http://example.org/BLDG/366> a ns1:Course .
+<http://example.org/BTM/430> a ns1:Course .
 
-<http://example.org/BLDG/371> a ns1:Course .
+<http://example.org/BTM/440> a ns1:Course .
 
-<http://example.org/BLDG/6111> a ns1:Course .
-
-<http://example.org/BLDG/6621> a ns1:Course .
-
-<http://example.org/BLDG/6701> a ns1:Course .
-
-<http://example.org/BLDG/7811> a ns1:Course .
-
-<http://example.org/BLDG/7871> a ns1:Course .
+<http://example.org/BTM/496> a ns1:Course .
 
 <http://example.org/CART/451> a ns1:Course .
 
-<http://example.org/CATA/262> a ns1:Course .
-
-<http://example.org/CATA/263> a ns1:Course .
-
-<http://example.org/CATA/437> a ns1:Course .
+<http://example.org/CATA/365> a ns1:Course .
 
 <http://example.org/CATA/475> a ns1:Course .
 
 <http://example.org/CATA/485> a ns1:Course .
 
-<http://example.org/CHEM/206> a ns1:Course .
+<http://example.org/CERA/498> a ns1:Course .
 
-<http://example.org/CHEM/212> a ns1:Course .
+<http://example.org/CHEM/205> a ns1:Course .
 
-<http://example.org/CHEM/333> a ns1:Course .
+<http://example.org/CHEM/218> a ns1:Course .
 
-<http://example.org/CHEM/419> a ns1:Course .
+<http://example.org/CHEM/241> a ns1:Course .
 
-<http://example.org/CHEM/436> a ns1:Course .
+<http://example.org/CHEM/242> a ns1:Course .
 
-<http://example.org/CHST/605> a ns1:Course .
+<http://example.org/CHEM/271> a ns1:Course .
 
-<http://example.org/CIVI/231> a ns1:Course .
+<http://example.org/CHEM/324> a ns1:Course .
+
+<http://example.org/CHEM/335> a ns1:Course .
+
+<http://example.org/CHEM/477> a ns1:Course .
+
+<http://example.org/CIVI/321> a ns1:Course .
+
+<http://example.org/CIVI/361> a ns1:Course .
+
+<http://example.org/CIVI/382> a ns1:Course .
 
 <http://example.org/CIVI/390> a ns1:Course .
 
-<http://example.org/CIVI/6411> a ns1:Course .
+<http://example.org/CIVI/484> a ns1:Course .
 
-<http://example.org/CIVI/6451> a ns1:Course .
+<http://example.org/CIVI/6021> a ns1:Course .
 
-<http://example.org/CIVI/6491> a ns1:Course .
+<http://example.org/CIVI/6071> a ns1:Course .
 
-<http://example.org/CIVI/6671> a ns1:Course .
+<http://example.org/CIVI/6481> a ns1:Course .
 
-<http://example.org/CIVI/7111> a ns1:Course .
+<http://example.org/CIVI/7311> a ns1:Course .
 
-<http://example.org/CLAS/383> a ns1:Course .
+<http://example.org/COEN/212> a ns1:Course .
 
-<http://example.org/CLAS/392> a ns1:Course .
+<http://example.org/COEN/315> a ns1:Course .
 
-<http://example.org/COEN/490> a ns1:Course .
+<http://example.org/COEN/421> a ns1:Course .
 
-<http://example.org/COEN/6312> a ns1:Course .
+<http://example.org/COEN/451> a ns1:Course .
 
-<http://example.org/COEN/6551> a ns1:Course .
-
-<http://example.org/COEN/7741> a ns1:Course .
-
-<http://example.org/COMP/208> a ns1:Course .
+<http://example.org/COEN/6321> a ns1:Course .
 
 <http://example.org/COMP/249> a ns1:Course .
 
-<http://example.org/COMP/345> a ns1:Course .
-
 <http://example.org/COMP/353> a ns1:Course .
 
-<http://example.org/COMP/376> a ns1:Course .
+<http://example.org/COMP/354> a ns1:Course .
 
-<http://example.org/COMP/426> a ns1:Course .
+<http://example.org/COMP/473> a ns1:Course .
 
 <http://example.org/COMP/477> a ns1:Course .
 
-<http://example.org/COMP/478> a ns1:Course .
-
 <http://example.org/COMP/479> a ns1:Course .
 
-<http://example.org/COMP/6421> a ns1:Course .
+<http://example.org/COMP/5361> a ns1:Course .
 
-<http://example.org/COMP/6461> a ns1:Course .
+<http://example.org/COMP/5481> a ns1:Course .
 
-<http://example.org/COMP/6521> a ns1:Course .
+<http://example.org/COMP/5511> a ns1:Course .
 
-<http://example.org/COMP/6741> a ns1:Course .
+<http://example.org/COMP/6721> a ns1:Course .
+
+<http://example.org/COMP/6791> a ns1:Course .
 
 <http://example.org/COMS/361> a ns1:Course .
 
-<http://example.org/COMS/407> a ns1:Course .
+<http://example.org/COMS/570> a ns1:Course .
 
-<http://example.org/COMS/477> a ns1:Course .
+<http://example.org/DANC/405> a ns1:Course .
 
-<http://example.org/COMS/484> a ns1:Course .
+<http://example.org/DFTT/305> a ns1:Course .
 
-<http://example.org/COMS/562> a ns1:Course .
+<http://example.org/DFTT/311> a ns1:Course .
 
-<http://example.org/DANC/205> a ns1:Course .
+<http://example.org/DFTT/321> a ns1:Course .
 
-<http://example.org/DANC/305> a ns1:Course .
+<http://example.org/DFTT/326> a ns1:Course .
 
-<http://example.org/DFTT/315> a ns1:Course .
+<http://example.org/DFTT/335> a ns1:Course .
+
+<http://example.org/DFTT/337> a ns1:Course .
 
 <http://example.org/DFTT/345> a ns1:Course .
 
 <http://example.org/DFTT/350> a ns1:Course .
 
-<http://example.org/DFTT/401> a ns1:Course .
+<http://example.org/DFTT/351> a ns1:Course .
 
-<http://example.org/DFTT/405> a ns1:Course .
+<http://example.org/DFTT/451> a ns1:Course .
 
-<http://example.org/DRAW/399> a ns1:Course .
+<http://example.org/DRAW/472> a ns1:Course .
 
-<http://example.org/DRAW/414> a ns1:Course .
+<http://example.org/EAST/482> a ns1:Course .
 
-<http://example.org/EAST/451> a ns1:Course .
+<http://example.org/ECON/324> a ns1:Course .
 
-<http://example.org/ECON/696> a ns1:Course .
+<http://example.org/ECON/683> a ns1:Course .
 
 <http://example.org/EDUC/303> a ns1:Course .
 
-<http://example.org/EDUC/307> a ns1:Course .
+<http://example.org/EDUC/304> a ns1:Course .
 
-<http://example.org/EDUC/361> a ns1:Course .
+<http://example.org/ELEC/273> a ns1:Course .
 
-<http://example.org/ELEC/275> a ns1:Course .
+<http://example.org/ELEC/367> a ns1:Course .
 
-<http://example.org/ELEC/390> a ns1:Course .
+<http://example.org/ELEC/423> a ns1:Course .
 
-<http://example.org/ELEC/441> a ns1:Course .
+<http://example.org/ELEC/430> a ns1:Course .
+
+<http://example.org/ELEC/463> a ns1:Course .
 
 <http://example.org/ELEC/472> a ns1:Course .
 
-<http://example.org/ELEC/481> a ns1:Course .
+<http://example.org/ELEC/6081> a ns1:Course .
 
-<http://example.org/ELEC/6151> a ns1:Course .
+<http://example.org/ELEC/6251> a ns1:Course .
 
-<http://example.org/ELEC/6171> a ns1:Course .
+<http://example.org/ELEC/6311> a ns1:Course .
 
-<http://example.org/ELEC/6221> a ns1:Course .
+<http://example.org/ELEC/6631> a ns1:Course .
 
-<http://example.org/ELEC/6281> a ns1:Course .
+<http://example.org/ELEC/6641> a ns1:Course .
 
-<http://example.org/ELEC/6601> a ns1:Course .
+<http://example.org/ELEC/6851> a ns1:Course .
 
-<http://example.org/ELEC/6611> a ns1:Course .
+<http://example.org/ELEC/6861> a ns1:Course .
 
-<http://example.org/ELEC/6841> a ns1:Course .
+<http://example.org/EMBA/632> a ns1:Course .
 
-<http://example.org/ELEC/7151> a ns1:Course .
+<http://example.org/ENCS/8511> a ns1:Course .
 
-<http://example.org/ELEC/7451> a ns1:Course .
+<http://example.org/ENGL/480> a ns1:Course .
 
-<http://example.org/EMBA/621> a ns1:Course .
+<http://example.org/ENGL/672> a ns1:Course .
 
-<http://example.org/EMBA/625> a ns1:Course .
+<http://example.org/ETEC/681> a ns1:Course .
 
-<http://example.org/EMBA/635> a ns1:Course .
-
-<http://example.org/ENCS/6043> a ns1:Course .
-
-<http://example.org/ENGL/342> a ns1:Course .
-
-<http://example.org/ENGL/396> a ns1:Course .
-
-<http://example.org/ENGL/416> a ns1:Course .
-
-<http://example.org/ENGL/474> a ns1:Course .
-
-<http://example.org/ENGR/108> a ns1:Course .
-
-<http://example.org/ENGR/208> a ns1:Course .
-
-<http://example.org/ENGR/412> a ns1:Course .
-
-<http://example.org/ESL/205> a ns1:Course .
-
-<http://example.org/ETEC/613> a ns1:Course .
-
-<http://example.org/EXCI/258> a ns1:Course .
-
-<http://example.org/EXCI/259> a ns1:Course .
-
-<http://example.org/EXCI/352> a ns1:Course .
-
-<http://example.org/FBRS/201> a ns1:Course .
+<http://example.org/EXCI/358> a ns1:Course .
 
 <http://example.org/FBRS/240> a ns1:Course .
 
-<http://example.org/FBRS/386> a ns1:Course .
+<http://example.org/FBRS/385> a ns1:Course .
 
-<http://example.org/FBRS/482> a ns1:Course .
+<http://example.org/FINA/385> a ns1:Course .
 
-<http://example.org/FINA/471> a ns1:Course .
+<http://example.org/FINA/405> a ns1:Course .
 
-<http://example.org/FINA/481> a ns1:Course .
+<http://example.org/FLIT/496> a ns1:Course .
 
-<http://example.org/FLIT/486> a ns1:Course .
+<http://example.org/FLIT/690> a ns1:Course .
 
-<http://example.org/FMAN/203> a ns1:Course .
+<http://example.org/FMPR/451> a ns1:Course .
+
+<http://example.org/FPST/397> a ns1:Course .
+
+<http://example.org/FRAA/498> a ns1:Course .
 
 <http://example.org/FRAA/523> a ns1:Course .
 
-<http://example.org/FRAN/319> a ns1:Course .
+<http://example.org/FRAN/212> a ns1:Course .
 
-<http://example.org/FTRA/499> a ns1:Course .
+<http://example.org/FTRA/416> a ns1:Course .
 
-<http://example.org/FTRA/615> a ns1:Course .
+<http://example.org/FTRA/438> a ns1:Course .
 
-<http://example.org/FTRA/634> a ns1:Course .
+<http://example.org/FTRA/492> a ns1:Course .
 
-<http://example.org/GEOG/463> a ns1:Course .
+<http://example.org/FTRA/527> a ns1:Course .
 
-<http://example.org/GEOL/210> a ns1:Course .
+<http://example.org/FTRA/538> a ns1:Course .
+
+<http://example.org/FTRA/613> a ns1:Course .
+
+<http://example.org/FTRA/635> a ns1:Course .
+
+<http://example.org/FTRA/638> a ns1:Course .
+
+<http://example.org/FTRA/684> a ns1:Course .
+
+<http://example.org/FTRA/685> a ns1:Course .
+
+<http://example.org/GEOG/260> a ns1:Course .
+
+<http://example.org/GEOG/371> a ns1:Course .
+
+<http://example.org/GEOG/374> a ns1:Course .
+
+<http://example.org/GEOG/466> a ns1:Course .
+
+<http://example.org/GERM/200> a ns1:Course .
+
+<http://example.org/GERM/240> a ns1:Course .
 
 <http://example.org/GIIM/637> a ns1:Course .
 
-<http://example.org/HENV/655> a ns1:Course .
+<http://example.org/HENV/801> a ns1:Course .
 
-<http://example.org/HIST/338> a ns1:Course .
+<http://example.org/HIST/493> a ns1:Course .
 
-<http://example.org/HIST/380> a ns1:Course .
+<http://example.org/HIST/685> a ns1:Course .
 
-<http://example.org/HIST/397> a ns1:Course .
+<http://example.org/IMCA/332> a ns1:Course .
 
-<http://example.org/HIST/486> a ns1:Course .
-
-<http://example.org/IADI/301> a ns1:Course .
-
-<http://example.org/IMCA/222> a ns1:Course .
-
-<http://example.org/IMCA/322> a ns1:Course .
-
-<http://example.org/IMCA/331> a ns1:Course .
+<http://example.org/IMCA/398> a ns1:Course .
 
 <http://example.org/IMCA/471> a ns1:Course .
 
-<http://example.org/INDU/323> a ns1:Course .
+<http://example.org/IMCA/482> a ns1:Course .
 
-<http://example.org/INDU/412> a ns1:Course .
+<http://example.org/INDU/311> a ns1:Course .
 
-<http://example.org/INDU/6231> a ns1:Course .
-
-<http://example.org/INDU/6241> a ns1:Course .
+<http://example.org/INDU/6221> a ns1:Course .
 
 <http://example.org/INDU/6341> a ns1:Course .
 
-<http://example.org/INSE/6110> a ns1:Course .
-
-<http://example.org/INSE/6130> a ns1:Course .
-
-<http://example.org/INSE/6140> a ns1:Course .
-
 <http://example.org/INSE/6270> a ns1:Course .
 
-<http://example.org/INSE/6310> a ns1:Course .
+<http://example.org/INSE/6400> a ns1:Course .
 
-<http://example.org/INSE/6311> a ns1:Course .
+<http://example.org/INSE/6630> a ns1:Course .
 
-<http://example.org/INSE/6411> a ns1:Course .
+<http://example.org/INSE/6640> a ns1:Course .
 
-<http://example.org/INSE/8901> a ns1:Course .
-
-<http://example.org/JAZZ/481> a ns1:Course .
+<http://example.org/IRST/346> a ns1:Course .
 
 <http://example.org/JOUR/208> a ns1:Course .
 
 <http://example.org/JOUR/443> a ns1:Course .
 
-<http://example.org/JOUR/505> a ns1:Course .
+<http://example.org/JOUR/450> a ns1:Course .
 
-<http://example.org/JOUR/507> a ns1:Course .
+<http://example.org/JOUR/521> a ns1:Course .
 
-<http://example.org/JOUR/531> a ns1:Course .
+<http://example.org/JPER/225> a ns1:Course .
 
-<http://example.org/MARK/493> a ns1:Course .
+<http://example.org/LBCL/295> a ns1:Course .
 
-<http://example.org/MAST/333> a ns1:Course .
+<http://example.org/MACF/401> a ns1:Course .
 
-<http://example.org/MAST/397> a ns1:Course .
+<http://example.org/MANA/343> a ns1:Course .
 
-<http://example.org/MECH/211> a ns1:Course .
-
-<http://example.org/MECH/215> a ns1:Course .
-
-<http://example.org/MECH/321> a ns1:Course .
-
-<http://example.org/MECH/343> a ns1:Course .
-
-<http://example.org/MECH/352> a ns1:Course .
-
-<http://example.org/MECH/368> a ns1:Course .
-
-<http://example.org/MECH/412> a ns1:Course .
-
-<http://example.org/MECH/423> a ns1:Course .
-
-<http://example.org/MECH/424> a ns1:Course .
-
-<http://example.org/MECH/471> a ns1:Course .
-
-<http://example.org/MECH/473> a ns1:Course .
-
-<http://example.org/MECH/474> a ns1:Course .
-
-<http://example.org/MECH/6101> a ns1:Course .
-
-<http://example.org/MECH/6321> a ns1:Course .
-
-<http://example.org/MECH/6691> a ns1:Course .
-
-<http://example.org/MECH/6781> a ns1:Course .
-
-<http://example.org/MSCA/632> a ns1:Course .
-
-<http://example.org/PERC/209> a ns1:Course .
-
-<http://example.org/PERC/298> a ns1:Course .
-
-<http://example.org/PERC/311> a ns1:Course .
-
-<http://example.org/PERC/318> a ns1:Course .
-
-<http://example.org/PHIL/260> a ns1:Course .
-
-<http://example.org/PHIL/495> a ns1:Course .
-
-<http://example.org/PHYS/225> a ns1:Course .
-
-<http://example.org/PHYS/226> a ns1:Course .
-
-<http://example.org/PHYS/289> a ns1:Course .
-
-<http://example.org/PHYS/496> a ns1:Course .
-
-<http://example.org/POLI/393> a ns1:Course .
-
-<http://example.org/PRIN/291> a ns1:Course .
-
-<http://example.org/PRIN/321> a ns1:Course .
-
-<http://example.org/PRIN/451> a ns1:Course .
-
-<http://example.org/PSYC/705> a ns1:Course .
-
-<http://example.org/PSYC/823> a ns1:Course .
-
-<http://example.org/PSYC/826> a ns1:Course .
-
-<http://example.org/PSYC/828> a ns1:Course .
-
-<http://example.org/PSYC/838> a ns1:Course .
-
-<http://example.org/PTNG/416> a ns1:Course .
-
-<http://example.org/PTNG/470> a ns1:Course .
-
-<http://example.org/PTNG/498> a ns1:Course .
-
-<http://example.org/RELI/214> a ns1:Course .
-
-<http://example.org/RELI/313> a ns1:Course .
-
-<http://example.org/RELI/392> a ns1:Course .
-
-<http://example.org/SCEN/327> a ns1:Course .
-
-<http://example.org/SCOL/290> a ns1:Course .
-
-<http://example.org/SCOL/391> a ns1:Course .
-
-<http://example.org/SCUL/201> a ns1:Course .
-
-<http://example.org/SCUL/397> a ns1:Course .
-
-<http://example.org/SCUL/410> a ns1:Course .
-
-<http://example.org/SCUL/490> a ns1:Course .
-
-<http://example.org/SOCI/450> a ns1:Course .
-
-<http://example.org/SPAN/201> a ns1:Course .
-
-<http://example.org/SSDB/275> a ns1:Course .
-
-<http://example.org/TESL/231> a ns1:Course .
-
-<http://example.org/TESL/326> a ns1:Course .
-
-<http://example.org/URBS/250> a ns1:Course .
-
-<http://example.org/URBS/337> a ns1:Course .
-
-<http://example.org/URBS/484> a ns1:Course .
-
-<http://example.org/WSDB/394> a ns1:Course .
-
-<http://example.org/ACTT/209> a ns1:Course .
-
-<http://example.org/ACTT/210> a ns1:Course .
-
-<http://example.org/ACTT/231> a ns1:Course .
-
-<http://example.org/AERO/371> a ns1:Course .
-
-<http://example.org/AERO/390> a ns1:Course .
-
-<http://example.org/AHSC/436> a ns1:Course .
-
-<http://example.org/AHSC/451> a ns1:Course .
-
-<http://example.org/AHSC/527> a ns1:Course .
-
-<http://example.org/APLI/626> a ns1:Course .
-
-<http://example.org/APLI/634> a ns1:Course .
-
-<http://example.org/BIOL/351> a ns1:Course .
-
-<http://example.org/BIOL/450> a ns1:Course .
-
-<http://example.org/BIOL/516> a ns1:Course .
-
-<http://example.org/BLDG/7831> a ns1:Course .
-
-<http://example.org/BTM/633> a ns1:Course .
-
-<http://example.org/CERA/230> a ns1:Course .
-
-<http://example.org/CERA/452> a ns1:Course .
-
-<http://example.org/CHEM/221> a ns1:Course .
-
-<http://example.org/CHEM/241> a ns1:Course .
-
-<http://example.org/CHEM/324> a ns1:Course .
-
-<http://example.org/CIVI/465> a ns1:Course .
-
-<http://example.org/COEN/212> a ns1:Course .
-
-<http://example.org/COEN/311> a ns1:Course .
-
-<http://example.org/COEN/313> a ns1:Course .
-
-<http://example.org/COEN/421> a ns1:Course .
-
-<http://example.org/COMP/354> a ns1:Course .
-
-<http://example.org/COMS/384> a ns1:Course .
-
-<http://example.org/DANC/201> a ns1:Course .
-
-<http://example.org/DFTT/212> a ns1:Course .
-
-<http://example.org/DFTT/337> a ns1:Course .
-
-<http://example.org/DRAW/471> a ns1:Course .
-
-<http://example.org/ELEC/331> a ns1:Course .
-
-<http://example.org/ELEC/367> a ns1:Course .
-
-<http://example.org/ELEC/421> a ns1:Course .
-
-<http://example.org/ELEC/431> a ns1:Course .
-
-<http://example.org/ELEC/436> a ns1:Course .
-
-<http://example.org/ELEC/438> a ns1:Course .
-
-<http://example.org/ELEC/483> a ns1:Course .
-
-<http://example.org/EMBA/631> a ns1:Course .
-
-<http://example.org/EMBA/640> a ns1:Course .
-
-<http://example.org/EMBA/645> a ns1:Course .
-
-<http://example.org/ENGL/417> a ns1:Course .
-
-<http://example.org/ESL/206> a ns1:Course .
-
-<http://example.org/ETEC/651> a ns1:Course .
-
-<http://example.org/ETEC/669> a ns1:Course .
-
-<http://example.org/EXCI/351> a ns1:Course .
-
-<http://example.org/FBRS/396> a ns1:Course .
-
-<http://example.org/FBRS/397> a ns1:Course .
-
-<http://example.org/FINA/385> a ns1:Course .
-
-<http://example.org/GEOG/361> a ns1:Course .
-
-<http://example.org/GEOG/466> a ns1:Course .
-
-<http://example.org/GEOG/467> a ns1:Course .
-
-<http://example.org/HIST/498> a ns1:Course .
-
-<http://example.org/IMCA/398> a ns1:Course .
-
-<http://example.org/IMCA/482> a ns1:Course .
-
-<http://example.org/INSE/6320> a ns1:Course .
-
-<http://example.org/INSE/6400> a ns1:Course .
-
-<http://example.org/JOUR/206> a ns1:Course .
-
-<http://example.org/JOUR/303> a ns1:Course .
-
-<http://example.org/KCEP/349> a ns1:Course .
-
-<http://example.org/LOYC/240> a ns1:Course .
-
-<http://example.org/LOYC/320> a ns1:Course .
+<http://example.org/MANA/420> a ns1:Course .
 
 <http://example.org/MANA/447> a ns1:Course .
 
-<http://example.org/MECH/311> a ns1:Course .
+<http://example.org/MARA/206> a ns1:Course .
 
-<http://example.org/MECH/351> a ns1:Course .
+<http://example.org/MARK/451> a ns1:Course .
 
-<http://example.org/MECH/375> a ns1:Course .
+<http://example.org/MARK/454> a ns1:Course .
 
-<http://example.org/MECH/6041> a ns1:Course .
+<http://example.org/MARK/457> a ns1:Course .
 
-<http://example.org/MECH/6171> a ns1:Course .
+<http://example.org/MARK/462> a ns1:Course .
 
-<http://example.org/MECH/6531> a ns1:Course .
-
-<http://example.org/MECH/6631> a ns1:Course .
-
-<http://example.org/PHYS/330> a ns1:Course .
-
-<http://example.org/PRIN/221> a ns1:Course .
-
-<http://example.org/PRIN/271> a ns1:Course .
-
-<http://example.org/PTNG/300> a ns1:Course .
-
-<http://example.org/PTNG/450> a ns1:Course .
-
-<http://example.org/PTNG/499> a ns1:Course .
-
-<http://example.org/RELI/215> a ns1:Course .
-
-<http://example.org/RELI/223> a ns1:Course .
-
-<http://example.org/RELI/378> a ns1:Course .
-
-<http://example.org/SOEN/228> a ns1:Course .
-
-<http://example.org/SPAN/202> a ns1:Course .
-
-<http://example.org/TESL/415> a ns1:Course .
-
-<http://example.org/TESL/488> a ns1:Course .
-
-<http://example.org/BIOL/614> a ns1:Course .
-
-<http://example.org/CLAS/420> a ns1:Course .
-
-<http://example.org/DFTT/311> a ns1:Course .
-
-<http://example.org/ELEC/6241> a ns1:Course .
-
-<http://example.org/ENCS/691> a ns1:Course .
-
-<http://example.org/MBA/657> a ns1:Course .
-
-<http://example.org/SCUL/311> a ns1:Course .
-
-<http://example.org/ACCO/655> a ns1:Course .
-
-<http://example.org/ARTX/491> a ns1:Course .
-
-<http://example.org/BIOL/480> a ns1:Course .
-
-<http://example.org/ELEC/321> a ns1:Course .
-
-<http://example.org/FTRA/635> a ns1:Course .
-
-ns1:40678901 a ns1:Student ;
-    ns1:hasId 40678901 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Alexander" ;
-    foaf:lastName "Hernandez" ;
-    foaf:mbox "alexander.hernandez@example.com" .
+<http://example.org/MAST/232> a ns1:Course .
 
 <http://example.org/MAST/324> a ns1:Course .
 
-ns1:40128976 a ns1:Student ;
-    ns1:hasId 40128976 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Ellie" ;
-    foaf:lastName "Hernandez" ;
-    foaf:mbox "ellie.hernandez@example.com" .
+<http://example.org/MAST/397> a ns1:Course .
 
-ns1:40453987 a ns1:Student ;
-    ns1:hasId 40453987 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Grace" ;
-    foaf:lastName "Hill" ;
-    foaf:mbox "grace.hill@example.com" .
+<http://example.org/MBA/645> a ns1:Course .
 
-ns1:40675329 a ns1:Student ;
-    ns1:hasId 40675329 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Isabella" ;
-    foaf:lastName "Lee" ;
-    foaf:mbox "isabella.lee@example.com" .
+<http://example.org/MBA/650> a ns1:Course .
 
-ns1:40879012 a ns1:Student ;
-    ns1:hasId 40879012 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Hazel" ;
-    foaf:lastName "Nguyen" ;
-    foaf:mbox "hazel.nguyen@example.com" .
+<http://example.org/MBA/657> a ns1:Course .
 
-ns1:40128576 a ns1:Student ;
-    ns1:hasId 40128576 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Noah" ;
-    foaf:lastName "Taylor" ;
-    foaf:mbox "noah.taylor@example.com" .
+<http://example.org/MBA/660> a ns1:Course .
 
-ns1:40234187 a ns1:Student ;
-    ns1:hasId 40234187 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Lily" ;
-    foaf:lastName "Anderson" ;
-    foaf:mbox "lily.anderson@example.com" .
+<http://example.org/MECH/215> a ns1:Course .
 
-ns1:40236487 a ns1:Student ;
-    ns1:hasId 40236487 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Elizabeth" ;
-    foaf:lastName "Lopez" ;
-    foaf:mbox "elizabeth.lopez@example.com" .
+<http://example.org/MECH/351> a ns1:Course .
 
-ns1:40341298 a ns1:Student ;
-    ns1:hasId 40341298 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Nova" ;
-    foaf:lastName "Flores" ;
-    foaf:mbox "nova.flores@example.com" .
+<http://example.org/MECH/421> a ns1:Course .
 
-ns1:40345678 a ns1:Student ;
-    ns1:hasId 40345678 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Grace" ;
-    foaf:lastName "Clark" ;
-    foaf:mbox "grace.clark@example.com" .
+<http://example.org/MECH/490A> a ns1:Course .
 
-ns1:40432987 a ns1:Student ;
-    ns1:hasId 40432987 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Luna" ;
-    foaf:lastName "Walker" ;
-    foaf:mbox "luna.walker@example.com" .
+<http://example.org/MECH/6011> a ns1:Course .
 
-ns1:40458690 a ns1:Student ;
-    ns1:hasId 40458690 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Charlotte" ;
-    foaf:lastName "Moore" ;
-    foaf:mbox "charlotte.moore@example.com" .
+<http://example.org/MECH/6231> a ns1:Course .
 
-ns1:40987612 a ns1:Student ;
-    ns1:hasId 40987612 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Leo" ;
-    foaf:lastName "Adams" ;
-    foaf:mbox "leo.adams@example.com" .
+<http://example.org/MECH/6501> a ns1:Course .
 
-ns1:42123456 a ns1:Student ;
-    ns1:hasId 42123456 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "James" ;
-    foaf:lastName "Davis" ;
-    foaf:mbox "james.davis@example.com" .
+<http://example.org/MECH/6691> a ns1:Course .
 
-ns1:40123456 a ns1:Student ;
-    ns1:hasId 40123456 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Nathan" ;
-    foaf:lastName "Thomas" ;
-    foaf:mbox "nathan.thomas@example.com" .
+<http://example.org/MECH/6741> a ns1:Course .
 
-ns1:40123489 a ns1:Student ;
-    ns1:hasId 40123489 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Harper" ;
-    foaf:lastName "Garcia" ;
-    foaf:mbox "harper.garcia@example.com" .
+<http://example.org/MECH/7511> a ns1:Course .
 
-ns1:40230456 a ns1:Student ;
-    ns1:hasId 40230456 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Sebastian" ;
-    foaf:lastName "Jackson" ;
-    foaf:mbox "sebastian.jackson@example.com" .
+<http://example.org/MHIS/203> a ns1:Course .
 
-ns1:40247553 a ns1:Student ;
-    ns1:hasId 40247553 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "John" ;
-    foaf:lastName "Doe" ;
-    foaf:mbox "john.doe@example.com" .
+<http://example.org/PERC/298> a ns1:Course .
+
+<http://example.org/PERC/471> a ns1:Course .
+
+<http://example.org/PERC/490> a ns1:Course .
+
+<http://example.org/PERC/499> a ns1:Course .
+
+<http://example.org/PHIL/220> a ns1:Course .
+
+<http://example.org/PHIL/495> a ns1:Course .
+
+<http://example.org/PHOT/210> a ns1:Course .
+
+<http://example.org/PHYS/330> a ns1:Course .
+
+<http://example.org/PHYS/389> a ns1:Course .
+
+<http://example.org/PRIN/231> a ns1:Course .
+
+<http://example.org/PRIN/291> a ns1:Course .
+
+<http://example.org/PRIN/365> a ns1:Course .
+
+<http://example.org/PRIN/411> a ns1:Course .
+
+<http://example.org/PSYC/311> a ns1:Course .
+
+<http://example.org/PSYC/495> a ns1:Course .
+
+<http://example.org/PSYC/601> a ns1:Course .
+
+<http://example.org/PSYC/709> a ns1:Course .
+
+<http://example.org/PSYC/712> a ns1:Course .
+
+<http://example.org/PSYC/823> a ns1:Course .
+
+<http://example.org/PTNG/440> a ns1:Course .
+
+<http://example.org/RELI/220> a ns1:Course .
+
+<http://example.org/RELI/312> a ns1:Course .
+
+<http://example.org/RELI/313> a ns1:Course .
+
+<http://example.org/RELI/378> a ns1:Course .
+
+<http://example.org/RELI/392> a ns1:Course .
+
+<http://example.org/RELI/396> a ns1:Course .
+
+<http://example.org/SCOL/391> a ns1:Course .
+
+<http://example.org/SCPA/301> a ns1:Course .
+
+<http://example.org/SCUL/311> a ns1:Course .
+
+<http://example.org/SCUL/450> a ns1:Course .
+
+<http://example.org/SCUL/451> a ns1:Course .
+
+<http://example.org/SOEN/422> a ns1:Course .
+
+<http://example.org/SSDB/425> a ns1:Course .
+
+<http://example.org/TESL/331> a ns1:Course .
+
+<http://example.org/URBS/250> a ns1:Course .
+
+<http://example.org/URBS/333> a ns1:Course .
+
+<http://example.org/URBS/362> a ns1:Course .
+
+<http://example.org/URBS/433> a ns1:Course .
+
+<http://example.org/ACCO/655> a ns1:Course .
+
+<http://example.org/ACTT/202> a ns1:Course .
+
+<http://example.org/ACTT/332> a ns1:Course .
+
+<http://example.org/ACTU/286> a ns1:Course .
+
+<http://example.org/BIOL/201> a ns1:Course .
+
+<http://example.org/BIOL/340> a ns1:Course .
+
+<http://example.org/BIOL/498> a ns1:Course .
+
+<http://example.org/BIOL/630> a ns1:Course .
+
+<http://example.org/BLDG/7831> a ns1:Course .
+
+<http://example.org/CATA/262> a ns1:Course .
+
+<http://example.org/CERA/391> a ns1:Course .
+
+<http://example.org/CERA/399> a ns1:Course .
+
+<http://example.org/CHEM/312> a ns1:Course .
+
+<http://example.org/CHEM/375> a ns1:Course .
+
+<http://example.org/CHST/605> a ns1:Course .
+
+<http://example.org/CHST/618> a ns1:Course .
+
+<http://example.org/CIVI/6301> a ns1:Course .
+
+<http://example.org/CIVI/6531> a ns1:Course .
+
+<http://example.org/CIVI/6651> a ns1:Course .
+
+<http://example.org/COEN/311> a ns1:Course .
+
+<http://example.org/COEN/317> a ns1:Course .
+
+<http://example.org/COEN/345> a ns1:Course .
+
+<http://example.org/COEN/346> a ns1:Course .
+
+<http://example.org/COMP/346> a ns1:Course .
+
+<http://example.org/COMP/478> a ns1:Course .
+
+<http://example.org/COMP/6731> a ns1:Course .
+
+<http://example.org/COMS/376> a ns1:Course .
+
+<http://example.org/COMS/562> a ns1:Course .
+
+<http://example.org/DFTT/298> a ns1:Course .
+
+<http://example.org/DFTT/301> a ns1:Course .
+
+<http://example.org/DFTT/371> a ns1:Course .
+
+<http://example.org/DFTT/401> a ns1:Course .
+
+<http://example.org/DFTT/498> a ns1:Course .
+
+<http://example.org/EAST/481> a ns1:Course .
+
+<http://example.org/ECON/330> a ns1:Course .
+
+<http://example.org/EDUC/264> a ns1:Course .
+
+<http://example.org/ELEC/321> a ns1:Course .
+
+<http://example.org/ELEC/372> a ns1:Course .
+
+<http://example.org/ELEC/435> a ns1:Course .
+
+<http://example.org/ELEC/6061> a ns1:Course .
+
+<http://example.org/ELEC/6391> a ns1:Course .
+
+<http://example.org/ELEC/6421> a ns1:Course .
+
+<http://example.org/ELEC/6471> a ns1:Course .
+
+<http://example.org/ELEC/6841> a ns1:Course .
+
+<http://example.org/ELEC/6871> a ns1:Course .
+
+<http://example.org/ELEC/7451> a ns1:Course .
+
+<http://example.org/ENCS/282> a ns1:Course .
+
+<http://example.org/ENCS/6043> a ns1:Course .
+
+<http://example.org/ENGR/412> a ns1:Course .
+
+<http://example.org/ESL/205> a ns1:Course .
+
+<http://example.org/ETEC/650> a ns1:Course .
+
+<http://example.org/EXCI/258> a ns1:Course .
+
+<http://example.org/FBRS/450> a ns1:Course .
+
+<http://example.org/FINA/409> a ns1:Course .
+
+<http://example.org/FLIT/454> a ns1:Course .
+
+<http://example.org/FLIT/486> a ns1:Course .
+
+<http://example.org/FMST/202> a ns1:Course .
+
+<http://example.org/FMST/203> a ns1:Course .
+
+<http://example.org/ITAL/200> a ns1:Course .
+
+<http://example.org/JPER/325> a ns1:Course .
+
+<http://example.org/MARA/240> a ns1:Course .
+
+<http://example.org/MECH/311> a ns1:Course .
+
+<http://example.org/MECH/425> a ns1:Course .
+
+<http://example.org/MECH/6021> a ns1:Course .
+
+<http://example.org/MECH/6111> a ns1:Course .
+
+<http://example.org/MECH/6361> a ns1:Course .
+
+<http://example.org/PERC/321> a ns1:Course .
+
+<http://example.org/PHYS/230> a ns1:Course .
+
+<http://example.org/PTNG/200> a ns1:Course .
+
+<http://example.org/PTNG/472> a ns1:Course .
+
+<http://example.org/RELI/390> a ns1:Course .
+
+<http://example.org/SOCI/450> a ns1:Course .
+
+<http://example.org/SSDB/426> a ns1:Course .
+
+<http://example.org/STAT/280> a ns1:Course .
+
+<http://example.org/BLDG/476> a ns1:Course .
+
+<http://example.org/CATA/439> a ns1:Course .
+
+<http://example.org/CIVI/453> a ns1:Course .
+
+<http://example.org/CIVI/465> a ns1:Course .
+
+<http://example.org/CIVI/7001> a ns1:Course .
+
+<http://example.org/COMS/384> a ns1:Course .
+
+<http://example.org/ELEC/465> a ns1:Course .
+
+<http://example.org/EMBA/610> a ns1:Course .
+
+<http://example.org/ENCS/691> a ns1:Course .
+
+<http://example.org/EXCI/357> a ns1:Course .
+
+<http://example.org/GEOG/264> a ns1:Course .
+
+<http://example.org/GEOG/363> a ns1:Course .
+
+<http://example.org/INSE/6411> a ns1:Course .
+
+<http://example.org/JOUR/206> a ns1:Course .
+
+<http://example.org/MARK/671> a ns1:Course .
+
+<http://example.org/MECH/6041> a ns1:Course .
+
+<http://example.org/PRIN/381> a ns1:Course .
+
+<http://example.org/CIVI/231> a ns1:Course .
+
+<http://example.org/CIVI/432> a ns1:Course .
+
+<http://example.org/MARK/486> a ns1:Course .
+
+<http://example.org/MARK/491> a ns1:Course .
 
 ns1:40268519 a ns1:Student ;
     ns1:hasId 40268519 ;
@@ -3087,12 +2925,229 @@ ns1:40268519 a ns1:Student ;
     foaf:lastName "Jones" ;
     foaf:mbox "william.jones@example.com" .
 
-ns1:40561234 a ns1:Student ;
-    ns1:hasId 40561234 ;
+ns1:40678923 a ns1:Student ;
+    ns1:hasId 40678923 ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Aria" ;
-    foaf:lastName "Murphy" ;
-    foaf:mbox "aria.murphy@example.com" .
+    foaf:firstName "Harper" ;
+    foaf:lastName "Hall" ;
+    foaf:mbox "harper.hall@example.com" .
+
+ns1:40987612 a ns1:Student ;
+    ns1:hasId 40987612 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Leo" ;
+    foaf:lastName "Adams" ;
+    foaf:mbox "leo.adams@example.com" .
+
+ns1:40123489 a ns1:Student ;
+    ns1:hasId 40123489 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Harper" ;
+    foaf:lastName "Garcia" ;
+    foaf:mbox "harper.garcia@example.com" .
+
+ns1:40759812 a ns1:Student ;
+    ns1:hasId 40759812 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Sophia" ;
+    foaf:lastName "White" ;
+    foaf:mbox "sophia.white@example.com" .
+
+ns1:40879012 a ns1:Student ;
+    ns1:hasId 40879012 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Hazel" ;
+    foaf:lastName "Nguyen" ;
+    foaf:mbox "hazel.nguyen@example.com" .
+
+ns1:40892765 a ns1:Student ;
+    ns1:hasId 40892765 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Lucas" ;
+    foaf:lastName "Rodriguez" ;
+    foaf:mbox "lucas.rodriguez@example.com" .
+
+ns1:40893456 a ns1:Student ;
+    ns1:hasId 40893456 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Jack" ;
+    foaf:lastName "Wilson" ;
+    foaf:mbox "jack.wilson@example.com" .
+
+ns1:40987623 a ns1:Student ;
+    ns1:hasId 40987623 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Julian" ;
+    foaf:lastName "Young" ;
+    foaf:mbox "julian.young@example.com" .
+
+ns1:42123456 a ns1:Student ;
+    ns1:hasId 42123456 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "James" ;
+    foaf:lastName "Davis" ;
+    foaf:mbox "james.davis@example.com" .
+
+ns1:40128976 a ns1:Student ;
+    ns1:hasId 40128976 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Ellie" ;
+    foaf:lastName "Hernandez" ;
+    foaf:mbox "ellie.hernandez@example.com" .
+
+ns1:40329876 a ns1:Student ;
+    ns1:hasId 40329876 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Lincoln" ;
+    foaf:lastName "Young" ;
+    foaf:mbox "lincoln.young@example.com" .
+
+ns1:40341298 a ns1:Student ;
+    ns1:hasId 40341298 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Nova" ;
+    foaf:lastName "Flores" ;
+    foaf:mbox "nova.flores@example.com" .
+
+ns1:40567123 a ns1:Student ;
+    ns1:hasId 40567123 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Riley" ;
+    foaf:lastName "Baker" ;
+    foaf:mbox "riley.baker@example.com" .
+
+ns1:40897234 a ns1:Student ;
+    ns1:hasId 40897234 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Amelia" ;
+    foaf:lastName "Martin" ;
+    foaf:mbox "amelia.martin@example.com" .
+
+ns1:40982365 a ns1:Student ;
+    ns1:hasId 40982365 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Luna" ;
+    foaf:lastName "Perez" ;
+    foaf:mbox "luna.perez@example.com" .
+
+ns1:40987645 a ns1:Student ;
+    ns1:hasId 40987645 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Landon" ;
+    foaf:lastName "King" ;
+    foaf:mbox "landon.king@example.com" .
+
+ns1:40127534 a ns1:Student ;
+    ns1:hasId 40127534 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Emily" ;
+    foaf:lastName "Brown" ;
+    foaf:mbox "emily.brown@example.com" .
+
+ns1:40453987 a ns1:Student ;
+    ns1:hasId 40453987 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Grace" ;
+    foaf:lastName "Hill" ;
+    foaf:mbox "grace.hill@example.com" .
+
+ns1:40458690 a ns1:Student ;
+    ns1:hasId 40458690 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Charlotte" ;
+    foaf:lastName "Moore" ;
+    foaf:mbox "charlotte.moore@example.com" .
+
+ns1:40892134 a ns1:Student ;
+    ns1:hasId 40892134 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Ella" ;
+    foaf:lastName "Hall" ;
+    foaf:mbox "ella.hall@example.com" .
+
+ns1:40986543 a ns1:Student ;
+    ns1:hasId 40986543 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Liam" ;
+    foaf:lastName "Martinez" ;
+    foaf:mbox "liam.martinez@example.com" .
+
+ns1:40234567 a ns1:Student ;
+    ns1:hasId 40234567 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Eva" ;
+    foaf:lastName "Scott" ;
+    foaf:mbox "eva.scott@example.com" .
+
+ns1:40247726 a ns1:Student ;
+    ns1:hasId 40247726 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Jane" ;
+    foaf:lastName "Smith" ;
+    foaf:mbox "jane.smith@example.com" .
+
+ns1:40321098 a ns1:Student ;
+    ns1:hasId 40321098 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Mary" ;
+    foaf:lastName "Martinez" ;
+    foaf:mbox "mary.martinez@example.com" .
+
+ns1:40345678 a ns1:Student ;
+    ns1:hasId 40345678 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Grace" ;
+    foaf:lastName "Clark" ;
+    foaf:mbox "grace.clark@example.com" .
+
+ns1:40564321 a ns1:Student ;
+    ns1:hasId 40564321 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Nora" ;
+    foaf:lastName "Wright" ;
+    foaf:mbox "nora.wright@example.com" .
+
+ns1:40675329 a ns1:Student ;
+    ns1:hasId 40675329 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Isabella" ;
+    foaf:lastName "Lee" ;
+    foaf:mbox "isabella.lee@example.com" .
+
+ns1:40678901 a ns1:Student ;
+    ns1:hasId 40678901 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Alexander" ;
+    foaf:lastName "Hernandez" ;
+    foaf:mbox "alexander.hernandez@example.com" .
+
+ns1:40128576 a ns1:Student ;
+    ns1:hasId 40128576 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Noah" ;
+    foaf:lastName "Taylor" ;
+    foaf:mbox "noah.taylor@example.com" .
+
+ns1:40213465 a ns1:Student ;
+    ns1:hasId 40213465 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Chloe" ;
+    foaf:lastName "Robinson" ;
+    foaf:mbox "chloe.robinson@example.com" .
+
+ns1:40218976 a ns1:Student ;
+    ns1:hasId 40218976 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Maya" ;
+    foaf:lastName "Green" ;
+    foaf:mbox "maya.green@example.com" .
+
+ns1:40247553 a ns1:Student ;
+    ns1:hasId 40247553 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "John" ;
+    foaf:lastName "Doe" ;
+    foaf:mbox "john.doe@example.com" .
 
 ns1:40561823 a ns1:Student ;
     ns1:hasId 40561823 ;
@@ -3108,152 +3163,12 @@ ns1:40678123 a ns1:Student ;
     foaf:lastName "Allen" ;
     foaf:mbox "lillian.allen@example.com" .
 
-ns1:40892134 a ns1:Student ;
-    ns1:hasId 40892134 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Ella" ;
-    foaf:lastName "Hall" ;
-    foaf:mbox "ella.hall@example.com" .
-
-ns1:40892765 a ns1:Student ;
-    ns1:hasId 40892765 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Lucas" ;
-    foaf:lastName "Rodriguez" ;
-    foaf:mbox "lucas.rodriguez@example.com" .
-
-ns1:40897234 a ns1:Student ;
-    ns1:hasId 40897234 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Amelia" ;
-    foaf:lastName "Martin" ;
-    foaf:mbox "amelia.martin@example.com" .
-
-ns1:40987645 a ns1:Student ;
-    ns1:hasId 40987645 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Landon" ;
-    foaf:lastName "King" ;
-    foaf:mbox "landon.king@example.com" .
-
-ns1:40987654 a ns1:Student ;
-    ns1:hasId 40987654 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Joseph" ;
-    foaf:lastName "Rodriguez" ;
-    foaf:mbox "joseph.rodriguez@example.com" .
-
-ns1:40213465 a ns1:Student ;
-    ns1:hasId 40213465 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Chloe" ;
-    foaf:lastName "Robinson" ;
-    foaf:mbox "chloe.robinson@example.com" .
-
-ns1:40567123 a ns1:Student ;
-    ns1:hasId 40567123 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Riley" ;
-    foaf:lastName "Baker" ;
-    foaf:mbox "riley.baker@example.com" .
-
-ns1:40893456 a ns1:Student ;
-    ns1:hasId 40893456 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Jack" ;
-    foaf:lastName "Wilson" ;
-    foaf:mbox "jack.wilson@example.com" .
-
-ns1:40218976 a ns1:Student ;
-    ns1:hasId 40218976 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Maya" ;
-    foaf:lastName "Green" ;
-    foaf:mbox "maya.green@example.com" .
-
-ns1:40234567 a ns1:Student ;
-    ns1:hasId 40234567 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Eva" ;
-    foaf:lastName "Scott" ;
-    foaf:mbox "eva.scott@example.com" .
-
-ns1:40247864 a ns1:Student ;
-    ns1:hasId 40247864 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Michael" ;
-    foaf:lastName "Johnson" ;
-    foaf:mbox "michael.johnson@example.com" .
-
-ns1:40329876 a ns1:Student ;
-    ns1:hasId 40329876 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Lincoln" ;
-    foaf:lastName "Young" ;
-    foaf:mbox "lincoln.young@example.com" .
-
-ns1:40564321 a ns1:Student ;
-    ns1:hasId 40564321 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Nora" ;
-    foaf:lastName "Wright" ;
-    foaf:mbox "nora.wright@example.com" .
-
 ns1:40768923 a ns1:Student ;
     ns1:hasId 40768923 ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
     foaf:firstName "Emma" ;
     foaf:lastName "Garcia" ;
     foaf:mbox "emma.garcia@example.com" .
-
-ns1:40982365 a ns1:Student ;
-    ns1:hasId 40982365 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Luna" ;
-    foaf:lastName "Perez" ;
-    foaf:mbox "luna.perez@example.com" .
-
-ns1:40127534 a ns1:Student ;
-    ns1:hasId 40127534 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Emily" ;
-    foaf:lastName "Brown" ;
-    foaf:mbox "emily.brown@example.com" .
-
-ns1:40247726 a ns1:Student ;
-    ns1:hasId 40247726 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Jane" ;
-    foaf:lastName "Smith" ;
-    foaf:mbox "jane.smith@example.com" .
-
-ns1:40759812 a ns1:Student ;
-    ns1:hasId 40759812 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Sophia" ;
-    foaf:lastName "White" ;
-    foaf:mbox "sophia.white@example.com" .
-
-ns1:40893215 a ns1:Student ;
-    ns1:hasId 40893215 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Olivia" ;
-    foaf:lastName "Miller" ;
-    foaf:mbox "olivia.miller@example.com" .
-
-ns1:40986543 a ns1:Student ;
-    ns1:hasId 40986543 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Liam" ;
-    foaf:lastName "Martinez" ;
-    foaf:mbox "liam.martinez@example.com" .
-
-ns1:40987623 a ns1:Student ;
-    ns1:hasId 40987623 ;
-    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Julian" ;
-    foaf:lastName "Young" ;
-    foaf:mbox "julian.young@example.com" .
 
 ns1:40127654 a ns1:Student ;
     ns1:hasId 40127654 ;
@@ -3262,12 +3177,19 @@ ns1:40127654 a ns1:Student ;
     foaf:lastName "Hill" ;
     foaf:mbox "levi.hill@example.com" .
 
-ns1:40321098 a ns1:Student ;
-    ns1:hasId 40321098 ;
+ns1:40432987 a ns1:Student ;
+    ns1:hasId 40432987 ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Mary" ;
-    foaf:lastName "Martinez" ;
-    foaf:mbox "mary.martinez@example.com" .
+    foaf:firstName "Luna" ;
+    foaf:lastName "Walker" ;
+    foaf:mbox "luna.walker@example.com" .
+
+ns1:40561234 a ns1:Student ;
+    ns1:hasId 40561234 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Aria" ;
+    foaf:lastName "Murphy" ;
+    foaf:mbox "aria.murphy@example.com" .
 
 ns1:40578129 a ns1:Student ;
     ns1:hasId 40578129 ;
@@ -3276,6 +3198,20 @@ ns1:40578129 a ns1:Student ;
     foaf:lastName "Harris" ;
     foaf:mbox "henry.harris@example.com" .
 
+ns1:40893215 a ns1:Student ;
+    ns1:hasId 40893215 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Olivia" ;
+    foaf:lastName "Miller" ;
+    foaf:mbox "olivia.miller@example.com" .
+
+ns1:40987654 a ns1:Student ;
+    ns1:hasId 40987654 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Joseph" ;
+    foaf:lastName "Rodriguez" ;
+    foaf:mbox "joseph.rodriguez@example.com" .
+
 ns1:40122345 a ns1:Student ;
     ns1:hasId 40122345 ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -3283,12 +3219,40 @@ ns1:40122345 a ns1:Student ;
     foaf:lastName "Gonzalez" ;
     foaf:mbox "mason.gonzalez@example.com" .
 
-ns1:40678923 a ns1:Student ;
-    ns1:hasId 40678923 ;
+ns1:40123456 a ns1:Student ;
+    ns1:hasId 40123456 ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
-    foaf:firstName "Harper" ;
-    foaf:lastName "Hall" ;
-    foaf:mbox "harper.hall@example.com" .
+    foaf:firstName "Nathan" ;
+    foaf:lastName "Thomas" ;
+    foaf:mbox "nathan.thomas@example.com" .
+
+ns1:40230456 a ns1:Student ;
+    ns1:hasId 40230456 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Jackson" ;
+    foaf:mbox "sebastian.jackson@example.com" .
+
+ns1:40236487 a ns1:Student ;
+    ns1:hasId 40236487 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Elizabeth" ;
+    foaf:lastName "Lopez" ;
+    foaf:mbox "elizabeth.lopez@example.com" .
+
+ns1:40234187 a ns1:Student ;
+    ns1:hasId 40234187 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Lily" ;
+    foaf:lastName "Anderson" ;
+    foaf:mbox "lily.anderson@example.com" .
+
+ns1:40247864 a ns1:Student ;
+    ns1:hasId 40247864 ;
+    ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Johnson" ;
+    foaf:mbox "michael.johnson@example.com" .
 
 ns1:40456789 a ns1:Student ;
     ns1:hasId 40456789 ;
