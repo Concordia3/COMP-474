@@ -62,6 +62,7 @@ def profiles_rdf(df, courses_graph_path):
             course_uri = URIRef(ex + course_code + '/' + course_number)                         # create a URI for the course
 
             g.add((course_uri, RDF.type, course_class))                                         # specify that the URI is a course
+            g.add((student_uri, ex.isEnrolled, course_uri))                                     # specify that the student is enrolled in the course
 
             if (course_code, course_number) in grades:
                 grades_per_course = grades[(course_code, course_number)]                        # get the grade(s) for the course
