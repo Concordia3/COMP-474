@@ -7,6 +7,11 @@
     ns1:contentName "6_dl_cnn.pdf" ;
     ns1:contentNumber 6 .
 
+<http://example.org/COMP/472/syllabus.pdf> a ns1:Syllabus ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/syllabus.pdf" ;
+    ns1:contentName "syllabus.pdf" .
+
 <http://example.org/COMP/472/worksheets/02_search_ex.pdf> a ns1:Worksheet ;
     ns1:associatedWith <http://example.org/COMP/472/lectures/1_intro_to_ai.pdf> ;
     ns1:contentFor <http://example.org/COMP/472> ;
@@ -47,6 +52,11 @@
     ns1:contentLink "data/courses/comp474_data/lectures/7_intelligent_agents.pdf" ;
     ns1:contentName "7_intelligent_agents.pdf" ;
     ns1:contentNumber 7 .
+
+<http://example.org/COMP/474/syllabus.pdf> a ns1:Syllabus ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/syllabus.pdf" ;
+    ns1:contentName "syllabus.pdf" .
 
 <http://example.org/COMP/474/worksheets/worksheet01.pdf> a ns1:Worksheet ;
     ns1:associatedWith <http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf> ;
@@ -162,6 +172,7 @@
         <http://example.org/COMP/472/lectures/4_decision_trees_k_means_clustering.pdf>,
         <http://example.org/COMP/472/lectures/5_intro_to_ann.pdf>,
         <http://example.org/COMP/472/lectures/6_dl_cnn.pdf>,
+        <http://example.org/COMP/472/syllabus.pdf>,
         <http://example.org/COMP/472/worksheets/02_search_ex.pdf>,
         <http://example.org/COMP/472/worksheets/03_nb_ex.pdf>,
         <http://example.org/COMP/472/worksheets/04_dt_ex.pdf>,
@@ -175,6 +186,7 @@
         <http://example.org/COMP/474/lectures/5_recommender_systems.pdf>,
         <http://example.org/COMP/474/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf>,
         <http://example.org/COMP/474/lectures/7_intelligent_agents.pdf>,
+        <http://example.org/COMP/474/syllabus.pdf>,
         <http://example.org/COMP/474/worksheets/worksheet01.pdf>,
         <http://example.org/COMP/474/worksheets/worksheet02.pdf>,
         <http://example.org/COMP/474/worksheets/worksheet03.pdf>,
