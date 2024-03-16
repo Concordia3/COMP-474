@@ -33,13 +33,11 @@ def comp_courses_rdf(courses_path, courses_graph_path):
     content_link    = None
     content_name    = None
     content_number  = None
-    assiocated_with = None
     for s, p, o in courses_graph.triples((None, RDF.type, RDF.Property)):
         if   s == ex.contentFor: content_for = s
         elif s == ex.contentLink: content_link = s
         elif s == ex.contentName: content_name = s
         elif s == ex.contentNumber: content_number = s
-        elif s == ex.associatedWith: assiocated_with = s
 
     # initialize the comp courses graph
     comp_courses_graph = Graph()
@@ -86,7 +84,6 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((worksheet_uri, content_link, Literal(worksheet_path)))
                         comp_courses_graph.add((worksheet_uri, content_name, Literal(worksheet)))
                         comp_courses_graph.add((worksheet_uri, content_number, Literal(count)))
-                        comp_courses_graph.add((worksheet_uri, assiocated_with, lecture_uris[count-1]))
                         comp_courses_graph.add((comp_course, ex.contains, worksheet_uri))
 
                         count += 1
@@ -101,6 +98,7 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                     comp_courses_graph.add((syllabus_uri, content_for, comp_course))
                     comp_courses_graph.add((syllabus_uri, content_link, Literal(syllabus_path)))
                     comp_courses_graph.add((syllabus_uri, content_name, Literal(content_type)))
+                    comp_courses_graph.add((syllabus_uri, content_number, Literal(1)))
                     comp_courses_graph.add((comp_course, ex.contains, syllabus_uri))
 
     return comp_courses_graph
