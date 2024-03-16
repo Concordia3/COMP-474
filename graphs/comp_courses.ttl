@@ -156,3 +156,29 @@
     ns1:contentName "6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
     ns1:contentNumber 6 .
 
+<http://example.org/COMP/472> ns1:contains <http://example.org/COMP/472/lectures/1_intro_to_ai.pdf>,
+        <http://example.org/COMP/472/lectures/2_state_space_search.pdf>,
+        <http://example.org/COMP/472/lectures/3_intro_to_ml_naive_bayes_classification.pdf>,
+        <http://example.org/COMP/472/lectures/4_decision_trees_k_means_clustering.pdf>,
+        <http://example.org/COMP/472/lectures/5_intro_to_ann.pdf>,
+        <http://example.org/COMP/472/lectures/6_dl_cnn.pdf>,
+        <http://example.org/COMP/472/worksheets/02_search_ex.pdf>,
+        <http://example.org/COMP/472/worksheets/03_nb_ex.pdf>,
+        <http://example.org/COMP/472/worksheets/04_dt_ex.pdf>,
+        <http://example.org/COMP/472/worksheets/05_ann_ex.pdf>,
+        <http://example.org/COMP/472/worksheets/06_dl_ex.pdf> .
+
+<http://example.org/COMP/474> ns1:contains <http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf>,
+        <http://example.org/COMP/474/lectures/2_knowledge_graphs.pdf>,
+        <http://example.org/COMP/474/lectures/3_knowledge_graphs_vocabs_ontologies.pdf>,
+        <http://example.org/COMP/474/lectures/4_knowledge_base_queries.pdf>,
+        <http://example.org/COMP/474/lectures/5_recommender_systems.pdf>,
+        <http://example.org/COMP/474/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf>,
+        <http://example.org/COMP/474/lectures/7_intelligent_agents.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet01.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet02.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet03.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet04.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet05.pdf>,
+        <http://example.org/COMP/474/worksheets/worksheet06.pdf> .
+

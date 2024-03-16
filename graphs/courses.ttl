@@ -13228,6 +13228,8 @@ ns1:associatedWith a rdf:Property ;
     rdfs:domain ns1:Worksheet ;
     rdfs:range ns1:Lecture .
 
+ns1:contains a rdf:Property .
+
 ns1:contentFor a rdf:Property .
 
 ns1:contentLink a rdf:Property .
