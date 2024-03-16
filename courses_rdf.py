@@ -11,6 +11,7 @@ def courses_rdf(df):
     g.add((ex.hasTitle, RDF.type, RDF.Property))            # title property
     g.add((ex.hasCredits, RDF.type, RDF.Property))          # credits property
     g.add((ex.hasDescription, RDF.type, RDF.Property))      # description property
+    g.add((ex.contains, RDF.type, RDF.Property))            # contains property
 
     # define private RDF schema
     g.add((ex.Syllabus, RDF.type, RDFS.Class))              # syllabus class
