@@ -1,105 +1,6 @@
 @prefix ns1: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/COMP/472/lectures/6_dl_cnn.pdf> a ns1:Lecture ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/lectures/6_dl_cnn.pdf" ;
-    ns1:contentName "6_dl_cnn.pdf" ;
-    ns1:contentNumber 6 .
-
-<http://example.org/COMP/472/syllabus.pdf> a ns1:Syllabus ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/syllabus.pdf" ;
-    ns1:contentName "syllabus.pdf" .
-
-<http://example.org/COMP/472/worksheets/02_search_ex.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/472/lectures/1_intro_to_ai.pdf> ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/worksheets/02_search_ex.pdf" ;
-    ns1:contentName "02_search_ex.pdf" ;
-    ns1:contentNumber 1 .
-
-<http://example.org/COMP/472/worksheets/03_nb_ex.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/472/lectures/2_state_space_search.pdf> ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/worksheets/03_nb_ex.pdf" ;
-    ns1:contentName "03_nb_ex.pdf" ;
-    ns1:contentNumber 2 .
-
-<http://example.org/COMP/472/worksheets/04_dt_ex.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/472/lectures/3_intro_to_ml_naive_bayes_classification.pdf> ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/worksheets/04_dt_ex.pdf" ;
-    ns1:contentName "04_dt_ex.pdf" ;
-    ns1:contentNumber 3 .
-
-<http://example.org/COMP/472/worksheets/05_ann_ex.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/472/lectures/4_decision_trees_k_means_clustering.pdf> ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/worksheets/05_ann_ex.pdf" ;
-    ns1:contentName "05_ann_ex.pdf" ;
-    ns1:contentNumber 4 .
-
-<http://example.org/COMP/472/worksheets/06_dl_ex.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/472/lectures/5_intro_to_ann.pdf> ;
-    ns1:contentFor <http://example.org/COMP/472> ;
-    ns1:contentLink "data/courses/comp472_data/worksheets/06_dl_ex.pdf" ;
-    ns1:contentName "06_dl_ex.pdf" ;
-    ns1:contentNumber 5 .
-
-<http://example.org/COMP/474/lectures/7_intelligent_agents.pdf> a ns1:Lecture ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/lectures/7_intelligent_agents.pdf" ;
-    ns1:contentName "7_intelligent_agents.pdf" ;
-    ns1:contentNumber 7 .
-
-<http://example.org/COMP/474/syllabus.pdf> a ns1:Syllabus ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/syllabus.pdf" ;
-    ns1:contentName "syllabus.pdf" .
-
-<http://example.org/COMP/474/worksheets/worksheet01.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet01.pdf" ;
-    ns1:contentName "worksheet01.pdf" ;
-    ns1:contentNumber 1 .
-
-<http://example.org/COMP/474/worksheets/worksheet02.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/2_knowledge_graphs.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet02.pdf" ;
-    ns1:contentName "worksheet02.pdf" ;
-    ns1:contentNumber 2 .
-
-<http://example.org/COMP/474/worksheets/worksheet03.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/3_knowledge_graphs_vocabs_ontologies.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet03.pdf" ;
-    ns1:contentName "worksheet03.pdf" ;
-    ns1:contentNumber 3 .
-
-<http://example.org/COMP/474/worksheets/worksheet04.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/4_knowledge_base_queries.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet04.pdf" ;
-    ns1:contentName "worksheet04.pdf" ;
-    ns1:contentNumber 4 .
-
-<http://example.org/COMP/474/worksheets/worksheet05.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/5_recommender_systems.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet05.pdf" ;
-    ns1:contentName "worksheet05.pdf" ;
-    ns1:contentNumber 5 .
-
-<http://example.org/COMP/474/worksheets/worksheet06.pdf> a ns1:Worksheet ;
-    ns1:associatedWith <http://example.org/COMP/474/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf> ;
-    ns1:contentFor <http://example.org/COMP/474> ;
-    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet06.pdf" ;
-    ns1:contentName "worksheet06.pdf" ;
-    ns1:contentNumber 6 .
-
 <http://example.org/COMP/472/lectures/1_intro_to_ai.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/1_intro_to_ai.pdf" ;
@@ -128,6 +29,48 @@
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/5_intro_to_ann.pdf" ;
     ns1:contentName "5_intro_to_ann.pdf" ;
+    ns1:contentNumber 5 .
+
+<http://example.org/COMP/472/lectures/6_dl_cnn.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/lectures/6_dl_cnn.pdf" ;
+    ns1:contentName "6_dl_cnn.pdf" ;
+    ns1:contentNumber 6 .
+
+<http://example.org/COMP/472/syllabus.pdf> a ns1:Syllabus ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/syllabus.pdf" ;
+    ns1:contentName "syllabus.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/472/worksheets/02_search_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/02_search_ex.pdf" ;
+    ns1:contentName "02_search_ex.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/472/worksheets/03_nb_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/03_nb_ex.pdf" ;
+    ns1:contentName "03_nb_ex.pdf" ;
+    ns1:contentNumber 2 .
+
+<http://example.org/COMP/472/worksheets/04_dt_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/04_dt_ex.pdf" ;
+    ns1:contentName "04_dt_ex.pdf" ;
+    ns1:contentNumber 3 .
+
+<http://example.org/COMP/472/worksheets/05_ann_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/05_ann_ex.pdf" ;
+    ns1:contentName "05_ann_ex.pdf" ;
+    ns1:contentNumber 4 .
+
+<http://example.org/COMP/472/worksheets/06_dl_ex.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/472> ;
+    ns1:contentLink "data/courses/comp472_data/worksheets/06_dl_ex.pdf" ;
+    ns1:contentName "06_dl_ex.pdf" ;
     ns1:contentNumber 5 .
 
 <http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf> a ns1:Lecture ;
@@ -164,6 +107,54 @@
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
     ns1:contentName "6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
+    ns1:contentNumber 6 .
+
+<http://example.org/COMP/474/lectures/7_intelligent_agents.pdf> a ns1:Lecture ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/lectures/7_intelligent_agents.pdf" ;
+    ns1:contentName "7_intelligent_agents.pdf" ;
+    ns1:contentNumber 7 .
+
+<http://example.org/COMP/474/syllabus.pdf> a ns1:Syllabus ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/syllabus.pdf" ;
+    ns1:contentName "syllabus.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/474/worksheets/worksheet01.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet01.pdf" ;
+    ns1:contentName "worksheet01.pdf" ;
+    ns1:contentNumber 1 .
+
+<http://example.org/COMP/474/worksheets/worksheet02.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet02.pdf" ;
+    ns1:contentName "worksheet02.pdf" ;
+    ns1:contentNumber 2 .
+
+<http://example.org/COMP/474/worksheets/worksheet03.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet03.pdf" ;
+    ns1:contentName "worksheet03.pdf" ;
+    ns1:contentNumber 3 .
+
+<http://example.org/COMP/474/worksheets/worksheet04.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet04.pdf" ;
+    ns1:contentName "worksheet04.pdf" ;
+    ns1:contentNumber 4 .
+
+<http://example.org/COMP/474/worksheets/worksheet05.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet05.pdf" ;
+    ns1:contentName "worksheet05.pdf" ;
+    ns1:contentNumber 5 .
+
+<http://example.org/COMP/474/worksheets/worksheet06.pdf> a ns1:Worksheet ;
+    ns1:contentFor <http://example.org/COMP/474> ;
+    ns1:contentLink "data/courses/comp474_data/worksheets/worksheet06.pdf" ;
+    ns1:contentName "worksheet06.pdf" ;
     ns1:contentNumber 6 .
 
 <http://example.org/COMP/472> ns1:contains <http://example.org/COMP/472/lectures/1_intro_to_ai.pdf>,
