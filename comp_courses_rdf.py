@@ -70,6 +70,7 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((lecture_uri, content_link, Literal(lecture_path)))
                         comp_courses_graph.add((lecture_uri, content_name, Literal(lecture)))
                         comp_courses_graph.add((lecture_uri, content_number, Literal(count)))
+                        comp_courses_graph.add((comp_course, ex.contains, lecture_uri))
 
                         count += 1
 
@@ -86,10 +87,12 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((worksheet_uri, content_name, Literal(worksheet)))
                         comp_courses_graph.add((worksheet_uri, content_number, Literal(count)))
                         comp_courses_graph.add((worksheet_uri, assiocated_with, lecture_uris[count-1]))
+                        comp_courses_graph.add((comp_course, ex.contains, worksheet_uri))
 
                         count += 1
 
-                elif content_type == 'syllabus':
+                elif content_type == 'syllabus.pdf':
+
                     syllabus_path = os.path.join(course_path, content_type)
 
                     syllabus_uri = URIRef(comp_course + '/' + content_type)
@@ -98,5 +101,6 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                     comp_courses_graph.add((syllabus_uri, content_for, comp_course))
                     comp_courses_graph.add((syllabus_uri, content_link, Literal(syllabus_path)))
                     comp_courses_graph.add((syllabus_uri, content_name, Literal(content_type)))
+                    comp_courses_graph.add((comp_course, ex.contains, syllabus_uri))
 
     return comp_courses_graph
