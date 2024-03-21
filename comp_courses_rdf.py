@@ -32,11 +32,13 @@ def comp_courses_rdf(courses_path, courses_graph_path):
     content_for     = None
     content_link    = None
     content_name    = None
+    topic           = None
     content_number  = None
     for s, p, o in courses_graph.triples((None, RDF.type, RDF.Property)):
         if   s == ex.contentFor: content_for = s
         elif s == ex.contentLink: content_link = s
         elif s == ex.contentName: content_name = s
+        elif s == ex.Topic: topic = s
         elif s == ex.contentNumber: content_number = s
 
     # initialize the comp courses graph
@@ -67,6 +69,10 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((lecture_uri, content_for, comp_course))
                         comp_courses_graph.add((lecture_uri, content_link, Literal(lecture_path)))
                         comp_courses_graph.add((lecture_uri, content_name, Literal(lecture)))
+                        # Extracting topic from the filename
+                        lecture_topic = lecture.split('_', 1)[1].replace('.pdf', '').replace('_', ' ')
+                        comp_courses_graph.add((lecture_uri, topic, Literal(lecture_topic)))
+
                         comp_courses_graph.add((lecture_uri, content_number, Literal(count)))
                         comp_courses_graph.add((comp_course, ex.contains, lecture_uri))
 

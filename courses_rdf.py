@@ -28,6 +28,7 @@ def courses_rdf(df):
     g.add((ex.contentFor, RDF.type, RDF.Property))          # content for what class property 
     g.add((ex.contentLink, RDF.type, RDF.Property))         # content link property
     g.add((ex.contentName, RDF.type, RDF.Property))         # content name property
+    g.add((ex.Topic, RDF.type, RDF.Property))               # topic property
     g.add((ex.contentNumber, RDF.type, RDF.Property))       # content number property
 
     # define relationships between classes
