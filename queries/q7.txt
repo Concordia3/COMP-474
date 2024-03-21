@@ -1,0 +1,12 @@
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?course_code ?course_number ?website
+WHERE {
+  ?course ns1:courseAt dbp:Concordia_University;
+          ns1:hasCourseCode ?course_code; 
+          ns1:hasCourseNumber ?course_number;
+          rdfs:seeAlso ?website.
+  FILTER(?website != "No website provided" && ?website != "Contact faculty member directly to inquire about potential openings for a student working in the lab.")
+}

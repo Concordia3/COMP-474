@@ -1,0 +1,7 @@
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course
+WHERE {
+  ?course ns1:courseAt dbp:Concordia_University
+}

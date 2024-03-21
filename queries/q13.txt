@@ -1,0 +1,36 @@
+PREFIX ns2: <http://ogp.me/ns#video:>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?id ?first_name ?last_name ?course_code ?course_number ?course_title ?course_desc ?course_credits ?course_website ?grade_val ?grade_status
+WHERE {
+  { # select a random student that goes to concordia 
+    SELECT ?student 
+    WHERE {
+      ?student ns1:studiesAt dbp:Concordia_University
+    }
+    ORDER BY RAND()
+    LIMIT 1
+  }
+  # get the random student's info 
+  ?student ns1:hasId ?id;
+           foaf:firstName ?first_name;
+           foaf:lastName ?last_name.
+
+  # get his grades
+  ?grade ns1:gradeOf ?student;
+         ns1:gradeFor ?course;
+         ns1:hasGradeVal ?grade_val;
+         ns1:gradeStatus ?grade_status.
+
+  # get his courses
+  ?course ns1:hasCourseCode ?course_code;
+          ns1:hasCourseNumber ?course_number;
+          ns1:hasTitle ?course_title;
+          ns1:hasDescription ?course_desc;
+          ns1:hasCredits ?course_credits;
+          rdfs:seeAlso ?course_website.
+}

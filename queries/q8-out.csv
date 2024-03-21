@@ -1,0 +1,4 @@
+"course_code","course_number","course_file","file_type","file_path","file_name","week"
+"COMP","472","http://example.org/COMP/472/lectures/1_intro_to_ai.pdf","http://example.org/Lecture","data/courses/comp472_data/lectures/1_intro_to_ai.pdf","1_intro_to_ai.pdf","1"
+"COMP","472","http://example.org/COMP/472/syllabus.pdf","http://example.org/Syllabus","data/courses/comp472_data/syllabus.pdf","syllabus.pdf","1"
+"COMP","472","http://example.org/COMP/472/worksheets/02_search_ex.pdf","http://example.org/Worksheet","data/courses/comp472_data/worksheets/02_search_ex.pdf","02_search_ex.pdf","1"
