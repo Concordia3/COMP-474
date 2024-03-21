@@ -38,7 +38,7 @@ def comp_courses_rdf(courses_path, courses_graph_path):
         if   s == ex.contentFor: content_for = s
         elif s == ex.contentLink: content_link = s
         elif s == ex.contentName: content_name = s
-        elif s == ex.Topic: topic = s
+        elif s == ex.topic: topic = s
         elif s == ex.contentNumber: content_number = s
 
     # initialize the comp courses graph
