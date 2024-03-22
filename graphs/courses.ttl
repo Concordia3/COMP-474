@@ -13251,3 +13251,5 @@ ns1:hasDescription a rdf:Property .
 
 ns1:hasTitle a rdf:Property .
 
+ns1:topic a rdf:Property .
+
