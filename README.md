@@ -19,7 +19,11 @@ instructions -------> contains project instructions
 
 ## [Execution](execution-section)
 To install rdflib in your Python environment, run:
-``` pip install rdflib ```
+``` 
+pip install rdflib
+```
 
 To generate students, courses rdf graphs, and ultimately, the final graph (i.e. `university.ttl`)that encompasses both courses and students graphs, run:
-``` python main.py ```
+``` 
+python main.py
+```
