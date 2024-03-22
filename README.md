@@ -5,7 +5,7 @@
 The project involves building "Roboprof" :robot: an intelligent agent capable of answering university course- and student-related questions using a knowledge graph and natural language processing. In this first phase, the focus is on constructing the knowledge base. Subsequent phases will refine the base with enhancements, develop the natural language processing interface, and integrate all components into a cohesive system. 
 
 
-## [File Organization](file-organization-section)
+## [File Organization](#file-organization-section)
 ```
 data ---------------> contains raw courses data and csv files generated from code
             |
@@ -18,7 +18,7 @@ graphs -------------> contains graph outputs from code
 instructions -------> contains project instructions
 ```
 
-## [Execution](execution-section)
+## [Execution](#execution-section)
 To install rdflib in your Python environment, run:
 ``` 
 pip install rdflib
@@ -28,3 +28,6 @@ To generate profiles (i.e. profile = student + grades), courses rdf graphs, and 
 ``` 
 python main.py
 ```
+
+## [SPARQL Queries](#queries_section)
+All the test queries are stored in `queries.txt`
