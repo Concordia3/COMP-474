@@ -24,7 +24,7 @@ To install rdflib in your Python environment, run:
 pip install rdflib
 ```
 
-To generate students, courses rdf graphs, and ultimately, the final graph (i.e. `university.ttl`)that encompasses both courses and students graphs, run:
+To generate students (i.e. profile = student + grades), courses rdf graphs, and ultimately, the final graph (i.e. `university.ttl`)that encompasses both courses and students graphs, run:
 ``` 
 python main.py
 ```
