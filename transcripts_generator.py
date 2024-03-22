@@ -1,6 +1,9 @@
 from tools_libs import *
 
 def transcripts_generator(csv_file, num_students=50):
+    # Set the random seed
+    random.seed(42)
+
     # read the csv file
     df = pd.read_csv(csv_file)
 
