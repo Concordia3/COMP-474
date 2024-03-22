@@ -12,10 +12,30 @@ WHERE {
 
 #########################################################################################
 2. In which courses is [topic] discussed?
+
+PREFIX ns1: <http://example.org/>
+
+SELECT ?courseTitle
+WHERE {
+  ?course a ns1:Course ;
+          ns1:hasTitle ?courseTitle ;
+          ns1:hasDescription ?description ;
+          FILTER regex(?description, "financ", "i").
+}
 #########################################################################################
 
 #########################################################################################
 3. Which [topics] are covered in [course] during [lecture number]?
+
+PREFIX ns1: <http://example.org/>
+
+SELECT ?topic
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:contentNumber 1 ;
+           ns1:topic ?topic .
+}
 #########################################################################################
 
 #########################################################################################
@@ -34,6 +54,18 @@ ORDER BY ?course
 
 #########################################################################################
 5. What [materials] (slides, readings) are recommended for [topic] in [course] [number]?
+
+PREFIX ns1: <http://example.org/>
+
+SELECT ?materialType ?materialName ?materialLink
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:topic "intro to ml naive bayes classification" ;
+           ns1:contentName ?materialName ;
+           ns1:contentLink ?materialLink .
+  BIND("slides" AS ?materialType) .
+}
 #########################################################################################
 
 #########################################################################################
@@ -110,10 +142,39 @@ ORDER BY ?course_code ?course_number ?week
 
 #########################################################################################
 9. What reading materials are recommended for studying [topic] in [course]
+
+PREFIX ns1: <http://example.org/>
+
+SELECT ?materialName ?materialLink  ?worksheetName ?worksheetLink
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:topic "decision trees k means clustering" ;
+           ns1:contentNumber ?lectureNumber ;
+           ns1:contentName ?materialName ;
+           ns1:contentLink ?materialLink .
+  OPTIONAL {
+    ?worksheet a ns1:Worksheet ;
+               ns1:contentFor <http://example.org/COMP/472> ;
+               ns1:contentNumber ?worksheetNumber ;
+               ns1:contentName ?worksheetName ;
+               ns1:contentLink ?worksheetLink .
+    FILTER (?worksheetNumber = (?lectureNumber - 1))
+  }
+}
 #########################################################################################
 
 #########################################################################################
 10. What competencies [topics] does a student gain after completing [course] [number]?
+
+PREFIX ns1: <http://example.org/>
+
+SELECT DISTINCT ?topic
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:topic ?topic .
+}
 #########################################################################################
 
 #########################################################################################

@@ -5,37 +5,43 @@
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/1_intro_to_ai.pdf" ;
     ns1:contentName "1_intro_to_ai.pdf" ;
-    ns1:contentNumber 1 .
+    ns1:contentNumber 1 ;
+    ns1:topic "intro to ai" .
 
 <http://example.org/COMP/472/lectures/2_state_space_search.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/2_state_space_search.pdf" ;
     ns1:contentName "2_state_space_search.pdf" ;
-    ns1:contentNumber 2 .
+    ns1:contentNumber 2 ;
+    ns1:topic "state space search" .
 
 <http://example.org/COMP/472/lectures/3_intro_to_ml_naive_bayes_classification.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/3_intro_to_ml_naive_bayes_classification.pdf" ;
     ns1:contentName "3_intro_to_ml_naive_bayes_classification.pdf" ;
-    ns1:contentNumber 3 .
+    ns1:contentNumber 3 ;
+    ns1:topic "intro to ml naive bayes classification" .
 
 <http://example.org/COMP/472/lectures/4_decision_trees_k_means_clustering.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/4_decision_trees_k_means_clustering.pdf" ;
     ns1:contentName "4_decision_trees_k_means_clustering.pdf" ;
-    ns1:contentNumber 4 .
+    ns1:contentNumber 4 ;
+    ns1:topic "decision trees k means clustering" .
 
 <http://example.org/COMP/472/lectures/5_intro_to_ann.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/5_intro_to_ann.pdf" ;
     ns1:contentName "5_intro_to_ann.pdf" ;
-    ns1:contentNumber 5 .
+    ns1:contentNumber 5 ;
+    ns1:topic "intro to ann" .
 
 <http://example.org/COMP/472/lectures/6_dl_cnn.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/472> ;
     ns1:contentLink "data/courses/comp472_data/lectures/6_dl_cnn.pdf" ;
     ns1:contentName "6_dl_cnn.pdf" ;
-    ns1:contentNumber 6 .
+    ns1:contentNumber 6 ;
+    ns1:topic "dl cnn" .
 
 <http://example.org/COMP/472/syllabus.pdf> a ns1:Syllabus ;
     ns1:contentFor <http://example.org/COMP/472> ;
@@ -77,43 +83,50 @@
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/1_intro_to_intelligent_systems.pdf" ;
     ns1:contentName "1_intro_to_intelligent_systems.pdf" ;
-    ns1:contentNumber 1 .
+    ns1:contentNumber 1 ;
+    ns1:topic "intro to intelligent systems" .
 
 <http://example.org/COMP/474/lectures/2_knowledge_graphs.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/2_knowledge_graphs.pdf" ;
     ns1:contentName "2_knowledge_graphs.pdf" ;
-    ns1:contentNumber 2 .
+    ns1:contentNumber 2 ;
+    ns1:topic "knowledge graphs" .
 
 <http://example.org/COMP/474/lectures/3_knowledge_graphs_vocabs_ontologies.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/3_knowledge_graphs_vocabs_ontologies.pdf" ;
     ns1:contentName "3_knowledge_graphs_vocabs_ontologies.pdf" ;
-    ns1:contentNumber 3 .
+    ns1:contentNumber 3 ;
+    ns1:topic "knowledge graphs vocabs ontologies" .
 
 <http://example.org/COMP/474/lectures/4_knowledge_base_queries.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/4_knowledge_base_queries.pdf" ;
     ns1:contentName "4_knowledge_base_queries.pdf" ;
-    ns1:contentNumber 4 .
+    ns1:contentNumber 4 ;
+    ns1:topic "knowledge base queries" .
 
 <http://example.org/COMP/474/lectures/5_recommender_systems.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/5_recommender_systems.pdf" ;
     ns1:contentName "5_recommender_systems.pdf" ;
-    ns1:contentNumber 5 .
+    ns1:contentNumber 5 ;
+    ns1:topic "recommender systems" .
 
 <http://example.org/COMP/474/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
     ns1:contentName "6_intro_to_machine_learning_for_intelligent_systems.pdf" ;
-    ns1:contentNumber 6 .
+    ns1:contentNumber 6 ;
+    ns1:topic "intro to machine learning for intelligent systems" .
 
 <http://example.org/COMP/474/lectures/7_intelligent_agents.pdf> a ns1:Lecture ;
     ns1:contentFor <http://example.org/COMP/474> ;
     ns1:contentLink "data/courses/comp474_data/lectures/7_intelligent_agents.pdf" ;
     ns1:contentName "7_intelligent_agents.pdf" ;
-    ns1:contentNumber 7 .
+    ns1:contentNumber 7 ;
+    ns1:topic "intelligent agents" .
 
 <http://example.org/COMP/474/syllabus.pdf> a ns1:Syllabus ;
     ns1:contentFor <http://example.org/COMP/474> ;

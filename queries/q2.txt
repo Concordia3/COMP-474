@@ -1,0 +1,9 @@
+PREFIX ns1: <http://example.org/>
+
+SELECT ?courseTitle
+WHERE {
+  ?course a ns1:Course ;
+          ns1:hasTitle ?courseTitle ;
+          ns1:hasDescription ?description ;
+          FILTER regex(?description, "financ", "i").
+}

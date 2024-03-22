@@ -1,0 +1,9 @@
+PREFIX ns1: <http://example.org/>
+
+SELECT ?topic
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:contentNumber 1 ;
+           ns1:topic ?topic .
+}

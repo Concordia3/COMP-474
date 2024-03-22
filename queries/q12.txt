@@ -1,0 +1,38 @@
+PREFIX ns2: <http://ogp.me/ns#video:>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ns1: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?id ?first_name ?last_name ?course_code ?course_number ?grade_val ?grade_status 
+WHERE {
+  { # extract course with the highest rate of enrolment 
+    SELECT ?course ?course_code ?course_number (COUNT(*) AS ?count_course)
+    WHERE {
+        ?student ns1:hasId ?id ;
+                 foaf:firstName ?first_name ;
+                 foaf:lastName ?last_name ;
+                 ns1:isEnrolled ?course .
+
+        ?course ns1:hasCourseCode ?course_code ;
+                ns1:hasCourseNumber ?course_number .
+    }
+    GROUP BY ?course ?course_code ?course_number
+    ORDER BY DESC(?count_course)
+    LIMIT 1
+  }
+
+  # extract all the grades for this course along with the students
+  ?grade ns1:gradeOf ?student; 
+         ns1:gradeFor ?course;
+  	     ns1:hasGradeVal ?grade_val;
+         ns1:gradeStatus ?grade_status.
+
+  ?student ns1:hasId ?id;
+           foaf:firstName ?first_name;
+           foaf:lastName ?last_name.
+
+  # extract all students that have passed the course 
+  FILTER(?grade_status = "P")
+}

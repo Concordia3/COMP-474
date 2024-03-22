@@ -1,0 +1,19 @@
+PREFIX ns1: <http://example.org/>
+
+SELECT ?materialName ?materialLink  ?worksheetName ?worksheetLink
+WHERE {
+  ?lecture a ns1:Lecture ;
+           ns1:contentFor <http://example.org/COMP/472> ;
+           ns1:topic "decision trees k means clustering" ;
+           ns1:contentNumber ?lectureNumber ;
+           ns1:contentName ?materialName ;
+           ns1:contentLink ?materialLink .
+  OPTIONAL {
+    ?worksheet a ns1:Worksheet ;
+               ns1:contentFor <http://example.org/COMP/472> ;
+               ns1:contentNumber ?worksheetNumber ;
+               ns1:contentName ?worksheetName ;
+               ns1:contentLink ?worksheetLink .
+    FILTER (?worksheetNumber = (?lectureNumber - 1))
+  }
+}
