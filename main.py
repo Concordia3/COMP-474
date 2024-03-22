@@ -47,6 +47,8 @@ comp_courses_graph.serialize("graphs/comp_courses.ttl", format="turtle")
 ############################################################################################################
 # randomly generate transcripts based on the courses found in the processed csv above                      #
 ############################################################################################################
+# Set the seed value
+random.seed(0)
 transcripts_df = transcripts_generator('data/courses/processed_course_info_2024.csv', num_students=50)
 
 # convert the df into a csv file
