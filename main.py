@@ -5,6 +5,11 @@ from comp_courses_rdf import comp_courses_rdf
 from profiles_generator import profiles_generator
 from profiles_rdf import profiles_rdf
 
+import random
+
+# Set the random seed
+random.seed(0)
+
 ############################################################################################################
 # load the raw course csv files                                                                            #
 ############################################################################################################
