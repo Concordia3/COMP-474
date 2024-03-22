@@ -1,4 +1,5 @@
 from tools_libs import *
+import random
 
 def transcripts_generator(csv_file, num_students=50):
     # Set the random seed
