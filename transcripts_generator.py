@@ -4,6 +4,9 @@ def transcripts_generator(csv_file, num_students=50):
     # read the csv file
     df = pd.read_csv(csv_file)
 
+    # Set the seed value
+    random.seed(0)
+
     # extract the available courses
     course_codes = df['Course code'].tolist()
     course_nums  = df['Course number'].tolist()
