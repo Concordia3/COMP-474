@@ -1,9 +1,9 @@
 from tools_libs import *
-import random
+import random as rnd
 
 def transcripts_generator(csv_file, num_students=50):
     # Set the random seed
-    random.seed(42)
+    rnd.seed(42)
 
     # read the csv file
     df = pd.read_csv(csv_file)
@@ -16,29 +16,29 @@ def transcripts_generator(csv_file, num_students=50):
     transcripts = []
     for student in range(num_students):
         # select random courses (5 - 10 courses per student)
-        num_courses = random.randint(5, 10)
+        num_courses = rnd.randint(5, 10)
 
         # probabilities of taking comp472 and comp474
         comp472_prob, comp474_prob = 0.01, 0.01
 
         courses = []
-        random_num = random.random()
+        random_num = rnd.random()
         for i in range(num_courses):
             if   random_num < comp472_prob: courses.append(('COMP', '472'))                                             # if random number is less than comp472_prob, add comp472 to the list
             elif random_num < comp474_prob: courses.append(('COMP', '474'))                                             # if random number is less than comp474_prob, add comp474 to the list
-            else                               : courses.append(random.choice(list(zip(course_codes, course_nums))))    # else, add a random course to the list
+            else                          : courses.append(rnd.choice(list(zip(course_codes, course_nums))))            # else, add a random course to the list
 
         courses = list(set(courses))    # remove duplicates
 
         # generate grade(s) for each class
         grades = {}
         for course in courses:
-            grade = random.randint(50, 100)
+            grade = rnd.randint(50, 100)
             grades[course] = [grade]
 
             # check and see if the student needs to retake the class
             if grade < 60:
-                retake_grade = random.randint(50, 100)
+                retake_grade = rnd.randint(50, 100)
                 grades[course].append(retake_grade)
 
         transcripts.append({'courses': courses, 'grades': grades})
