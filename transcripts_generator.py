@@ -21,9 +21,10 @@ def transcripts_generator(csv_file, num_students=50):
         comp472_prob, comp474_prob = 0.01, 0.01
 
         courses = []
+        random_num = random.random()
         for i in range(num_courses):
-            if   random.random() < comp472_prob: courses.append(('COMP', '472'))                                          # if random number is less than comp472_prob, add comp472 to the list
-            elif random.random() < comp474_prob: courses.append(('COMP', '474'))                                          # if random number is less than comp474_prob, add comp474 to the list
+            if   random_num < comp472_prob: courses.append(('COMP', '472'))                                             # if random number is less than comp472_prob, add comp472 to the list
+            elif random_num < comp474_prob: courses.append(('COMP', '474'))                                             # if random number is less than comp474_prob, add comp474 to the list
             else                               : courses.append(random.choice(list(zip(course_codes, course_nums))))    # else, add a random course to the list
 
         courses = list(set(courses))    # remove duplicates
