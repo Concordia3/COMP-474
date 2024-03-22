@@ -6,6 +6,7 @@ The project involves building "Roboprof" :robot: an intelligent agent capable of
 
 
 ## [File Organization](file-organization-section)
+```
 data ---------------> contains raw courses data and csv files generated from code
             |
             |-------> courses --------> contains info on courses that are offered at Concordia in csv format along with course materials for COMP472 and COMP474
@@ -15,7 +16,7 @@ data ---------------> contains raw courses data and csv files generated from cod
 graphs -------------> contains graph outputs from code
 
 instructions -------> contains project instructions
-
+```
 
 ## [Execution](execution-section)
 To install rdflib in your Python environment, run:
