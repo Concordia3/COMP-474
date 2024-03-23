@@ -1,6 +1,7 @@
 import pandas as pd
 import ast
 import os
+import random
 
 from rdflib import Graph, Namespace, URIRef, Literal, XSD
 from rdflib.namespace import RDF, RDFS, FOAF
