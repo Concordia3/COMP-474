@@ -1,0 +1,8 @@
+pandas
+rdflib
+spacy
+numpy
+torch
+tdqm
+scikit-learn
+PyPDF2
