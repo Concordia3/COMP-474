@@ -31,4 +31,4 @@ def custom_entity_recognizer(compound_word):
         description = data["search"][0].get('description', ' ')
         url         = data["search"][0].get('url', ' ')
 
-    return (compound_word.lower(), description, url)
+    return (compound_word.lower(), url, description)

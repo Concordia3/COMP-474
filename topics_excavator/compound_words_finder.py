@@ -19,10 +19,10 @@ def compound_words_finder(tokens):
                 child = child.head
 
             # Add the compound word to the list
-            compound_words.add(compound_word)
+            compound_words.add(compound_word.lower())
 
         # check if the token is an appositive (a noun that renames another noun or noun phrase)
         if token.dep_ == "appos":
-            compound_words.add(token)
+            compound_words.add(token.text.lower())
 
     return compound_words

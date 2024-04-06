@@ -1,7 +1,6 @@
 from tools_libs import np
 
 def custom_word2vec(nlp_model, custom_linked_entities):
-    # encode sentences into vectors using spaCy
     labels       = []
     urls         = []
     word_vectors = []
