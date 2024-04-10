@@ -8,6 +8,7 @@ import numpy as np
 import torch
 import requests
 import csv
+import json
 
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
