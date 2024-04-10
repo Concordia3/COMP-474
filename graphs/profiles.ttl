@@ -3389,6 +3389,8 @@ ns1:hasGradeVal a rdf:Property .
 
 ns1:hasId a rdf:Property .
 
+ns1:hasSkill a rdf:Property .
+
 ns1:isEnrolled a rdf:Property ;
     rdfs:domain ns1:Student ;
     rdfs:range ns1:Course .
@@ -4353,6 +4355,10 @@ ns1:40561823 a ns1:Student ;
 
 ns1:40567123 a ns1:Student ;
     ns1:hasId 40567123 ;
+    ns1:hasSkill ns1:artificial_intelligence,
+        ns1:knowledge_representation,
+        ns1:machine_learning,
+        ns1:natural_language_processing ;
     ns1:isEnrolled <http://example.org/ARTX/490>,
         <http://example.org/COMP/472>,
         <http://example.org/DANC/201>,
@@ -4368,6 +4374,10 @@ ns1:40567123 a ns1:Student ;
 
 ns1:40678901 a ns1:Student ;
     ns1:hasId 40678901 ;
+    ns1:hasSkill ns1:artificial_intelligence,
+        ns1:knowledge_representation,
+        ns1:machine_learning,
+        ns1:natural_language_processing ;
     ns1:isEnrolled <http://example.org/ARTT/470>,
         <http://example.org/COMP/472>,
         <http://example.org/DFTT/335>,
@@ -4555,6 +4565,10 @@ ns1:40564321 a ns1:Student ;
 
 ns1:40768923 a ns1:Student ;
     ns1:hasId 40768923 ;
+    ns1:hasSkill ns1:artificial_intelligence,
+        ns1:knowledge_representation,
+        ns1:machine_learning,
+        ns1:natural_language_processing ;
     ns1:isEnrolled <http://example.org/CATA/495>,
         <http://example.org/COEN/6551>,
         <http://example.org/COMP/472>,
@@ -4756,6 +4770,10 @@ ns1:40453987 a ns1:Student ;
 
 ns1:40678123 a ns1:Student ;
     ns1:hasId 40678123 ;
+    ns1:hasSkill ns1:artificial_intelligence,
+        ns1:knowledge_representation,
+        ns1:machine_learning,
+        ns1:natural_language_processing ;
     ns1:isEnrolled <http://example.org/BSTA/478>,
         <http://example.org/CHEM/212>,
         <http://example.org/CIVI/321>,

@@ -1,0 +1,32 @@
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Topic a rdfs:Class .
+
+ns1:artificial_intelligence a ns1:Topic ;
+    rdfs:label "artificial intelligence" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q11660" .
+
+ns1:hasConceptURI a rdf:Property .
+
+ns1:knowledge_representation a ns1:Topic ;
+    rdfs:label "knowledge representation" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q109642276" .
+
+ns1:machine_learning a ns1:Topic ;
+    rdfs:label "machine learning" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q2539" .
+
+ns1:natural_language_processing a ns1:Topic ;
+    rdfs:label "natural language processing" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q30642" .
+
+ns1:rdf a ns1:Topic ;
+    rdfs:label "rdf" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q54872" .
+
+ns1:sparql a ns1:Topic ;
+    rdfs:label "sparql" ;
+    ns1:hasConceptURI "http://www.wikidata.org/entity/Q54871" .
+
