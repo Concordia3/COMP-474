@@ -6,3 +6,4 @@ torch
 tdqm
 scikit-learn
 PyPDF2
+rasa
