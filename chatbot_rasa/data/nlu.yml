@@ -3,39 +3,41 @@ version: "3.1"
 nlu:
 - intent: list_courses
   examples: |
-    - hi
+    - List all courses
+    - List all courses offered at [university](university)
 
 - intent: find_topic_course
   examples: |
-    - hi
+    - In which [course](course) is [topic](topic) discussed?
+    - What [topics](topics) are covered in [course](course)?
 
 - intent: course_details
   examples: |
-    - hi
+    - Which [topics](topics) are covered in [course](course) during [lecture number](lecture number)?
 
 - intent: list_courses_by_subject
   examples: |
-    - hi
+    - List all [courses](courses) offered by [university](university) within the [subject](subject)
 
 - intent: get_course_materials
   examples: |
-    - hi
+    - What [materials](materials) are recommended for [topic](topics) in [course number](courses)?
 
-- intent: get_course_competencies
+- intent: get_credits
   examples: |
-    - hi
+    - How many credits is [course](course) [number](number) worth?
 
 - intent: student_grades
   examples: |
-    - hi
+    - What grades did [student](student) achieve in [course](course) [number](number)?
 
 - intent: list_completed_students
   examples: |
-    - hi
+    - Which [students](students) have completed [course](course) [number](number)?
 
 - intent: get_transcript
   examples: |
-    - hi
+    - Print a transcript for [student](student), listing all the courses taken with their grades.
 
 - intent: greet
   examples: |
