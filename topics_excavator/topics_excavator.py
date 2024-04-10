@@ -1,79 +1,42 @@
 from tools_libs import *
 from topics_excavator.pdf_reader import pdf_reader
-from topics_excavator.compound_words_finder import compound_words_finder
-from topics_excavator.custom_entity_recognizer import custom_entity_recognizer
-from topics_excavator.custom_word2vec import custom_word2vec
+from topics_excavator.search_wikidata import search_wikidata
 
-def topics_excavator(course_name, input_filename, input_path, nlp_model, threshold):
-    file_name = input_filename
-
-    # conver pdf into text
-    text = pdf_reader(input_path)
+def topics_excavator(file_path, nlp_model, comp_concepts):
+    """
+    file_path: str, path to the pdf file
+    nlp_model: spacy model, the language model
+    comp_concepts: set, the comp concepts
+    topics: list, the topics extracted from the pdf file and their URIs
+    """
+    # read pdf file
+    text = pdf_reader(file_path)
 
     # tokenize the text
-    tokens = nlp_model(text)
+    doc = nlp_model(text)
 
-    preprocessed_tokens = nlp_model(' '.join([token.text.replace('- ', '') if ('•' in token.text) else token.text for token in tokens]))
+    # remove bullet points
+    preprocessed_doc = nlp_model(' '.join([token.text.replace('•', '')for token in doc]))
 
-    # find compound words
-    compound_words = compound_words_finder(preprocessed_tokens)
+    # extract chunks and remove stop words, spaces, and punctuations
+    noun_chunks = set()
+    for chunk in preprocessed_doc.noun_chunks:
+        cleaned_chunk = []
+        for token in chunk:
+            # if the token is not a stop word, space, or punctuation, add it to the cleaned chunk
+            if not (token.is_stop or token.is_space or token.is_punct):
+                cleaned_chunk.append(token.text)
+        if cleaned_chunk:
+            noun_chunks.add(' '.join(cleaned_chunk).lower())
 
-    # find entities
-    linked_entities = set()
-    for compound_word in tqdm((compound_words), desc='Searching', unit='word(s)'):
-        linked_entities.add(custom_entity_recognizer(compound_word))
+    # extract common terms between the extracted chunks and the comp concepts
+    common_terms = list(noun_chunks.intersection(comp_concepts))
 
-    # find description of the course
-    g = Graph()
-    g.parse("graphs/courses.ttl", format='turtle')
+    # search wikidata for the topics
+    topics = []
+    for term in common_terms:
+        result = search_wikidata(term)
+        if result['search']:
+            topics.append((term, result['search'][0]['concepturi']))
 
-    course_code   = course_name.split('_')[0].upper()
-    course_number = course_name.split('_')[1]
-    course_uri    = ex[course_code + '/' + course_number]
-
-    course_desc = ''
-    for s, p, o in g.triples((course_uri, None, None)):
-        if p == ex['hasDescription']:
-            course_desc = str(o)
-
-    course_desc = """
-        Scope of AI. First-order logic. Automated reasoning. 
-        Search and heuristic search. 
-        Game-playing. 
-        Planning. 
-        Knowledge representation. 
-        Probabilistic reasoning. 
-        Introduction to machine learning. 
-        Introduction to natural language processing. 
-        Project. Lectures: three hours per week. 
-        Laboratory: two hours per week.
-        Prerequisite: COMP 352 or COEN 352.
-    """
-
-    # tokenize the course description
-    course_desc_tokens = nlp_model((course_desc))
-
-    # find compound words in the course description
-    course_desc_compound_words = " ".join(compound_words_finder(course_desc_tokens))
-
-    # convert the course description compound words into a word vector
-    course_desc_word_vectors = np.mean([token.vector for token in nlp_model(course_desc_compound_words) if token.has_vector],
-                                        axis=0)
-
-    # convert the compound words of the syllabus into a word vector
-    labels, urls, syllabus_word_vectors = custom_word2vec(nlp_model, linked_entities)
-
-    # find the cosine similarity between the 2 vectors (both need to be 2d)
-    similarities = cosine_similarity([course_desc_word_vectors], 
-                                     syllabus_word_vectors)[0]
-
-    # set a threshold for the similarity
-    threshold = threshold
-
-    # filter out the similarities that are above the threshold
-    extracted_topics = []
-    for i, similarity in enumerate(similarities):
-        if similarity > threshold:
-            extracted_topics.append((course_name, file_name, labels[i], urls[i]))
-
-    return extracted_topics
+    return topics
