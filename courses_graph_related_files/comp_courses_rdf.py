@@ -1,6 +1,7 @@
 from tools_libs import *
+from topics_excavator.topics_excavator import topics_excavator
 
-def comp_courses_rdf(courses_path, courses_graph_path):
+def comp_courses_rdf(courses_path, courses_graph_path, nlp_model, cs_concepts):
     # load the courses graph
     courses_graph = Graph()
     courses_graph.parse(courses_graph_path, format='turtle')
@@ -32,13 +33,13 @@ def comp_courses_rdf(courses_path, courses_graph_path):
     content_for     = None
     content_link    = None
     content_name    = None
-    topic           = None
+    content_topic   = None
     content_number  = None
     for s, p, o in courses_graph.triples((None, RDF.type, RDF.Property)):
         if   s == ex.contentFor: content_for = s
         elif s == ex.contentLink: content_link = s
         elif s == ex.contentName: content_name = s
-        elif s == ex.topic: topic = s
+        elif s == ex.contentTopic: content_topic = s
         elif s == ex.contentNumber: content_number = s
 
     # initialize the comp courses graph
@@ -48,10 +49,10 @@ def comp_courses_rdf(courses_path, courses_graph_path):
     for course in sorted(os.listdir(courses)): 
         course_path = os.path.join(courses, course)
 
-        if course == 'comp472_data' or course == 'comp474_data':
+        if course == 'comp_472' or course == 'comp_474':
             comp_course = None
-            if   course == 'comp472_data': comp_course = comp_472
-            elif course == 'comp474_data': comp_course = comp_474
+            if   course == 'comp_472': comp_course = comp_472
+            elif course == 'comp_474': comp_course = comp_474
 
             for content_type in sorted(os.listdir(course_path)):
                 content_type_path = os.path.join(course_path, content_type)
@@ -69,9 +70,14 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((lecture_uri, content_for, comp_course))
                         comp_courses_graph.add((lecture_uri, content_link, Literal(lecture_path)))
                         comp_courses_graph.add((lecture_uri, content_name, Literal(lecture)))
-                        # Extracting topic from the filename
-                        lecture_topic = lecture.split('_', 1)[1].replace('.pdf', '').replace('_', ' ')
-                        comp_courses_graph.add((lecture_uri, topic, Literal(lecture_topic)))
+
+                        # extracting topics from the pdf file
+                        topics = topics_excavator(lecture_path, nlp_model, cs_concepts)
+
+                        # add the topics to the graph
+                        for topic in topics:
+                            topic_name = topic[0].replace(' ', '_')
+                            comp_courses_graph.add((lecture_uri, content_topic, ex[topic_name]))
 
                         comp_courses_graph.add((lecture_uri, content_number, Literal(count)))
                         comp_courses_graph.add((comp_course, ex.contains, lecture_uri))
@@ -89,6 +95,15 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                         comp_courses_graph.add((worksheet_uri, content_for, comp_course))
                         comp_courses_graph.add((worksheet_uri, content_link, Literal(worksheet_path)))
                         comp_courses_graph.add((worksheet_uri, content_name, Literal(worksheet)))
+
+                        # extracting topics from the pdf file
+                        topics = topics_excavator(worksheet_path, nlp_model, cs_concepts)
+
+                        # add the topics to the graph
+                        for topic in topics:
+                            topic_name = topic[0].replace(' ', '_')
+                            comp_courses_graph.add((worksheet_uri, content_topic, ex[topic_name]))
+
                         comp_courses_graph.add((worksheet_uri, content_number, Literal(count)))
                         comp_courses_graph.add((comp_course, ex.contains, worksheet_uri))
 
@@ -104,6 +119,15 @@ def comp_courses_rdf(courses_path, courses_graph_path):
                     comp_courses_graph.add((syllabus_uri, content_for, comp_course))
                     comp_courses_graph.add((syllabus_uri, content_link, Literal(syllabus_path)))
                     comp_courses_graph.add((syllabus_uri, content_name, Literal(content_type)))
+
+                    # extracting topics from the pdf file
+                    topics = topics_excavator(syllabus_path, nlp_model, cs_concepts)
+
+                    # add the topics to the graph
+                    for topic in topics:
+                        topic_name = topic[0].replace(' ', '_')
+                        comp_courses_graph.add((syllabus_uri, content_topic, ex[topic_name]))
+
                     comp_courses_graph.add((syllabus_uri, content_number, Literal(1)))
                     comp_courses_graph.add((comp_course, ex.contains, syllabus_uri))
 
