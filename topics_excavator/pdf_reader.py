@@ -1,8 +1,8 @@
 import PyPDF2
 
-def PDFReader(file_path):
+def pdf_reader(file_path):
     # provide the file path to the syllabus
-    file_path = "data/courses/comp472_data/syllabus.pdf"
+    file_path = file_path
 
     # Open the PDF file in binary mode
     with open(file_path, 'rb') as file:
