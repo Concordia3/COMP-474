@@ -111,6 +111,7 @@ slots:
         entity: person
 
 actions:
+  - action_return_all_courses
   - action_describe_course
   - action_student_competency
   - action_university_topics
@@ -123,7 +124,6 @@ actions:
   - action_course_readings
   - action_topics_covered
   - action_person_info
-  - action_return_all_courses
 
 responses:
   utter_greet:
