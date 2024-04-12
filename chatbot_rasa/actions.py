@@ -1,103 +1,43 @@
-from SPARQLWrapper import SPARQLWrapper, JSON
-from rasa_sdk import Action
+from typing import Any, Text, Dict, List
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+import requests
 
 
-class QueryFusekiServer(Action):
-    def name(self):
-        return "action_query_fuseki_server"
+class ActionReturnAllCourses(Action):
 
-    def run(self, dispatcher, tracker, domain):
-        query_type = tracker.get_slot("query_type")
+    def name(self) -> Text:
+        return "action_return_all_courses"
 
-        if query_type == "list_all_courses":
-            query = self.build_sparql_query_list_all_courses()
-        elif query_type == "courses_discussing_topic":
-            topic = tracker.get_slot("topic")
-            query = self.build_sparql_query_courses_discussing_topic(topic)
-        elif query_type == "course_description":
-            course_code = tracker.get_slot("course_code")
-            query = self.build_sparql_query_course_description(course_code)
-        elif query_type == "topics_covered_in_course_event":
-            course_code = tracker.get_slot("course_code")
-            course_event = tracker.get_slot("course_event")
-            query = self.build_sparql_query_topics_covered_in_course_event(course_code, course_event)
-        elif query_type == "course_events_covering_topic":
-            topic = tracker.get_slot("topic")
-            query = self.build_sparql_query_course_events_covering_topic(topic)
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        # Connect to the Fuseki server
-        sparql = SPARQLWrapper("http://your-fuseki-server-endpoint")
+        query = """
+            PREFIX ns1: <http://example.org/>
+            PREFIX dbp: <http://dbpedia.org/resource/>
+            
+            SELECT ?course
+            WHERE {
+              ?course ns1:courseAt dbp:Concordia_University
+            }
+        """
 
-        # Set the SPARQL query and request JSON results
-        sparql.setQuery(query)
-        sparql.setReturnFormat(JSON)
+        response = requests.post('http://localhost:3030/concordia/query',
+                                 data={'query': query})
 
-        # Execute the query and process the results
-        results = sparql.query().convert()
+        results = response.json()
 
-        # Process the results based on the query type
-        if query_type == "list_all_courses" or query_type == "courses_discussing_topic":
-            course_list = self.process_sparql_results(results)
-            self.send_response(dispatcher, course_list)
-        elif query_type == "course_description":
-            description = self.extract_course_description(results)
-            dispatcher.utter_message(f"The description of the course is: {description}")
-        elif query_type == "topics_covered_in_course_event":
-            topics = self.extract_topics_covered_in_course_event(results)
-            self.send_topics_response(dispatcher, topics)
-        elif query_type == "course_events_covering_topic":
-            courses_events = self.extract_course_events_covering_topic(results)
-            self.send_course_events_response(dispatcher, courses_events)
-        # Add more elif clauses for other query types
+        course_list = []
+        # Check if 'bindings' key exists (adjust based on your Fuseki response format)
+        if 'bindings' in results:
+            course_list = [result['course']['value'] for result in results['bindings']]
+
+        if course_list:
+            dispatcher.utter_message("Here are all the courses offered by Concordia University:")
+            for course in course_list:
+                dispatcher.utter_message(course)
+        else:
+            dispatcher.utter_message("No courses found.")
 
         return []
-
-    # Methods to build SPARQL queries for different query types
-
-    # Methods to process SPARQL query results for different query types
-
-    def send_response(self, dispatcher, course_list):
-        """
-        Sends the response containing the course information to the user.
-        """
-        dispatcher.utter_message("Here are the results:")
-        for course in course_list:
-            dispatcher.utter_message(f"Course: {course['course_name']}\nDescription: {course['description']}\n")
-
-    def extract_course_description(self, results):
-        """
-        Extracts the course description from the SPARQL query results.
-        """
-        # Implement logic to extract course description from results
-        # Return the course description
-        return "Course description"
-
-    def send_topics_response(self, dispatcher, topics):
-        """
-        Sends the response containing the topics covered in a course event to the user.
-        """
-        # Implement logic to format and send the response
-        pass
-
-    def extract_topics_covered_in_course_event(self, results):
-        """
-        Extracts the topics covered in a course event from the SPARQL query results.
-        """
-        # Implement logic to extract topics covered in course event
-        # Return the topics with their resource URIs
-        return [("Topic 1", "Resource URI 1"), ("Topic 2", "Resource URI 2")]
-
-    def send_course_events_response(self, dispatcher, courses_events):
-        """
-        Sends the response containing the course events covering a topic to the user.
-        """
-        # Implement logic to format and send the response
-        pass
-
-    def extract_course_events_covering_topic(self, results):
-        """
-        Extracts the course events covering a topic from the SPARQL query results.
-        """
-        # Implement logic to extract course events covering topic
-        # Return the course events
-        return [("Course 1", "Event 1"), ("Course 2", "Event 2")]

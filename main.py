@@ -3,8 +3,8 @@ import subprocess
 ############################################################################################################
 # pip install the required libraries                                                                       #
 ############################################################################################################
-subprocess.run('pip install -r requirements.txt', shell=True, 
-               stdout=subprocess.DEVNULL, 
+subprocess.run('pip install -r requirements.txt', shell=True,
+               stdout=subprocess.DEVNULL,
                stderr=subprocess.STDOUT)
 
 ############################################################################################################
@@ -22,12 +22,12 @@ from topics_excavator.topics_excavator import topics_excavator
 ############################################################################################################
 # download the spacy models                                                                                #
 ############################################################################################################
-subprocess.run('python -m spacy download en_core_web_md', 
-               shell=True, 
-               stdout=subprocess.DEVNULL, 
+subprocess.run('python -m spacy download en_core_web_md',
+               shell=True,
+               stdout=subprocess.DEVNULL,
                stderr=subprocess.STDOUT)
-subprocess.run('python -m spacy download en_core_web_lg', 
-               shell=True, 
+subprocess.run('python -m spacy download en_core_web_lg',
+               shell=True,
                stdout=subprocess.DEVNULL,
                stderr=subprocess.STDOUT)
 
@@ -36,7 +36,7 @@ subprocess.run('python -m spacy download en_core_web_lg',
 ############################################################################################################
 # make dfs from the csv files
 df_info = pd.read_csv('data/courses/raw_course_info_2024.csv')
-df_web  = pd.read_csv('data/courses/raw_course_websites_2024.csv')
+df_web = pd.read_csv('data/courses/raw_course_websites_2024.csv')
 
 # rename column in df_info to match the column name in df_web
 df_info.rename(columns={'Subject': 'Course code', 'Catalog': 'Course number'}, inplace=True)
@@ -59,13 +59,13 @@ courses_graph = Graph()
 course_graph = courses_rdf(merged_df)
 
 # save the graph
-course_graph.serialize(destination="graphs/courses.ttl", format="turtle") 
+course_graph.serialize(destination="graphs/courses.ttl", format="turtle")
 
 ############################################################################################################
 # make an rdf graph with the info provided on COMP 472 and COMP 474                                        #
 ############################################################################################################
 # make the comp courses graph
-comp_courses_graph = comp_courses_rdf('data/courses','graphs/courses.ttl', nlp, cs_concepts)
+comp_courses_graph = comp_courses_rdf('data/courses', 'graphs/courses.ttl', nlp, cs_concepts)
 
 # save the comp courses graph
 comp_courses_graph.serialize("graphs/comp_courses.ttl", format="turtle")
