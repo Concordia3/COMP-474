@@ -41,6 +41,9 @@
 #  password: password
 #  queue: queue
 
+#action_endpoint:
+#  # Specify the URL of your Fuseki server where SPARQL queries are sent to.
+#  url: "http://localhost:3030"
+
 action_endpoint:
-  # Specify the URL of your Fuseki server where SPARQL queries are sent to.
-  url: "http://localhost:3030"
+  url: "http://localhost:5055/webhook"
