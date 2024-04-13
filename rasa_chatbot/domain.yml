@@ -12,12 +12,18 @@ intents:
   - discussed_topic
   - topic_discussed_lecture
   - offered_in_subject
+  - recommended_materials
+  - credits_course
+  - additional_resources
 
 actions:
   - action_list_courses
   - action_discussed_topic
   - action_topic_discussed_lecture
   - action_offered_in_subject
+  - action_recommended_materials
+  - action_credits_course
+  - action_additional_resources
 
 entities:
   - university

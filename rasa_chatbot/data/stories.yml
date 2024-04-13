@@ -48,3 +48,18 @@ stories:
   steps:
     - intent: offered_in_subject
     - action: action_offered_in_subject
+
+- story: recommended_materials
+  steps:
+    - intent: recommended_materials
+    - action: action_recommended_materials
+
+- story: credits_course
+  steps:
+    - intent: credits_course
+    - action: action_credits_course
+
+- story: additional_resources
+  steps:
+    - intent: additional_resources
+    - action: action_additional_resources

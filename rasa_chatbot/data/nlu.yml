@@ -150,3 +150,42 @@ nlu:
     - List all courses available within [BIOL](courseName).
     - Can you list the courses offered within [ENGL](courseName)?
     - What courses are available within [COMM](courseName)?
+
+- intent: recommended_materials
+  examples: |
+    - What study materials do you suggest for [data structures](topic) in [COMP](courseName) [352](courseNumber)?
+    - Can you recommend any resources for learning [web development](topic) in [SOEN](courseName) [341](courseNumber)?
+    - I need some materials for studying [algorithms](topic) in [COMP](courseName) [567](courseNumber). Any recommendations?
+    - What are the recommended materials for [network security](topic) in [SOEN](courseName) [6481](courseNumber)?
+    - Are there any specific materials you advise for [software testing](topic) in [COMP](courseName) [654](courseNumber)?
+    - Could you suggest study materials for [machine learning applications](topic) in [COMP](courseName) [472](courseNumber)?
+    - What resources would you recommend for learning [human-computer interaction](topic) in [SOEN](courseName) [662](courseNumber)?
+    - I'm interested in [natural language processing](topic). Can you suggest any materials in [COMP](courseName) [672](courseNumber)?
+    - Are there any recommended materials for studying [cloud computing](topic) in [SOEN](courseName) [693](courseNumber)?
+    - Can you provide any recommended reading for [distributed systems](topic) in [COMP](courseName) [646](courseNumber)?
+
+- intent: credits_course
+  examples: |
+    - How many credits does [COMP](courseName) [352](courseNumber) count for?
+    - What is the credit value of [SOEN](courseName) [341](courseNumber)?
+    - How many credits is [COMP](courseName) [567](courseNumber) worth?
+    - Can you tell me the credit count for [SOEN](courseName) [6481](courseNumber)?
+    - What is the credit worth of [COMP](courseName) [654](courseNumber)?
+    - How many credits does [COMP](courseName) [472](courseNumber) carry?
+    - What is the credit value for [SOEN](courseName) [662](courseNumber)?
+    - Can you inform me of the credits for [COMP](courseName) [672](courseNumber)?
+    - How many credits is [SOEN](courseName) [693](courseNumber) worth?
+    - What is the credit count of [COMP](courseName) [646](courseNumber)?
+
+- intent: additional_resources
+  examples: |
+    - For [COMP](courseName) [472](courseNumber), what additional resources (links to web pages) are available?
+    - What additional resources (links to web pages) are available for [COMP](courseName) [474](courseNumber)?
+    - Can you provide the additional resources (links to web pages) available for [COMP](courseName) [476](courseNumber)?
+    - List the additional resources (links to web pages) available for [COMP](courseName) [478](courseNumber).
+    - What are the additional resources (links to web pages) available for [COMP](courseName) [480](courseNumber)?
+    - Could you list the additional resources (links to web pages) for [COMP](courseName) [482](courseNumber)?
+    - Can you provide the links to additional resources available for [COMP](courseName) [484](courseNumber)?
+    - List all additional resources (links to web pages) available for [COMP](courseName) [486](courseNumber).
+    - What additional resources (links to web pages) are provided for [COMP](courseName) [488](courseNumber)?
+    - Provide the links to additional resources available for [COMP](courseName) [490](courseNumber).
