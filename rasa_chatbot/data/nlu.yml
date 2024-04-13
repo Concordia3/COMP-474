@@ -120,3 +120,33 @@ nlu:
     - List the courses where [cloud computing](topic) is discussed
     - In which courses is [computer vision](topic) covered?
     - Can you tell me which courses discuss [big data](topic)?
+
+- intent: topic_discussed_lecture
+  examples: |
+    - Which topics are covered in [COMP](courseName) [472](courseNumber) during lecture [1](lecture)?
+    - What topics are discussed in [SOEN](courseName) [474](courseNumber) during lecture [2](lecture)?
+    - Can you tell me which subjects are covered in [COMP](courseName) [476](courseNumber) during lecture [3](lecture)?
+    - List the topics covered in [COMP](courseName) [478](courseNumber) during lecture [4](lecture).
+    - What concepts are discussed in [POLI](courseName) [480](courseNumber) during lecture [5](lecture)?
+    - Which topics are covered in [COMP](courseName) [482](courseNumber) during lecture [6](lecture)?
+    - Can you list the subjects discussed in [COMP](courseName) [484](courseNumber) during lecture [7](lecture)?
+    - What topic areas are covered in [COMP](courseName) [486](courseNumber) during lecture [8](lecture)?
+    - List the topics discussed in [COMP](courseName) [488](courseNumber) during lecture [9](lecture).
+    - Which topics are covered in [COMP](courseName) [490](courseNumber) during lecture [10](lecture)?
+    - Can you tell me which topics are discussed in [COMP](courseName) [492](courseNumber) during lecture [11](lecture)?
+    - What concepts are covered in [ENCS](courseName) [494](courseNumber) during lecture [12](lecture)?
+
+- intent: offered_in_subject
+  examples: |
+    - List all courses offered within [COMP](courseName).
+    - Can you provide a list of all courses offered within [SOEN](courseName)?
+    - What are the courses offered within [MECH](courseName)?
+    - List all courses available within [ELEC](courseName).
+    - Can you list the courses offered within [CIVI](courseName)?
+    - What courses are available within [ENGR](courseName)?
+    - List all courses offered within [MATH](courseName).
+    - Can you provide a list of courses available within [PHYS](courseName)?
+    - What are the courses offered within [CHEM](courseName)?
+    - List all courses available within [BIOL](courseName).
+    - Can you list the courses offered within [ENGL](courseName)?
+    - What courses are available within [COMM](courseName)?

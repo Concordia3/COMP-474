@@ -10,14 +10,21 @@ intents:
   - bot_challenge
   - list_courses
   - discussed_topic
+  - topic_discussed_lecture
+  - offered_in_subject
 
 actions:
   - action_list_courses
   - action_discussed_topic
+  - action_topic_discussed_lecture
+  - action_offered_in_subject
 
 entities:
   - university
   - topic
+  - lecture
+  - courseNumber
+  - courseName
 
 slots:
   university:
@@ -32,6 +39,24 @@ slots:
     mappings:
       - type: from_entity
         entity: topic
+  lecture:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: from_entity
+        entity: lecture
+  courseName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: courseName
+  courseNumber:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: from_entity
+        entity: courseNumber
 
 responses:
   utter_greet:

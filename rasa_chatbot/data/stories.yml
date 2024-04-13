@@ -38,3 +38,13 @@ stories:
   steps:
   - intent: discussed_topic
   - action: action_discussed_topic
+
+- story: topic_discussed_lecture
+  steps:
+    - intent: topic_discussed_lecture
+    - action: action_topic_discussed_lecture
+
+- story: offered_in_subject
+  steps:
+    - intent: offered_in_subject
+    - action: action_offered_in_subject
