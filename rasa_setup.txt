@@ -1,0 +1,18 @@
+a few things to keep in mind before you train and test your rasa
+    - make sure that you're in the bot directory
+    - the default action endpoint is at http://localhost:5055/webhook
+    - the default core endpoint (when you run rasa shell or rasa run) is at http://localhost:5005/
+    - every time you make changes to your actions.py file, make sure to reset the action enpoint afterwards 
+
+1. in actions/actions.py, define custom actions that you want rasa to do
+1. in data/nlu.yaml, this file contains examples of user inputs that you want rasa to train on. each set of examples is associated with an intent (topic)
+3. in data/stories.yaml, add:
+- story: list courses
+  steps:
+  - intent: list_courses
+  - action: action_list_courses
+----> but replace story, intent and action as needed
+4. in domain.yaml, make sure to update intents and actions (same as data/stories.yaml)
+5. once everything is done, in the command line, do rasa train
+6. then rasa run actions to turn on the action enpoint
+7. then rasa shell to interact with your rasa
