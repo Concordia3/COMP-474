@@ -9,9 +9,29 @@ intents:
   - mood_unhappy
   - bot_challenge
   - list_courses
+  - discussed_topic
 
 actions:
   - action_list_courses
+  - action_discussed_topic
+
+entities:
+  - university
+  - topic
+
+slots:
+  university:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: university
+  topic:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: topic
 
 responses:
   utter_greet:

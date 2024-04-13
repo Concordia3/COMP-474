@@ -93,6 +93,7 @@ nlu:
 - intent: list_courses
   examples: |
     - Can you list the courses?
+    - Can you list the courses offered at [Concordia University](university)?
     - What are the courses available?
     - What courses do you offer?
     - Can you tell me about the courses?
@@ -104,3 +105,18 @@ nlu:
     - Can you list the courses available?
     - Can you list the courses you offer?
     - Can you list the courses you have
+
+- intent: discussed_topic
+  examples: |
+    - In which courses is [artificial intelligence](topic) discussed?
+    - What courses cover [machine learning](topic)?
+    - Can you tell me in which courses [data science](topic) is discussed?
+    - List the courses where [computer networks](topic) are discussed
+    - What courses discuss [software engineering](topic)?
+    - In which courses is [cybersecurity](topic) covered?
+    - Can you list the courses where [robotics](topic) is discussed?
+    - What courses cover [natural language processing](topic)?
+    - Which courses discuss [blockchain](topic)?
+    - List the courses where [cloud computing](topic) is discussed
+    - In which courses is [computer vision](topic) covered?
+    - Can you tell me which courses discuss [big data](topic)?

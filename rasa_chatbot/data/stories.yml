@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: list_courses
   - action: action_list_courses
+
+- story: discussed_topic
+  steps:
+  - intent: discussed_topic
+  - action: action_discussed_topic
