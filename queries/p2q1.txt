@@ -1,0 +1,8 @@
+PREFIX ns1: <http://example.org/>
+
+SELECT ?courseDescription
+WHERE {
+  ?course ns1:hasCourseCode "COMP" ;
+          ns1:hasCourseNumber "474" ;
+          ns1:hasDescription ?courseDescription .
+}
