@@ -1,0 +1,13 @@
+PREFIX ns1: <http://example.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?topic_label ?conceptURI
+WHERE {
+  ?course ns1:hasCourseCode "COMP" ;
+          ns1:hasCourseNumber "474" .
+  ?lecture ns1:contentFor ?course ;
+           ns1:contentNumber 2 ;
+           ns1:contentTopic ?topic .
+  ?topic rdfs:label ?topic_label ;
+         ns1:hasConceptURI ?conceptURI .
+}

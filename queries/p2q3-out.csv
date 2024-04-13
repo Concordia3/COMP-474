@@ -1,0 +1,8 @@
+"course","event","frequency"
+"http://example.org/COMP/474","http://example.org/COMP/474/syllabus.pdf","6"
+"http://example.org/COMP/474","http://example.org/COMP/474/lectures/1_intro_to_intelligent_systems.pdf","3"
+"http://example.org/COMP/474","http://example.org/COMP/474/lectures/2_knowledge_graphs.pdf","2"
+"http://example.org/COMP/474","http://example.org/COMP/474/lectures/4_knowledge_base_queries.pdf","2"
+"http://example.org/COMP/474","http://example.org/COMP/474/lectures/3_knowledge_graphs_vocabs_ontologies.pdf","1"
+"http://example.org/COMP/474","http://example.org/COMP/474/worksheets/worksheet01.pdf","1"
+"http://example.org/COMP/474","http://example.org/COMP/474/worksheets/worksheet02.pdf","1"
