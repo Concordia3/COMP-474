@@ -189,3 +189,26 @@ nlu:
     - List all additional resources (links to web pages) available for [COMP](courseName) [486](courseNumber).
     - What additional resources (links to web pages) are provided for [COMP](courseName) [488](courseNumber)?
     - Provide the links to additional resources available for [COMP](courseName) [490](courseNumber).
+
+- intent: content_details
+  examples: |
+    - Detail the content (slides, worksheets, readings) available for lecture [2](lecture) in [COMP](courseName) [472](courseNumber).
+    - What content (slides, worksheets, readings) is available for lecture [3](lecture) in [COMP](courseName) [474](courseNumber)?
+    - Provide details about the content (slides, worksheets, readings) available for lecture [4](lecture) in [COMP](courseName) [476](courseNumber).
+    - Can you detail the content (slides, worksheets, readings) for lecture [5](lecture) in [COMP](courseName) [478](courseNumber)?
+    - Detail all content (slides, worksheets, readings) available for lecture [6](lecture) in [COMP](courseName) [480](courseNumber).
+    - What materials (slides, worksheets, readings) are available for lecture [7](lecture) in [COMP](courseName) [482](courseNumber)?
+    - List the content (slides, worksheets, readings) for lecture [8](lecture) in [COMP](courseName) [484](courseNumber).
+    - Provide information about the content (slides, worksheets, readings) available for lecture [9](lecture) in [COMP](courseName) [486](courseNumber).
+    - What resources (slides, worksheets, readings) are provided for lecture [10](lecture) in [COMP](courseName) [488](courseNumber)?
+    - Detail the available content (slides, worksheets, readings) for lecture [11](lecture) in [COMP](courseName) [490](courseNumber).
+    - What materials (slides, worksheets, readings) are included for lecture [12](lecture) in [COMP](courseName) [492](courseNumber)?
+    - Provide details about the content (slides, worksheets, readings) for lecture [13](lecture) in [COMP](courseName) [494](courseNumber).
+    - List all available content (slides, worksheets, readings) for lecture [14](lecture) in [COMP](courseName) [496](courseNumber).
+    - Detail the resources (slides, worksheets, readings) provided for lecture [15](lecture) in [COMP](courseName) [498](courseNumber).
+    - What materials (slides, worksheets, readings) can be accessed for lecture [16](lecture) in [COMP](courseName) [500](courseNumber)?
+    - Provide information on the content (slides, worksheets, readings) available for lecture [17](lecture) in [COMP](courseName) [502](courseNumber).
+    - Detail the available resources (slides, worksheets, readings) for lecture [18](lecture) in [COMP](courseName) [504](courseNumber).
+    - List all content (slides, worksheets, readings) for lecture [19](lecture) in [COMP](courseName) [506](courseNumber).
+    - What resources (slides, worksheets, readings) are provided for lecture [20](lecture) in [COMP](courseName) [508](courseNumber)?
+    - Detail the content (slides, worksheets, readings) available for lecture [21](lecture) in [COMP](courseName) [510](courseNumber).

@@ -269,3 +269,65 @@ class AdditionalResources(Action):
         dispatcher.utter_message(text=message)
 
         return []
+
+
+class ContentDetails(Action):
+    def name(self):
+        return "action_content_details"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+        lecture = int(tracker.get_slot('lecture'))
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX ns2: <http://ogp.me/ns#video:>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                PREFIX ns1: <http://example.org/>
+                PREFIX dbp: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    
+                SELECT ?course_code ?course_number ?course_file ?file_type ?file_path ?file_name ?week
+                WHERE {{
+                    {{ 
+                      SELECT ?course
+                      WHERE {{
+                        ?course ns1:hasCourseCode "{courseName}";
+                                ns1:hasCourseNumber ?course_number.
+                        FILTER(?course_number = "{courseNumber}")	
+                      }}
+                    }}
+    
+                    # extract course code, number, and all the files associated with it
+                    ?course ns1:hasCourseCode ?course_code;
+                            ns1:hasCourseNumber ?course_number;
+                            ns1:contains ?course_file.
+    
+                    # details of the files
+                    ?course_file rdf:type ?file_type;
+                                 ns1:contentLink ?file_path;
+                                 ns1:contentName ?file_name;
+                                 ns1:contentNumber "{lecture}".
+                    FILTER(?week = {lecture} && ?course_number = '{courseNumber}')
+    
+                }}
+                ORDER BY ?course_code ?course_number ?week
+                """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = "The resources are:\n"
+        for result in results["results"]["bindings"]:
+            # Check if 'course_code' exists before accessing it
+            course_code = result.get('course_code', {}).get('value', 'N/A')
+            message += f"- Course: {course_code}, Week: {result['week']['value']}, File Type: {result.get('file_type', {}).get('value', 'N/A')}, File Name: {result.get('file_name', {}).get('value', 'N/A')}, File Path: {result.get('file_path', {}).get('value', 'N/A')}\n"
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+# What materials (slides, worksheets, readings) are included for lecture 2 in COMP 472?
