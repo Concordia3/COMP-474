@@ -673,7 +673,8 @@ class EventCoversTopic(Action):
         return "action_event_covers_topic"
 
     def run(self, dispatcher, tracker, domain):
-        topic = tracker.get_slot('topic')
+        topicCovers = tracker.get_slot('topicCovers')
+        print({topicCovers})
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -682,7 +683,7 @@ class EventCoversTopic(Action):
 
         SELECT DISTINCT ?course ?event (COUNT(?event) as ?frequency)
         WHERE {{
-          ?topic rdfs:label "{topic}" .
+          ?topic rdfs:label "{topicCovers}" .
 
           ?course ns1:hasCourseCode ?course_code ;
                   ns1:hasCourseNumber ?course_number .
@@ -696,7 +697,7 @@ class EventCoversTopic(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"The events that cover {topic} are:\n"
+        message = f"The events that cover {topicCovers} are:\n"
         for result in results["results"]["bindings"]:
             course = result.get('course', {}).get('value', 'N/A')
             event = result.get('event', {}).get('value', 'N/A')

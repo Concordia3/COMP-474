@@ -52,6 +52,7 @@ entities:
   - studentFirstName
   - studentLastName
   - courseEvent
+  - topicCovers
 
 slots:
   university:
@@ -102,6 +103,12 @@ slots:
     mappings:
       - type: from_entity
         entity: courseEvent
+  topicCovers:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: topicCovers
 
 responses:
   utter_greet:
