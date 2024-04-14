@@ -93,3 +93,18 @@ stories:
   steps:
     - intent: print_transcript
     - action: action_print_transcript
+
+- story: about_course
+  steps:
+    - intent: about_course
+    - action: action_about_course
+
+- story: covered_topics
+  steps:
+    - intent: covered_topics
+    - action: action_covered_topics
+
+- story: event_covers_topic
+  steps:
+    - intent: event_covers_topic
+    - action: action_event_covers_topic

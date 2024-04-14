@@ -18,3 +18,23 @@ WHERE {
   }
 }
 ORDER BY DESC(?frequency)
+
+
+PREFIX ns1: <http://example.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?course ?event (COUNT(?event) as ?frequency)
+WHERE {
+  ?topic rdfs:label ?topic_label .
+  FILTER (?topic_label = "rdf")
+
+  ?course ns1:hasCourseCode ?course_code ;
+          ns1:hasCourseNumber ?course_number .
+  ?event ns1:contentTopic ?topic ;
+         ns1:contentFor ?course .
+
+  # Group by course and event to count occurrences
+  GROUP BY ?course ?event
+}
+
+ORDER BY DESC(?frequency)

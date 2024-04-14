@@ -587,3 +587,122 @@ class PrintTranscript(Action):
         dispatcher.utter_message(text=message)
 
         return []
+
+
+class AboutCourse(Action):
+    def name(self):
+        return "action_about_course"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns1: <http://example.org/>
+
+        SELECT ?courseDescription
+        WHERE {{
+          ?course ns1:hasCourseCode "{courseName}" ;
+                  ns1:hasCourseNumber "{courseNumber}" ;
+                  ns1:hasDescription ?courseDescription .
+        }}
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = f"Here is the description for {courseName} {courseNumber}:\n"
+        for result in results["results"]["bindings"]:
+            courseDescription = result.get('courseDescription', {}).get('value', 'N/A')
+            message += f'{courseDescription}.\n'
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+
+class CoveredTopics(Action):
+    def name(self):
+        return "action_covered_topics"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+        lecture = int(tracker.get_slot('lecture'))
+        courseEvent = tracker.get_slot('courseEvent')
+
+        # Adjust lecture variable based on courseEvent
+        if courseEvent.lower() == 'lab' or courseEvent.lower() == 'tutorial':
+            lecture -= 1
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+
+        sparql.setQuery(f"""
+        PREFIX ns1: <http://example.org/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+        SELECT DISTINCT ?topic_label ?conceptURI
+        WHERE {{
+          ?course ns1:hasCourseCode "{courseName}" ;
+                  ns1:hasCourseNumber "{courseNumber}" .
+          ?lecture ns1:contentFor ?course ;
+                   ns1:contentNumber {lecture} ;
+                   ns1:contentTopic ?topic .
+          ?topic rdfs:label ?topic_label ;
+                 ns1:hasConceptURI ?conceptURI .
+        }}
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = f"The topics covered are:\n"
+        for result in results["results"]["bindings"]:
+            topic_label = result.get('topic_label', {}).get('value', 'N/A')
+            conceptURI = result.get('conceptURI', {}).get('value', 'N/A')
+            message += f'{topic_label} - URI: {conceptURI}\n'
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+
+class EventCoversTopic(Action):
+    def name(self):
+        return "action_event_covers_topic"
+
+    def run(self, dispatcher, tracker, domain):
+        topic = tracker.get_slot('topic')
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns1: <http://example.org/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+        SELECT DISTINCT ?course ?event (COUNT(?event) as ?frequency)
+        WHERE {{
+          ?topic rdfs:label "{topic}" .
+
+          ?course ns1:hasCourseCode ?course_code ;
+                  ns1:hasCourseNumber ?course_number .
+          ?event ns1:contentTopic ?topic ;
+                 ns1:contentFor ?course .
+        }}
+        GROUP BY ?course ?event
+        ORDER BY DESC(?frequency)
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = f"The events that cover {topic} are:\n"
+        for result in results["results"]["bindings"]:
+            course = result.get('course', {}).get('value', 'N/A')
+            event = result.get('event', {}).get('value', 'N/A')
+            message += f'{course}: {event}\n'
+
+        dispatcher.utter_message(text=message)
+
+        return []
+

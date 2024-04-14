@@ -288,3 +288,48 @@ nlu:
     - Please provide a transcript for [studentFirstName] [studentLastName], including details of courses and grades.
     - I need a transcript for [studentFirstName] [studentLastName], with information on courses and grades.
 
+- intent: about_course
+  examples: |
+    - What is [COMP](courseName) [472](courseNumber) about?
+    - Can you tell me about [CHEM](courseName) [301](courseNumber)?
+    - I'm curious, what does [ECON](courseName) [101](courseNumber) cover?
+    - Tell me more about [PSYC](courseName) [202](courseNumber), please.
+    - What topics are included in [MATH](courseName) [201](courseNumber)?
+    - I'd like to know what [BIOL](courseName) [101](courseNumber) is about.
+    - Could you provide information on [PHYS](courseName) [201](courseNumber)?
+    - Tell me about [HIST](courseName) [202](courseNumber), please.
+    - What's covered in [ENGL](courseName) [101](courseNumber)?
+    - What does [MUSC](courseName) [301](courseNumber) entail?
+
+- intent: covered_topics
+  examples: |
+    - What topics are covered in [Lecture](courseEvent) [3](lecture) of [COMP](courseName) [474](courseNumber)?
+    - Which topics are covered in [Lab](courseEvent) [4](lecture) of [CHEM](courseName) [301](courseNumber)?
+    - What are the topics covered in [Seminar](courseEvent) [1](lecture) of [BIO](courseName) [101](courseNumber)?
+    - Can you tell me the topics discussed in [Workshop](courseEvent) [2](lecture) of [PHYS](courseName) [201](courseNumber)?
+    - Which topics will be covered in [Tutorial](courseEvent) [5](lecture) of [MATH](courseName) [221](courseNumber)?
+    - What topics are included in [Practice](courseEvent) [3](lecture) of [ECON](courseName) [101](courseNumber)?
+    - Can you provide the topics covered in [Review session](courseEvent) [2](lecture) of [PSYC](courseName) [301](courseNumber)?
+    - I'm curious about the topics discussed in [Lab](courseEvent) [7](lecture) of [CHEM](courseName) [201](courseNumber).
+    - What subjects will be addressed during [Workshop](courseEvent) [3](lecture) of [COMP](courseName) [474](courseNumber)?
+    - Could you list the topics covered in [Seminar](courseEvent) [4](lecture) of [BIO](courseName) [301](courseNumber)?
+    - I'm interested in knowing the content discussed in [Lab session](courseEvent) [6](lecture) for [PHYS](courseName) [101](courseNumber).
+    - Provide an overview of the topics presented in [Tutorial](courseEvent) [2](lecture) within [ECON](courseName) [101](courseNumber).
+
+- intent: event_covers_topic
+  examples: |
+    - Can you tell me which course events cover [Artificial Intelligence](topic)?
+    - I'm curious, which events discuss [Data Structures](topic)?
+    - What course events encompass the topic of [Quantum Mechanics](topic)?
+    - Could you provide information on which events address [Machine Learning](topic)?
+    - I'm interested in knowing which course events cover [Neural Networks](topic).
+    - Which events are focused on [Software Engineering](topic)?
+    - Can you list the course events that discuss [Computer Graphics](topic)?
+    - What events cover [Database Management](topic)?
+    - Which course events include discussions on [Cybersecurity](topic)?
+    - I'd like to know which events cover [Artificial Intelligence](topic).
+    - Can you provide information on course events related to [Machine Learning](topic)?
+    - Which events address topics in [Web Development](topic)?
+    - What course events cover [Data Science](topic)?
+    - Could you list the events that include [Operating Systems](topic) in their curriculum?
+    - Which events cover the topic of [Artificial Intelligence](topic)?

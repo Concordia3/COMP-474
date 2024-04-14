@@ -21,6 +21,9 @@ intents:
   - student_grade
   - students_completed_course
   - print_transcript
+  - about_course
+  - covered_topics
+  - event_covers_topic
 
 actions:
   - action_list_courses
@@ -36,6 +39,9 @@ actions:
   - action_student_grade
   - action_students_completed_course
   - action_print_transcript
+  - action_about_course
+  - action_covered_topics
+  - action_event_covers_topic
 
 entities:
   - university
@@ -45,6 +51,7 @@ entities:
   - courseName
   - studentFirstName
   - studentLastName
+  - courseEvent
 
 slots:
   university:
@@ -89,6 +96,12 @@ slots:
     mappings:
       - type: from_entity
         entity: studentLastName
+  courseEvent:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: courseEvent
 
 responses:
   utter_greet:
