@@ -229,4 +229,62 @@ nlu:
     - What are the recommended reading materials for studying [operating system design](topic) in [COMP](courseName) [430](courseNumber)?
     - I'm interested in learning about [computer networks](topic) in [COMP](courseName) [535](courseNumber). What reading materials should I start with?
 
+- intent: gained_competencies
+  examples: |
+    - What competencies would a student acquire after completing [COMP](courseName) [652](courseNumber)?
+    - After finishing [COMP](courseName) [765](courseNumber), what competencies does a student typically develop?
+    - Can you tell me about the competencies gained from [COMP](courseName) [480](courseNumber)?
+    - What skills and competencies does a student gain from completing [COMP](courseName) [678](courseNumber)?
+    - I'm curious about the competencies acquired from [COMP](courseName) [720](courseNumber). Can you provide some information?
+    - After taking [COMP](courseName) [310](courseNumber), what new competencies does a student usually possess?
+    - What are the expected competencies after completing [COMP](courseName) [430](courseNumber)?
+    - Could you outline the competencies gained from [COMP](courseName) [535](courseNumber)?
+    - What competencies will I gain from [COMP](courseName) [382](courseNumber)?
+    - Upon finishing [COMP](courseName) [540](courseNumber), what competencies should I expect to have?
+    - What are the typical competencies obtained after completing [COMP](courseName) [624](courseNumber)?
+    - Can you list the competencies acquired from [COMP](courseName) [448](courseNumber)?
+    - What skills and knowledge does a student develop after taking [COMP](courseName) [512](courseNumber)?
+    - I'm interested in knowing the competencies gained from [COMP](courseName) [698](courseNumber). Could you provide more details?
+    - After completing [COMP](courseName) [712](courseNumber), what competencies are students expected to possess?
+    - What competencies are emphasized in [COMP](courseName) [610](courseNumber)?
+    - Could you outline the competencies acquired from [COMP](courseName) [620](courseNumber)?
+    - What new abilities will I have after finishing [COMP](courseName) [350](courseNumber)?
+
+- intent: student_grade
+  examples: |
+    - What grades did [Alice](studentFirstName) [Smith](studentLastName) achieve in [COMP](courseName) [382](courseNumber)?
+    - Can you tell me the grades obtained by [John](studentFirstName) [Doe](studentLastName) in [COMP](courseName) [540](courseNumber)?
+    - What were [Sarah](studentFirstName) [Johnson](studentLastName)'s grades in [COMP](courseName) [624](courseNumber)?
+    - Could you provide the grades of [Michael](studentFirstName) [Brown](studentLastName) for [COMP](courseName) [448](courseNumber)?
+    - What grades did [Emma](studentFirstName) [Wilson](studentLastName) get in [COMP](courseName) [512](courseNumber)?
+    - I'm interested in knowing the grades earned by [David](studentFirstName) [Jones](studentLastName) in [COMP](courseName) [698](courseNumber).
+    - What were the grades of [Sophia](studentFirstName) [Miller](studentLastName) in [COMP](courseName) [712](courseNumber)?
+    - Could you please tell me the grades of [Olivia](studentFirstName) [Martinez](studentLastName) in [COMP](courseName) [610](courseNumber)?
+    - What grades did [James](studentFirstName) [Taylor](studentLastName) receive in [COMP](courseName) [620](courseNumber)?
+    - Can you provide the grades of [William](studentFirstName) [Anderson](studentLastName) for [COMP](courseName) [350](courseNumber)?
+
+- intent: students_completed_course
+  examples: |
+    - Which students have completed [COMP](courseName) [472](courseNumber)?
+    - Can you list the students who completed [ENGR](courseName) [101](courseNumber)?
+    - Provide a list of students who have finished [MATH](courseName) [205](courseNumber).
+    - Who are the students that completed [PHYS](courseName) [211](courseNumber)?
+    - Show me the students who completed [COMP](courseName) [352](courseNumber).
+    - I want to know which students finished [ECON](courseName) [201](courseNumber).
+    - List the students who completed [CHEM](courseName) [101](courseNumber).
+    - Provide the names of students who completed [PSYC](courseName) [101](courseNumber).
+    - Can you give me a list of students who completed [PHIL](courseName) [110](courseNumber)?
+
+- intent: print_transcript
+  examples: |
+    - Print a transcript for [Eeham](studentFirstName) [Khan](studentLastName), listing all the courses taken with their grades.
+    - Print a transcript for [John](studentFirstName) [Doe](studentLastName), listing all the courses taken with their grades.
+    - Print a transcript for [studentFirstName] [studentLastName], listing all the courses taken with their grades.
+    - Please print the transcript for [studentFirstName] [studentLastName], including all courses and grades.
+    - Could you generate a transcript for [studentFirstName] [studentLastName], showing all courses and corresponding grades?
+    - I'd like to see a transcript for [studentFirstName] [studentLastName], with details of courses and grades.
+    - Print a transcript for [studentFirstName] [studentLastName], listing all completed courses and their respective grades.
+    - Can you generate a transcript for [studentFirstName] [studentLastName], showing all courses taken along with grades?
+    - Please provide a transcript for [studentFirstName] [studentLastName], including details of courses and grades.
+    - I need a transcript for [studentFirstName] [studentLastName], with information on courses and grades.
 

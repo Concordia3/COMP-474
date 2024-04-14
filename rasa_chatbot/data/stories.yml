@@ -73,3 +73,23 @@ stories:
   steps:
     - intent: reading_material
     - action: action_reading_material
+
+- story: gained_competencies
+  steps:
+    - intent: gained_competencies
+    - action: action_gained_competencies
+
+- story: student_grade
+  steps:
+    - intent: student_grade
+    - action: action_student_grade
+
+- story: students_completed_course
+  steps:
+    - intent: students_completed_course
+    - action: action_students_completed_course
+
+- story: print_transcript
+  steps:
+    - intent: print_transcript
+    - action: action_print_transcript

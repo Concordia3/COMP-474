@@ -332,6 +332,7 @@ class ContentDetails(Action):
 
         return []
 
+
 class ReadingMaterial(Action):
     def name(self):
         return "action_reading_material"
@@ -378,6 +379,210 @@ class ReadingMaterial(Action):
             # Update the message with correct variable names
             message += f"- Material Name: {material_name}, Link to material: {material_link}\n"
             message += f"- Worksheet name: {worksheet_name}, Link to worksheet: {worksheet_link}\n"
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+    class GainedCompetencies(Action):
+        def name(self):
+            return "action_gained_competencies"
+
+        def run(self, dispatcher, tracker, domain):
+            courseName = tracker.get_slot('courseName')
+            courseNumber = int(tracker.get_slot('courseNumber'))
+
+            sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+            sparql.setQuery(f"""
+            PREFIX ns1: <http://example.org/>
+    
+            SELECT DISTINCT ?topic
+            WHERE {{
+              ?lecture a ns1:Lecture ;
+                       ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
+                       ns1:contentTopic ?topic .
+            }}
+            """)
+
+            sparql.setReturnFormat(JSON)
+            results = sparql.query().convert()
+
+            message = "The competencies gained are:\n"
+            for result in results["results"]["bindings"]:
+                message += f'- {result["topic"]["value"]}\n'
+
+            dispatcher.utter_message(text=message)
+
+            return []
+
+
+class StudentGrade(Action):
+    def name(self):
+        return "action_student_grade"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+        studentFirstName = tracker.get_slot('studentFirstName')
+        studentLastName = tracker.get_slot('studentLastName')
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns2: <http://ogp.me/ns#video:>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX ns1: <http://example.org/>
+        PREFIX dbp: <http://dbpedia.org/resource/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+        SELECT ?id ?first_name ?last_name ?course_code ?course_number ?course_title ?course_desc ?course_credits ?course_website ?grade_val ?grade_status ?grade_comment
+        WHERE {{
+          ?student ns1:hasId ?id;
+                   foaf:firstName "{studentFirstName}";
+                   foaf:lastName "{studentLastName}".
+
+          # get his grades
+          ?grade ns1:gradeOf ?student;
+                 ns1:gradeFor ?course;
+                 ns1:hasGradeVal ?grade_val;
+                 ns1:gradeStatus ?grade_status;
+                 rdfs:comment ?grade_comment.
+
+          ?course ns1:hasCourseCode "{courseName}";
+                  ns1:hasCourseNumber "{courseNumber}";
+                  ns1:hasTitle ?course_title;
+                  ns1:hasDescription ?course_desc;
+                  ns1:hasCredits ?course_credits;
+                  rdfs:seeAlso ?course_website.
+        }}
+        ORDER BY ?grade
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = "The student's grade is:\n"
+        for result in results["results"]["bindings"]:
+            # Access values from the dictionary
+            grade = float(result["grade_val"]["value"])
+            message += f'- {grade}\n'
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+
+class StudentsCompletedCourse(Action):
+    def name(self):
+        return "action_students_completed_course"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns1: <http://example.org/>
+        PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+        SELECT ?id ?first_name ?last_name ?course_code ?course_number ?grade_val ?grade_status 
+        WHERE {{
+          ?grade ns1:gradeOf ?student; 
+                 ns1:gradeFor ?course;
+                 ns1:hasGradeVal ?grade_val;
+                 ns1:gradeStatus ?grade_status.
+
+          ?student ns1:hasId ?id;
+                   foaf:firstName ?first_name;
+                   foaf:lastName ?last_name.
+
+          # Filter the grades by course
+          ?course ns1:hasCourseCode "{courseName}";
+                  ns1:hasCourseNumber "{courseNumber}".
+
+          # Filter only passed grades
+          FILTER(?grade_status = "P")
+        }}
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = f"The students who have completed {courseName} {courseNumber} are:\n"
+        for result in results["results"]["bindings"]:
+            # Access values from the dictionary
+            firstName = result.get('first_name', {}).get('value', 'N/A')
+            lastName = result.get('last_name', {}).get('value', 'N/A')
+            message += f'Name of student: {firstName}, {lastName}.\n'
+
+        dispatcher.utter_message(text=message)
+
+        return []
+
+
+class PrintTranscript(Action):
+    def name(self):
+        return "action_print_transcript"
+
+    def run(self, dispatcher, tracker, domain):
+        studentFirstName = tracker.get_slot('studentFirstName')
+        studentLastName = tracker.get_slot('studentLastName')
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns2: <http://ogp.me/ns#video:>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX ns1: <http://example.org/>
+        PREFIX dbp: <http://dbpedia.org/resource/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+        
+        SELECT ?id ?first_name ?last_name ?course_code ?course_number ?course_title ?course_desc ?course_credits ?course_website ?grade_val ?grade_status
+        WHERE {{
+          # get the random student's info 
+          ?student ns1:hasId ?id;
+                   foaf:firstName "{studentFirstName}";
+                   foaf:lastName "{studentLastName}".
+        
+          # get his grades
+          ?grade ns1:gradeOf ?student;
+                 ns1:gradeFor ?course;
+                 ns1:hasGradeVal ?grade_val;
+                 ns1:gradeStatus ?grade_status.
+        
+          # get his courses
+          ?course ns1:hasCourseCode ?course_code;
+                  ns1:hasCourseNumber ?course_number;
+                  ns1:hasTitle ?course_title;
+                  ns1:hasDescription ?course_desc;
+                  ns1:hasCredits ?course_credits;
+                  rdfs:seeAlso ?course_website.
+        }}
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = f"Here is the transcript for {studentFirstName} {studentLastName}:\n"
+        for result in results["results"]["bindings"]:
+            # Access values from the dictionary
+            id = float(result["id"]["value"])
+            firstName = result.get('first_name', {}).get('value', 'N/A')
+            lastName = result.get('last_name', {}).get('value', 'N/A')
+            course_code = result.get('course_code', {}).get('value', 'N/A')
+            course_number = float(result["course_number"]["value"])
+            course_desc = result.get('course_desc', {}).get('value', 'N/A')
+            course_credits = float(result["course_credits"]["value"])
+            website = result.get('course_website', {}).get('value', 'N/A')
+            grade = float(result["grade_val"]["value"])
+            grade_status = result.get('grade_status', {}).get('value', 'N/A')
+            message += (f'------------------------------------------------\n'
+                        f'Course: {course_code}, {course_number}\n'
+                        f'Course description: {course_desc}\n'
+                        f'Website: {website}\n'
+                        f'Grade: {grade}\n'
+                        f'Pass/Fail: {grade_status}\n'
+                        f'------------------------------------------------')
 
         dispatcher.utter_message(text=message)
 

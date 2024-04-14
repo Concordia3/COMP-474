@@ -17,6 +17,10 @@ intents:
   - additional_resources
   - content_details
   - reading_material
+  - gained_competencies
+  - student_grade
+  - students_completed_course
+  - print_transcript
 
 actions:
   - action_list_courses
@@ -28,6 +32,10 @@ actions:
   - action_additional_resources
   - action_content_details
   - action_reading_material
+  - action_gained_competencies
+  - action_student_grade
+  - action_students_completed_course
+  - action_print_transcript
 
 entities:
   - university
@@ -35,6 +43,8 @@ entities:
   - lecture
   - courseNumber
   - courseName
+  - studentFirstName
+  - studentLastName
 
 slots:
   university:
@@ -67,6 +77,18 @@ slots:
     mappings:
       - type: from_entity
         entity: courseNumber
+  studentFirstName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: studentFirstName
+  studentLastName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: studentLastName
 
 responses:
   utter_greet:
