@@ -108,18 +108,18 @@ nlu:
 
 - intent: discussed_topic
   examples: |
-    - In which courses is [artificial intelligence](topic) discussed?
-    - What courses cover [machine learning](topic)?
-    - Can you tell me in which courses [data science](topic) is discussed?
-    - List the courses where [computer networks](topic) are discussed
-    - What courses discuss [software engineering](topic)?
-    - In which courses is [cybersecurity](topic) covered?
-    - Can you list the courses where [robotics](topic) is discussed?
-    - What courses cover [natural language processing](topic)?
-    - Which courses discuss [blockchain](topic)?
-    - List the courses where [cloud computing](topic) is discussed
-    - In which courses is [computer vision](topic) covered?
-    - Can you tell me which courses discuss [big data](topic)?
+    - In which courses is [artificial intelligence](discussedTopic) discussed?
+    - What courses cover [machine learning](discussedTopic)?
+    - Can you tell me in which courses [data science](discussedTopic) is discussed?
+    - List the courses where [computer networks](discussedTopic) are discussed
+    - What courses discuss [software engineering](discussedTopic)?
+    - In which courses is [cybersecurity](discussedTopic) covered?
+    - Can you list the courses where [robotics](discussedTopic) is discussed?
+    - What courses cover [natural language processing](discussedTopic)?
+    - Which courses discuss [blockchain](discussedTopic)?
+    - List the courses where [cloud computing](discussedTopic) is discussed
+    - In which courses is [computer vision](discussedTopic) covered?
+    - Can you tell me which courses discuss [big data](discussedTopic)?
 
 - intent: topic_discussed_lecture
   examples: |
@@ -153,16 +153,16 @@ nlu:
 
 - intent: recommended_materials
   examples: |
-    - What study materials do you suggest for [data structures](topic) in [COMP](courseName) [352](courseNumber)?
-    - Can you recommend any resources for learning [web development](topic) in [SOEN](courseName) [341](courseNumber)?
-    - I need some materials for studying [algorithms](topic) in [COMP](courseName) [567](courseNumber). Any recommendations?
-    - What are the recommended materials for [network security](topic) in [SOEN](courseName) [6481](courseNumber)?
-    - Are there any specific materials you advise for [software testing](topic) in [COMP](courseName) [654](courseNumber)?
-    - Could you suggest study materials for [machine learning applications](topic) in [COMP](courseName) [472](courseNumber)?
-    - What resources would you recommend for learning [human-computer interaction](topic) in [SOEN](courseName) [662](courseNumber)?
-    - I'm interested in [natural language processing](topic). Can you suggest any materials in [COMP](courseName) [672](courseNumber)?
-    - Are there any recommended materials for studying [cloud computing](topic) in [SOEN](courseName) [693](courseNumber)?
-    - Can you provide any recommended reading for [distributed systems](topic) in [COMP](courseName) [646](courseNumber)?
+    - What study materials do you suggest for [data structures](discussedTopic) in [COMP](courseName) [352](courseNumber)?
+    - Can you recommend any resources for learning [web development](discussedTopic) in [SOEN](courseName) [341](courseNumber)?
+    - I need some materials for studying [algorithms](discussedTopic) in [COMP](courseName) [567](courseNumber). Any recommendations?
+    - What are the recommended materials for [network security](discussedTopic) in [SOEN](courseName) [6481](courseNumber)?
+    - Are there any specific materials you advise for [software testing](discussedTopic) in [COMP](courseName) [654](courseNumber)?
+    - Could you suggest study materials for [machine learning applications](discussedTopic) in [COMP](courseName) [472](courseNumber)?
+    - What resources would you recommend for learning [human-computer interaction](discussedTopic) in [SOEN](courseName) [662](courseNumber)?
+    - I'm interested in [natural language processing](discussedTopic). Can you suggest any materials in [COMP](courseName) [672](courseNumber)?
+    - Are there any recommended materials for studying [cloud computing](discussedTopic) in [SOEN](courseName) [693](courseNumber)?
+    - Can you provide any recommended reading for [distributed systems](discussedTopic) in [COMP](courseName) [646](courseNumber)?
 
 - intent: credits_course
   examples: |
@@ -189,6 +189,17 @@ nlu:
     - List all additional resources (links to web pages) available for [COMP](courseName) [486](courseNumber).
     - What additional resources (links to web pages) are provided for [COMP](courseName) [488](courseNumber)?
     - Provide the links to additional resources available for [COMP](courseName) [490](courseNumber).
+    - For [SENG](courseName) [312](courseNumber), what additional resources (links to web pages) can I access?
+    - What are the additional resources (links to web pages) available for [SENG](courseName) [324](courseNumber)?
+    - Can you list the additional resources (links to web pages) provided for [SENG](courseName) [336](courseNumber)?
+    - I'm looking for the additional resources (links to web pages) for [SENG](courseName) [348](courseNumber).
+    - Provide the links to additional resources available for [SENG](courseName) [360](courseNumber).
+    - List all additional resources (links to web pages) for [SENG](courseName) [372](courseNumber).
+    - What additional resources (links to web pages) are there for [SENG](courseName) [384](courseNumber)?
+    - Could you provide the additional resources (links to web pages) available for [SENG](courseName) [396](courseNumber)?
+    - List the additional resources (links to web pages) available for [SENG](courseName) [408](courseNumber).
+    - Can you give me the links to additional resources for [SENG](courseName) [420](courseNumber)?
+
 
 - intent: content_details
   examples: |
@@ -215,19 +226,19 @@ nlu:
 
 - intent: reading_material
   examples: |
-    - What reading materials are recommended for studying [k-means clustering](topic) in [COMP](courseName) [472](courseNumber)?
-    - Can you suggest reading materials for learning about [neural networks](topic) in [COMP](courseName) [550](courseNumber)?
-    - I'm interested in studying [database management systems](topic) in [COMP](courseName) [352](courseNumber). What reading materials do you recommend?
-    - Could you provide some recommended reading materials for understanding [software engineering principles](topic) in [COMP](courseName) [646](courseNumber)?
-    - What are some good reading materials for learning [data structures and algorithms](topic) in [COMP](courseName) [215](courseNumber)?
-    - What reading materials would you suggest for studying [machine learning algorithms](topic) in [COMP](courseName) [652](courseNumber)?
-    - I'm looking for reading materials to understand [natural language processing techniques](topic) in [COMP](courseName) [765](courseNumber). Can you recommend any?
-    - Can you provide reading materials for [parallel computing](topic) in [COMP](courseName) [480](courseNumber)?
-    - What books or articles do you recommend for learning [cloud computing concepts](topic) in [COMP](courseName) [678](courseNumber)?
-    - I need some reading materials on [cybersecurity practices](topic) in [COMP](courseName) [720](courseNumber). Any suggestions?
-    - Could you suggest some reading materials for [graph theory](topic) in [COMP](courseName) [310](courseNumber)?
-    - What are the recommended reading materials for studying [operating system design](topic) in [COMP](courseName) [430](courseNumber)?
-    - I'm interested in learning about [computer networks](topic) in [COMP](courseName) [535](courseNumber). What reading materials should I start with?
+    - What reading materials are recommended for studying [k-means clustering](discussedTopic) in [COMP](courseName) [472](courseNumber)?
+    - Can you suggest reading materials for learning about [neural networks](discussedTopic) in [COMP](courseName) [550](courseNumber)?
+    - I'm interested in studying [database management systems](discussedTopic) in [COMP](courseName) [352](courseNumber). What reading materials do you recommend?
+    - Could you provide some recommended reading materials for understanding [software engineering principles](discussedTopic) in [COMP](courseName) [646](courseNumber)?
+    - What are some good reading materials for learning [data structures and algorithms](discussedTopic) in [COMP](courseName) [215](courseNumber)?
+    - What reading materials would you suggest for studying [machine learning algorithms](discussedTopic) in [COMP](courseName) [652](courseNumber)?
+    - I'm looking for reading materials to understand [natural language processing techniques](discussedTopic) in [COMP](courseName) [765](courseNumber). Can you recommend any?
+    - Can you provide reading materials for [parallel computing](discussedTopic) in [COMP](courseName) [480](courseNumber)?
+    - What books or articles do you recommend for learning [cloud computing concepts](discussedTopic) in [COMP](courseName) [678](courseNumber)?
+    - I need some reading materials on [cybersecurity practices](discussedTopic) in [COMP](courseName) [720](courseNumber). Any suggestions?
+    - Could you suggest some reading materials for [graph theory](discussedTopic) in [COMP](courseName) [310](courseNumber)?
+    - What are the recommended reading materials for studying [operating system design](discussedTopic) in [COMP](courseName) [430](courseNumber)?
+    - I'm interested in learning about [computer networks](discussedTopic) in [COMP](courseName) [535](courseNumber). What reading materials should I start with?
 
 - intent: gained_competencies
   examples: |

@@ -27,9 +27,16 @@ class ActionListCourses(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "Courses at Concordia:\n"
-        for result in results["results"]["bindings"]:
-            message += f'- {result["course"]["value"]}\n'
+        if not results["results"]["bindings"]:
+            message = f"There are no courses found."
+        else:
+            message = "Here are all the courses offered at Concordia University:\n"
+            for result in results["results"]["bindings"]:
+                # Extract course code and number from the URL
+                course_url = result["course"]["value"]
+                course_code = course_url.split("/")[-2]  # Extract the second last part of the URL
+                course_number = course_url.split("/")[-1]  # Extract the last part of the URL
+                message += f'- {course_code} {course_number}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -41,30 +48,31 @@ class DiscussedTopic(Action):
         return "action_discussed_topic"
 
     def run(self, dispatcher, tracker, domain):
-        topic = tracker.get_slot('topic')
-        if topic is None:
-            topic = ''
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
             PREFIX ns1: <http://example.org/>
-        
+
             SELECT ?courseTitle
             WHERE {{
             ?course a ns1:Course;
             ns1:hasTitle ?courseTitle;
             ns1:hasDescription ?description;
             FILTER
-            regex(?description, "{tracker.slots['topic']}", "i").
+            regex(?description, "{tracker.slots['discussedTopic']}", "i").
             }}
 
-    """)
+        """)
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The courses are:\n"
-        for result in results["results"]["bindings"]:
-            message += f'- {result["courseTitle"]["value"]}\n'
+        if not results["results"]["bindings"]:
+            message = f"There are no courses where '{discussedTopic}' is explicitly discussed."
+        else:
+            message = f"The courses in which {discussedTopic} is discussed are:\n"
+            for result in results["results"]["bindings"]:
+                message += f'- {result["courseTitle"]["value"]}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -102,9 +110,14 @@ class TopicDiscussedLecture(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The topics are:\n"
-        for result in results["results"]["bindings"]:
-            message += f'- {result["topic"]["value"]}\n'
+        if not results["results"]["bindings"]:
+            message = "No topics found."
+        else:
+            message = f"The topics discussed in {courseName} {courseNumber} during lecture {lecture} are:\n"
+            for result in results["results"]["bindings"]:
+                topic_url = result["topic"]["value"]
+                topic_name = topic_url.split("/")[-1]
+                message += f'- {topic_name}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -136,9 +149,16 @@ class OfferedInSubject(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The courses are:\n"
-        for result in results["results"]["bindings"]:
-            message += f'- {result["course"]["value"]}\n'
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"There are no courses within the '{courseName}' subject."
+        else:
+            message = f"The courses within the '{courseName}' subject are:\n"
+            for result in results["results"]["bindings"]:
+                # Extract course code and number from the URL
+                course_url = result["course"]["value"]
+                course_code = course_url.split("/")[-2]  # Extract the second last part of the URL
+                course_number = course_url.split("/")[-1]  # Extract the last part of the URL
+                message += f'- {course_code} {course_number}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -220,11 +240,13 @@ class CreditsCourse(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "Credits:\n"
-        for result in results["results"]["bindings"]:
-            # Access the credit value and convert it to float (assuming it's a string)
-            credit_value = float(result["credits"]["value"])
-            message += f'- {credit_value}\n'
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"{courseName} {courseNumber} not found."
+        else:
+            for result in results["results"]["bindings"]:
+                credit_value = float(result["credits"]["value"])
+
+            message = f"{courseName} {courseNumber} is worth {credit_value} credits."
 
         dispatcher.utter_message(text=message)
 
@@ -238,10 +260,6 @@ class AdditionalResources(Action):
     def run(self, dispatcher, tracker, domain):
         courseName = tracker.get_slot('courseName')
         courseNumber = tracker.get_slot('courseNumber')
-        if courseName is None:
-            courseName = ''
-        if courseNumber is None:
-            courseNumber = 0
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -262,9 +280,12 @@ class AdditionalResources(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The resources are:\n"
-        for result in results["results"]["bindings"]:
-            message += f'- {result["website"]["value"]}\n'
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"No additional resources found for {courseName} {courseNumber}."
+        else:
+            message = "The additional resources for {courseName} {courseNumber} are:\n"
+            for result in results["results"]["bindings"]:
+                message += f'- {result["website"]["value"]}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -322,11 +343,14 @@ class ContentDetails(Action):
 
         print("Results:", results)
 
-        message = "The resources are:\n"
-        for result in results["results"]["bindings"]:
-            # Check if 'course_code' exists before accessing it
-            course_code = result.get('course_code', {}).get('value', 'N/A')
-            message += f"- Course: {course_code}, Week: {result['week']['value']}, File Type: {result.get('file_type', {}).get('value', 'N/A')}, File Name: {result.get('file_name', {}).get('value', 'N/A')}, File Path: {result.get('file_path', {}).get('value', 'N/A')}\n"
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"No content found for {courseName} {courseNumber}."
+        else:
+            message = f"Here are the requested contents for {courseName} {courseNumber}:\n"
+            for result in results["results"]["bindings"]:
+                url = result["file_type"]["value"]
+                file = url.split("/")[-1]
+                message += f"- Week: {result['week']['value']}, File Type: {file}, File Name: {result.get('file_name', {}).get('value', 'N/A')}, File Path: {result.get('file_path', {}).get('value', 'N/A')}\n"
 
         dispatcher.utter_message(text=message)
 
@@ -340,17 +364,19 @@ class ReadingMaterial(Action):
     def run(self, dispatcher, tracker, domain):
         courseName = tracker.get_slot('courseName')
         courseNumber = int(tracker.get_slot('courseNumber'))
-        topic = tracker.get_slot('topic')
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX ns1: <http://example.org/>
 
         SELECT ?materialName ?materialLink  ?worksheetName ?worksheetLink
         WHERE {{
+          ?topic rdfs:label "{discussedTopic}" .
           ?lecture a ns1:Lecture ;
                    ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
-                   ns1:topic "{topic}" ;
+                   ns1:contentTopic ?topic ;
                    ns1:contentNumber ?lectureNumber ;
                    ns1:contentName ?materialName ;
                    ns1:contentLink ?materialLink .
@@ -368,17 +394,20 @@ class ReadingMaterial(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The resources are:\n"
-        for result in results["results"]["bindings"]:
-            # Access values from the dictionary
-            material_name = result.get('materialName', {}).get('value', 'N/A')
-            material_link = result.get('materialLink', {}).get('value', 'N/A')
-            worksheet_name = result.get('worksheetName', {}).get('value', 'N/A')
-            worksheet_link = result.get('worksheetLink', {}).get('value', 'N/A')
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"No reading materials available for {courseName} {courseNumber}."
+        else:
+            message = f"The following reading materials are recommended for {discussedTopic}:\n"
+            for result in results["results"]["bindings"]:
+                # Access values from the dictionary
+                material_name = result.get('materialName', {}).get('value', 'N/A')
+                material_link = result.get('materialLink', {}).get('value', 'N/A')
+                worksheet_name = result.get('worksheetName', {}).get('value', 'N/A')
+                worksheet_link = result.get('worksheetLink', {}).get('value', 'N/A')
 
-            # Update the message with correct variable names
-            message += f"- Material Name: {material_name}, Link to material: {material_link}\n"
-            message += f"- Worksheet name: {worksheet_name}, Link to worksheet: {worksheet_link}\n"
+                # Update the message with correct variable names
+                message += f"- Material Name: {material_name}; Link to material: {material_link}\n"
+                message += f"- Worksheet name: {worksheet_name}; Link to worksheet: {worksheet_link}\n"
 
         dispatcher.utter_message(text=message)
 
@@ -407,9 +436,14 @@ class ReadingMaterial(Action):
             sparql.setReturnFormat(JSON)
             results = sparql.query().convert()
 
-            message = "The competencies gained are:\n"
-            for result in results["results"]["bindings"]:
-                message += f'- {result["topic"]["value"]}\n'
+            if not results["results"]["bindings"]:
+                message = "No competency information found."
+            else:
+                message = f"The competencies gained after completing {courseName} {courseNumber} are:\n"
+                for result in results["results"]["bindings"]:
+                    topic_url = result["topic"]["value"]
+                    topic_name = topic_url.split("/")[-1]
+                    message += f'- {topic_name}\n'
 
             dispatcher.utter_message(text=message)
 
@@ -461,11 +495,13 @@ class StudentGrade(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The student's grade is:\n"
-        for result in results["results"]["bindings"]:
-            # Access values from the dictionary
-            grade = float(result["grade_val"]["value"])
-            message += f'- {grade}\n'
+        if not results["results"]["bindings"]:
+            message = f"No grade found."
+        else:
+            for result in results["results"]["bindings"]:
+                grade = float(result["grade_val"]["value"])
+
+            message = f"{studentFirstName}'s grade in {courseName} {courseNumber} is: {grade}%\n"
 
         dispatcher.utter_message(text=message)
 
@@ -508,12 +544,14 @@ class StudentsCompletedCourse(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"The students who have completed {courseName} {courseNumber} are:\n"
-        for result in results["results"]["bindings"]:
-            # Access values from the dictionary
-            firstName = result.get('first_name', {}).get('value', 'N/A')
-            lastName = result.get('last_name', {}).get('value', 'N/A')
-            message += f'Name of student: {firstName}, {lastName}.\n'
+        if not results["results"]["bindings"]:
+            message = f"No students have completed {courseName} {courseNumber}."
+        else:
+            message = f"The students who have completed {courseName} {courseNumber} are:\n"
+            for result in results["results"]["bindings"]:
+                firstName = result.get('first_name', {}).get('value', 'N/A')
+                lastName = result.get('last_name', {}).get('value', 'N/A')
+                message += f'{firstName} {lastName}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -563,26 +601,29 @@ class PrintTranscript(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"Here is the transcript for {studentFirstName} {studentLastName}:\n"
-        for result in results["results"]["bindings"]:
-            # Access values from the dictionary
-            id = float(result["id"]["value"])
-            firstName = result.get('first_name', {}).get('value', 'N/A')
-            lastName = result.get('last_name', {}).get('value', 'N/A')
-            course_code = result.get('course_code', {}).get('value', 'N/A')
-            course_number = float(result["course_number"]["value"])
-            course_desc = result.get('course_desc', {}).get('value', 'N/A')
-            course_credits = float(result["course_credits"]["value"])
-            website = result.get('course_website', {}).get('value', 'N/A')
-            grade = float(result["grade_val"]["value"])
-            grade_status = result.get('grade_status', {}).get('value', 'N/A')
-            message += (f'------------------------------------------------\n'
-                        f'Course: {course_code}, {course_number}\n'
-                        f'Course description: {course_desc}\n'
-                        f'Website: {website}\n'
-                        f'Grade: {grade}\n'
-                        f'Pass/Fail: {grade_status}\n'
-                        f'------------------------------------------------')
+        if not results["results"]["bindings"]:
+            message = f"Student does not exist and/or no transcript available."
+        else:
+            message = f"Here is the transcript for {studentFirstName} {studentLastName}:\n"
+            for result in results["results"]["bindings"]:
+                # Access values from the dictionary
+                id = float(result["id"]["value"])
+                firstName = result.get('first_name', {}).get('value', 'N/A')
+                lastName = result.get('last_name', {}).get('value', 'N/A')
+                course_code = result.get('course_code', {}).get('value', 'N/A')
+                course_number = float(result["course_number"]["value"])
+                course_desc = result.get('course_desc', {}).get('value', 'N/A')
+                course_credits = float(result["course_credits"]["value"])
+                website = result.get('course_website', {}).get('value', 'N/A')
+                grade = float(result["grade_val"]["value"])
+                grade_status = result.get('grade_status', {}).get('value', 'N/A')
+                message += (f'------------------------------------------------\n'
+                            f'Course: {course_code}, {course_number}\n'
+                            f'Course description: {course_desc}\n'
+                            f'Website: {website}\n'
+                            f'Grade: {grade}\n'
+                            f'Pass/Fail: {grade_status}\n'
+                            f'------------------------------------------------')
 
         dispatcher.utter_message(text=message)
 
@@ -612,10 +653,13 @@ class AboutCourse(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"Here is the description for {courseName} {courseNumber}:\n"
-        for result in results["results"]["bindings"]:
-            courseDescription = result.get('courseDescription', {}).get('value', 'N/A')
-            message += f'{courseDescription}.\n'
+        if not results["results"]["bindings"]:
+            message = f"No course description available for {courseName} {courseNumber}."
+        else:
+            message = f"Here is the course description for {courseName} {courseNumber}:\n"
+            for result in results["results"]["bindings"]:
+                courseDescription = result.get('courseDescription', {}).get('value', 'N/A')
+                message += f'- {courseDescription}.\n'
 
         dispatcher.utter_message(text=message)
 
@@ -657,11 +701,14 @@ class CoveredTopics(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"The topics covered are:\n"
-        for result in results["results"]["bindings"]:
-            topic_label = result.get('topic_label', {}).get('value', 'N/A')
-            conceptURI = result.get('conceptURI', {}).get('value', 'N/A')
-            message += f'{topic_label} - URI: {conceptURI}\n'
+        if not results["results"]["bindings"]:
+            message = f"No topics found."
+        else:
+            message = f"The topics covered are:\n"
+            for result in results["results"]["bindings"]:
+                topic_label = result.get('topic_label', {}).get('value', 'N/A')
+                conceptURI = result.get('conceptURI', {}).get('value', 'N/A')
+                message += f'{topic_label} - URI: {conceptURI}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -674,7 +721,6 @@ class EventCoversTopic(Action):
 
     def run(self, dispatcher, tracker, domain):
         topicCovers = tracker.get_slot('topicCovers')
-        print({topicCovers})
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -697,13 +743,19 @@ class EventCoversTopic(Action):
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = f"The events that cover {topicCovers} are:\n"
-        for result in results["results"]["bindings"]:
-            course = result.get('course', {}).get('value', 'N/A')
-            event = result.get('event', {}).get('value', 'N/A')
-            message += f'{course}: {event}\n'
+        if not results["results"]["bindings"]:
+            message = f"No course events found."
+        else:
+            message = f"The events that cover {topicCovers} are:\n"
+            for result in results["results"]["bindings"]:
+                course_uri = result.get('course', {}).get('value', 'N/A')
+                event_uri = result.get('event', {}).get('value', 'N/A')
+
+                course_code = course_uri.split('/')[-1].split('_')[0]
+                event_name = event_uri.split('/')[-1]
+
+                message += f'{course_code}: {event_name}\n'
 
         dispatcher.utter_message(text=message)
 
         return []
-
