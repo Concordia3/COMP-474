@@ -1,11 +1,19 @@
 {
     "cs_concepts": [
         "machine learning",
+		"ann",
         "artificial intelligence",
+		"decision trees",
+		"cnn",
+		"intelligent agents",
         "natural language processing",
+		"knowledge graphs",
         "knowledge representation",
+		"neral networks",
+		"nlp",
         "rdf",
         "sparql",
+		"state space search",
         "programming"
     ]
 }
