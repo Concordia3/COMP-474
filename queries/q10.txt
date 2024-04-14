@@ -4,5 +4,5 @@ SELECT DISTINCT ?topic
 WHERE {
   ?lecture a ns1:Lecture ;
            ns1:contentFor <http://example.org/COMP/472> ;
-           ns1:topic ?topic .
+           ns1:contentTopic ?topic .
 }
