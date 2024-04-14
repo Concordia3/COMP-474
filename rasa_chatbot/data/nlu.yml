@@ -212,3 +212,21 @@ nlu:
     - List all content (slides, worksheets, readings) for lecture [19](lecture) in [COMP](courseName) [506](courseNumber).
     - What resources (slides, worksheets, readings) are provided for lecture [20](lecture) in [COMP](courseName) [508](courseNumber)?
     - Detail the content (slides, worksheets, readings) available for lecture [21](lecture) in [COMP](courseName) [510](courseNumber).
+
+- intent: reading_material
+  examples: |
+    - What reading materials are recommended for studying [k-means clustering](topic) in [COMP](courseName) [472](courseNumber)?
+    - Can you suggest reading materials for learning about [neural networks](topic) in [COMP](courseName) [550](courseNumber)?
+    - I'm interested in studying [database management systems](topic) in [COMP](courseName) [352](courseNumber). What reading materials do you recommend?
+    - Could you provide some recommended reading materials for understanding [software engineering principles](topic) in [COMP](courseName) [646](courseNumber)?
+    - What are some good reading materials for learning [data structures and algorithms](topic) in [COMP](courseName) [215](courseNumber)?
+    - What reading materials would you suggest for studying [machine learning algorithms](topic) in [COMP](courseName) [652](courseNumber)?
+    - I'm looking for reading materials to understand [natural language processing techniques](topic) in [COMP](courseName) [765](courseNumber). Can you recommend any?
+    - Can you provide reading materials for [parallel computing](topic) in [COMP](courseName) [480](courseNumber)?
+    - What books or articles do you recommend for learning [cloud computing concepts](topic) in [COMP](courseName) [678](courseNumber)?
+    - I need some reading materials on [cybersecurity practices](topic) in [COMP](courseName) [720](courseNumber). Any suggestions?
+    - Could you suggest some reading materials for [graph theory](topic) in [COMP](courseName) [310](courseNumber)?
+    - What are the recommended reading materials for studying [operating system design](topic) in [COMP](courseName) [430](courseNumber)?
+    - I'm interested in learning about [computer networks](topic) in [COMP](courseName) [535](courseNumber). What reading materials should I start with?
+
+

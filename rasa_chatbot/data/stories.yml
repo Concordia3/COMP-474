@@ -68,3 +68,8 @@ stories:
   steps:
     - intent: content_details
     - action: action_content_details
+
+- story: reading_material
+  steps:
+    - intent: reading_material
+    - action: action_reading_material

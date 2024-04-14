@@ -310,7 +310,7 @@ class ContentDetails(Action):
                     ?course_file rdf:type ?file_type;
                                  ns1:contentLink ?file_path;
                                  ns1:contentName ?file_name;
-                                 ns1:contentNumber "{lecture}".
+                                 ns1:contentNumber ?week.
                     FILTER(?week = {lecture} && ?course_number = '{courseNumber}')
     
                 }}
@@ -319,6 +319,8 @@ class ContentDetails(Action):
 
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
+
+        print("Results:", results)
 
         message = "The resources are:\n"
         for result in results["results"]["bindings"]:
@@ -330,4 +332,53 @@ class ContentDetails(Action):
 
         return []
 
-# What materials (slides, worksheets, readings) are included for lecture 2 in COMP 472?
+class ReadingMaterial(Action):
+    def name(self):
+        return "action_reading_material"
+
+    def run(self, dispatcher, tracker, domain):
+        courseName = tracker.get_slot('courseName')
+        courseNumber = int(tracker.get_slot('courseNumber'))
+        topic = tracker.get_slot('topic')
+
+        sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
+        sparql.setQuery(f"""
+        PREFIX ns1: <http://example.org/>
+
+        SELECT ?materialName ?materialLink  ?worksheetName ?worksheetLink
+        WHERE {{
+          ?lecture a ns1:Lecture ;
+                   ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
+                   ns1:topic "{topic}" ;
+                   ns1:contentNumber ?lectureNumber ;
+                   ns1:contentName ?materialName ;
+                   ns1:contentLink ?materialLink .
+          OPTIONAL {{
+            ?worksheet a ns1:Worksheet ;
+                       ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
+                       ns1:contentNumber ?worksheetNumber ;
+                       ns1:contentName ?worksheetName ;
+                       ns1:contentLink ?worksheetLink .
+            FILTER (?worksheetNumber = (?lectureNumber - 1))
+          }}
+        }}
+        """)
+
+        sparql.setReturnFormat(JSON)
+        results = sparql.query().convert()
+
+        message = "The resources are:\n"
+        for result in results["results"]["bindings"]:
+            # Access values from the dictionary
+            material_name = result.get('materialName', {}).get('value', 'N/A')
+            material_link = result.get('materialLink', {}).get('value', 'N/A')
+            worksheet_name = result.get('worksheetName', {}).get('value', 'N/A')
+            worksheet_link = result.get('worksheetLink', {}).get('value', 'N/A')
+
+            # Update the message with correct variable names
+            message += f"- Material Name: {material_name}, Link to material: {material_link}\n"
+            message += f"- Worksheet name: {worksheet_name}, Link to worksheet: {worksheet_link}\n"
+
+        dispatcher.utter_message(text=message)
+
+        return []

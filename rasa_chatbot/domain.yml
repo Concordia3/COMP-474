@@ -16,6 +16,7 @@ intents:
   - credits_course
   - additional_resources
   - content_details
+  - reading_material
 
 actions:
   - action_list_courses
@@ -26,6 +27,7 @@ actions:
   - action_credits_course
   - action_additional_resources
   - action_content_details
+  - action_reading_material
 
 entities:
   - university
