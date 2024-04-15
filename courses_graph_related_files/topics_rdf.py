@@ -1,6 +1,7 @@
 from tools_libs import *
 from topics_excavator.search_wikidata import search_wikidata
 
+
 def topics_rdf(comp_courses_graph_path):
     comp_courses_graph = Graph()
     comp_courses_graph.parse(comp_courses_graph_path, format='turtle')

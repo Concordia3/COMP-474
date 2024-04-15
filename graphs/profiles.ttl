@@ -1562,36 +1562,36 @@ ns1:Student a rdfs:Class .
     ns1:hasGradeVal 66 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/ELEC/6311/40127534/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6311> ;
-    ns1:gradeOf ns1:40127534 ;
-    ns1:gradeStatus "P" ;
-    ns1:hasGradeVal 100 ;
-    rdfs:comment "" .
-
-<http://example.org/ELEC/6601/40127654/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6601> ;
+<http://example.org/ELEC/6491/40127654/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6491> ;
     ns1:gradeOf ns1:40127654 ;
     ns1:gradeStatus "P" ;
     ns1:hasGradeVal 78 ;
     rdfs:comment "" .
 
-<http://example.org/ELEC/6611/40879012/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6611> ;
+<http://example.org/ELEC/6601/40879012/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6601> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "F" ;
     ns1:hasGradeVal 59 ;
     rdfs:comment "" .
 
-<http://example.org/ELEC/6611/40879012/2> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/6611> ;
+<http://example.org/ELEC/6601/40879012/2> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6601> ;
     ns1:gradeOf ns1:40879012 ;
     ns1:gradeStatus "P" ;
     ns1:hasGradeVal 72 ;
     rdfs:comment "Retake grade" .
 
-<http://example.org/ELEC/7151/40341298/1> a ns1:Grade ;
-    ns1:gradeFor <http://example.org/ELEC/7151> ;
+<http://example.org/ELEC/6661/40127534/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6661> ;
+    ns1:gradeOf ns1:40127534 ;
+    ns1:gradeStatus "P" ;
+    ns1:hasGradeVal 100 ;
+    rdfs:comment "" .
+
+<http://example.org/ELEC/6881/40341298/1> a ns1:Grade ;
+    ns1:gradeFor <http://example.org/ELEC/6881> ;
     ns1:gradeOf ns1:40341298 ;
     ns1:gradeStatus "P" ;
     ns1:hasGradeVal 90 ;
@@ -3577,11 +3577,11 @@ ns1:studiesAt a rdf:Property ;
 
 <http://example.org/ELEC/483> a ns1:Course .
 
-<http://example.org/ELEC/6311> a ns1:Course .
+<http://example.org/ELEC/6491> a ns1:Course .
 
-<http://example.org/ELEC/6601> a ns1:Course .
+<http://example.org/ELEC/6661> a ns1:Course .
 
-<http://example.org/ELEC/7151> a ns1:Course .
+<http://example.org/ELEC/6881> a ns1:Course .
 
 <http://example.org/ENCS/6821> a ns1:Course .
 
@@ -3925,7 +3925,7 @@ ns1:studiesAt a rdf:Property ;
 
 <http://example.org/ELEC/6181> a ns1:Course .
 
-<http://example.org/ELEC/6611> a ns1:Course .
+<http://example.org/ELEC/6601> a ns1:Course .
 
 <http://example.org/EMBA/631> a ns1:Course .
 
@@ -4095,7 +4095,7 @@ ns1:40127654 a ns1:Student ;
     ns1:hasId 40127654 ;
     ns1:isEnrolled <http://example.org/BLDG/476>,
         <http://example.org/ELEC/453>,
-        <http://example.org/ELEC/6601>,
+        <http://example.org/ELEC/6491>,
         <http://example.org/INDU/490>,
         <http://example.org/PERC/398> ;
     ns1:studiesAt <http://dbpedia.org/resource/Concordia_University> ;
@@ -4132,7 +4132,7 @@ ns1:40341298 a ns1:Student ;
     ns1:hasId 40341298 ;
     ns1:isEnrolled <http://example.org/AHSC/537>,
         <http://example.org/COMP/6791>,
-        <http://example.org/ELEC/7151>,
+        <http://example.org/ELEC/6881>,
         <http://example.org/LOYC/298>,
         <http://example.org/MECH/352>,
         <http://example.org/MECH/6781> ;
@@ -4457,7 +4457,7 @@ ns1:40879012 a ns1:Student ;
     ns1:hasId 40879012 ;
     ns1:isEnrolled <http://example.org/BLDG/365>,
         <http://example.org/COMS/376>,
-        <http://example.org/ELEC/6611>,
+        <http://example.org/ELEC/6601>,
         <http://example.org/ENGL/474>,
         <http://example.org/IADI/301>,
         <http://example.org/JPER/223>,
@@ -4721,7 +4721,7 @@ ns1:40127534 a ns1:Student ;
     ns1:hasId 40127534 ;
     ns1:isEnrolled <http://example.org/CIVI/7401>,
         <http://example.org/ELEC/6041>,
-        <http://example.org/ELEC/6311>,
+        <http://example.org/ELEC/6661>,
         <http://example.org/ENCS/691>,
         <http://example.org/FBRS/371>,
         <http://example.org/FINA/385>,

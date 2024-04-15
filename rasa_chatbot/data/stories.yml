@@ -33,3 +33,78 @@ stories:
   steps:
   - intent: list_courses
   - action: action_list_courses
+
+- story: discussed_topic
+  steps:
+  - intent: discussed_topic
+  - action: action_discussed_topic
+
+- story: topic_discussed_lecture
+  steps:
+    - intent: topic_discussed_lecture
+    - action: action_topic_discussed_lecture
+
+- story: offered_in_subject
+  steps:
+    - intent: offered_in_subject
+    - action: action_offered_in_subject
+
+- story: recommended_materials
+  steps:
+    - intent: recommended_materials
+    - action: action_recommended_materials
+
+- story: credits_course
+  steps:
+    - intent: credits_course
+    - action: action_credits_course
+
+- story: additional_resources
+  steps:
+    - intent: additional_resources
+    - action: action_additional_resources
+
+- story: content_details
+  steps:
+    - intent: content_details
+    - action: action_content_details
+
+- story: reading_material
+  steps:
+    - intent: reading_material
+    - action: action_reading_material
+
+- story: gained_competencies
+  steps:
+    - intent: gained_competencies
+    - action: action_gained_competencies
+
+- story: student_grade
+  steps:
+    - intent: student_grade
+    - action: action_student_grade
+
+- story: students_completed_course
+  steps:
+    - intent: students_completed_course
+    - action: action_students_completed_course
+
+- story: print_transcript
+  steps:
+    - intent: print_transcript
+    - action: action_print_transcript
+
+- story: about_course
+  steps:
+    - intent: about_course
+    - action: action_about_course
+
+- story: covered_topics
+  steps:
+    - intent: covered_topics
+    - action: action_covered_topics
+
+- story: event_covers_topic
+  steps:
+    - intent: event_covers_topic
+    - action: action_event_covers_topic

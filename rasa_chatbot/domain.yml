@@ -9,9 +9,106 @@ intents:
   - mood_unhappy
   - bot_challenge
   - list_courses
+  - discussed_topic
+  - topic_discussed_lecture
+  - offered_in_subject
+  - recommended_materials
+  - credits_course
+  - additional_resources
+  - content_details
+  - reading_material
+  - gained_competencies
+  - student_grade
+  - students_completed_course
+  - print_transcript
+  - about_course
+  - covered_topics
+  - event_covers_topic
 
 actions:
   - action_list_courses
+  - action_discussed_topic
+  - action_topic_discussed_lecture
+  - action_offered_in_subject
+  - action_recommended_materials
+  - action_credits_course
+  - action_additional_resources
+  - action_content_details
+  - action_reading_material
+  - action_gained_competencies
+  - action_student_grade
+  - action_students_completed_course
+  - action_print_transcript
+  - action_about_course
+  - action_covered_topics
+  - action_event_covers_topic
+
+entities:
+  - university
+  - discussedTopic
+  - lecture
+  - courseNumber
+  - courseName
+  - studentFirstName
+  - studentLastName
+  - courseEvent
+  - topicCovers
+
+slots:
+  university:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: university
+  lecture:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: from_entity
+        entity: lecture
+  courseName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: courseName
+  courseNumber:
+    type: float
+    initial_value: 0
+    mappings:
+      - type: from_entity
+        entity: courseNumber
+  studentFirstName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: studentFirstName
+  studentLastName:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: studentLastName
+  courseEvent:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: courseEvent
+  topicCovers:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: topicCovers
+  discussedTopic:
+    type: text
+    initial_value: "unknown"
+    mappings:
+      - type: from_entity
+        entity: discussedTopic
 
 responses:
   utter_greet:

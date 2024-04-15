@@ -1,21 +1,26 @@
 from tools_libs import *
 from topics_excavator.topics_excavator import topics_excavator
 
+
 def comp_courses_rdf(courses_path, courses_graph_path, nlp_model, cs_concepts):
     # load the courses graph
     courses_graph = Graph()
     courses_graph.parse(courses_graph_path, format='turtle')
 
     # iterate over the courses graph and extract the classes
-    course_class    = None
-    syllabus_class  = None
-    lecture_class   = None
+    course_class = None
+    syllabus_class = None
+    lecture_class = None
     worksheet_class = None
     for s, p, o in courses_graph.triples((None, RDF.type, RDFS.Class)):
-        if   s == ex.Course: course_class = s
-        elif s == ex.Syllabus: syllabus_class = s
-        elif s == ex.Lecture: lecture_class = s
-        elif s == ex.Worksheet: worksheet_class = s
+        if s == ex.Course:
+            course_class = s
+        elif s == ex.Syllabus:
+            syllabus_class = s
+        elif s == ex.Lecture:
+            lecture_class = s
+        elif s == ex.Worksheet:
+            worksheet_class = s
 
     # find comp 472, 474
     comp_472 = None
@@ -26,33 +31,42 @@ def comp_courses_rdf(courses_path, courses_graph_path, nlp_model, cs_concepts):
         for _, _, course_number in courses_graph.triples((course_uri, ex.hasCourseNumber, None)):
             # this goes thorugh all the comp courses and their course numbers
 
-            if   course_number == Literal('472'): comp_472 = course_uri
-            elif course_number == Literal('474'): comp_474 = course_uri
+            if course_number == Literal('472'):
+                comp_472 = course_uri
+            elif course_number == Literal('474'):
+                comp_474 = course_uri
 
     # iterate over the courses graph and extract the needed properties
-    content_for     = None
-    content_link    = None
-    content_name    = None
-    content_topic   = None
-    content_number  = None
+    content_for = None
+    content_link = None
+    content_name = None
+    content_topic = None
+    content_number = None
     for s, p, o in courses_graph.triples((None, RDF.type, RDF.Property)):
-        if   s == ex.contentFor: content_for = s
-        elif s == ex.contentLink: content_link = s
-        elif s == ex.contentName: content_name = s
-        elif s == ex.contentTopic: content_topic = s
-        elif s == ex.contentNumber: content_number = s
+        if s == ex.contentFor:
+            content_for = s
+        elif s == ex.contentLink:
+            content_link = s
+        elif s == ex.contentName:
+            content_name = s
+        elif s == ex.contentTopic:
+            content_topic = s
+        elif s == ex.contentNumber:
+            content_number = s
 
     # initialize the comp courses graph
     comp_courses_graph = Graph()
 
     courses = courses_path
-    for course in sorted(os.listdir(courses)): 
+    for course in sorted(os.listdir(courses)):
         course_path = os.path.join(courses, course)
 
         if course == 'comp_472' or course == 'comp_474':
             comp_course = None
-            if   course == 'comp_472': comp_course = comp_472
-            elif course == 'comp_474': comp_course = comp_474
+            if course == 'comp_472':
+                comp_course = comp_472
+            elif course == 'comp_474':
+                comp_course = comp_474
 
             for content_type in sorted(os.listdir(course_path)):
                 content_type_path = os.path.join(course_path, content_type)

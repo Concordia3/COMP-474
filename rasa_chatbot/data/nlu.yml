@@ -93,6 +93,7 @@ nlu:
 - intent: list_courses
   examples: |
     - Can you list the courses?
+    - Can you list the courses offered at [Concordia University](university)?
     - What are the courses available?
     - What courses do you offer?
     - Can you tell me about the courses?
@@ -104,3 +105,242 @@ nlu:
     - Can you list the courses available?
     - Can you list the courses you offer?
     - Can you list the courses you have
+
+- intent: discussed_topic
+  examples: |
+    - In which courses is [artificial intelligence](discussedTopic) discussed?
+    - What courses cover [machine learning](discussedTopic)?
+    - Can you tell me in which courses [data science](discussedTopic) is discussed?
+    - List the courses where [computer networks](discussedTopic) are discussed
+    - What courses discuss [software engineering](discussedTopic)?
+    - In which courses is [cybersecurity](discussedTopic) covered?
+    - Can you list the courses where [robotics](discussedTopic) is discussed?
+    - What courses cover [natural language processing](discussedTopic)?
+    - Which courses discuss [blockchain](discussedTopic)?
+    - List the courses where [cloud computing](discussedTopic) is discussed
+    - In which courses is [computer vision](discussedTopic) covered?
+    - Can you tell me which courses discuss [big data](discussedTopic)?
+
+- intent: topic_discussed_lecture
+  examples: |
+    - Which topics are covered in [COMP](courseName) [472](courseNumber) during lecture [1](lecture)?
+    - What topics are discussed in [SOEN](courseName) [474](courseNumber) during lecture [2](lecture)?
+    - Can you tell me which subjects are covered in [COMP](courseName) [476](courseNumber) during lecture [3](lecture)?
+    - List the topics covered in [COMP](courseName) [478](courseNumber) during lecture [4](lecture).
+    - What concepts are discussed in [POLI](courseName) [480](courseNumber) during lecture [5](lecture)?
+    - Which topics are covered in [COMP](courseName) [482](courseNumber) during lecture [6](lecture)?
+    - Can you list the subjects discussed in [COMP](courseName) [484](courseNumber) during lecture [7](lecture)?
+    - What topic areas are covered in [COMP](courseName) [486](courseNumber) during lecture [8](lecture)?
+    - List the topics discussed in [COMP](courseName) [488](courseNumber) during lecture [9](lecture).
+    - Which topics are covered in [COMP](courseName) [490](courseNumber) during lecture [10](lecture)?
+    - Can you tell me which topics are discussed in [COMP](courseName) [492](courseNumber) during lecture [11](lecture)?
+    - What concepts are covered in [ENCS](courseName) [494](courseNumber) during lecture [12](lecture)?
+
+- intent: offered_in_subject
+  examples: |
+    - List all courses offered within [COMP](courseName).
+    - Can you provide a list of all courses offered within [SOEN](courseName)?
+    - What are the courses offered within [MECH](courseName)?
+    - List all courses available within [ELEC](courseName).
+    - Can you list the courses offered within [CIVI](courseName)?
+    - What courses are available within [ENGR](courseName)?
+    - List all courses offered within [MATH](courseName).
+    - Can you provide a list of courses available within [PHYS](courseName)?
+    - What are the courses offered within [CHEM](courseName)?
+    - List all courses available within [BIOL](courseName).
+    - Can you list the courses offered within [ENGL](courseName)?
+    - What courses are available within [COMM](courseName)?
+
+- intent: recommended_materials
+  examples: |
+    - What study materials do you suggest for [data structures](discussedTopic) in [COMP](courseName) [352](courseNumber)?
+    - Can you recommend any resources for learning [web development](discussedTopic) in [SOEN](courseName) [341](courseNumber)?
+    - I need some materials for studying [algorithms](discussedTopic) in [COMP](courseName) [567](courseNumber). Any recommendations?
+    - What are the recommended materials for [network security](discussedTopic) in [SOEN](courseName) [6481](courseNumber)?
+    - Are there any specific materials you advise for [software testing](discussedTopic) in [COMP](courseName) [654](courseNumber)?
+    - Could you suggest study materials for [machine learning applications](discussedTopic) in [COMP](courseName) [472](courseNumber)?
+    - What resources would you recommend for learning [human-computer interaction](discussedTopic) in [SOEN](courseName) [662](courseNumber)?
+    - I'm interested in [natural language processing](discussedTopic). Can you suggest any materials in [COMP](courseName) [672](courseNumber)?
+    - Are there any recommended materials for studying [cloud computing](discussedTopic) in [SOEN](courseName) [693](courseNumber)?
+    - Can you provide any recommended reading for [distributed systems](discussedTopic) in [COMP](courseName) [646](courseNumber)?
+
+- intent: credits_course
+  examples: |
+    - How many credits does [COMP](courseName) [352](courseNumber) count for?
+    - What is the credit value of [SOEN](courseName) [341](courseNumber)?
+    - How many credits is [COMP](courseName) [567](courseNumber) worth?
+    - Can you tell me the credit count for [SOEN](courseName) [6481](courseNumber)?
+    - What is the credit worth of [COMP](courseName) [654](courseNumber)?
+    - How many credits does [COMP](courseName) [472](courseNumber) carry?
+    - What is the credit value for [SOEN](courseName) [662](courseNumber)?
+    - Can you inform me of the credits for [COMP](courseName) [672](courseNumber)?
+    - How many credits is [SOEN](courseName) [693](courseNumber) worth?
+    - What is the credit count of [COMP](courseName) [646](courseNumber)?
+
+- intent: additional_resources
+  examples: |
+    - For [COMP](courseName) [472](courseNumber), what additional resources (links to web pages) are available?
+    - What additional resources (links to web pages) are available for [COMP](courseName) [474](courseNumber)?
+    - Can you provide the additional resources (links to web pages) available for [COMP](courseName) [476](courseNumber)?
+    - List the additional resources (links to web pages) available for [COMP](courseName) [478](courseNumber).
+    - What are the additional resources (links to web pages) available for [COMP](courseName) [480](courseNumber)?
+    - Could you list the additional resources (links to web pages) for [COMP](courseName) [482](courseNumber)?
+    - Can you provide the links to additional resources available for [COMP](courseName) [484](courseNumber)?
+    - List all additional resources (links to web pages) available for [COMP](courseName) [486](courseNumber).
+    - What additional resources (links to web pages) are provided for [COMP](courseName) [488](courseNumber)?
+    - Provide the links to additional resources available for [COMP](courseName) [490](courseNumber).
+    - For [SENG](courseName) [312](courseNumber), what additional resources (links to web pages) can I access?
+    - What are the additional resources (links to web pages) available for [SENG](courseName) [324](courseNumber)?
+    - Can you list the additional resources (links to web pages) provided for [SENG](courseName) [336](courseNumber)?
+    - I'm looking for the additional resources (links to web pages) for [SENG](courseName) [348](courseNumber).
+    - Provide the links to additional resources available for [SENG](courseName) [360](courseNumber).
+    - List all additional resources (links to web pages) for [SENG](courseName) [372](courseNumber).
+    - What additional resources (links to web pages) are there for [SENG](courseName) [384](courseNumber)?
+    - Could you provide the additional resources (links to web pages) available for [SENG](courseName) [396](courseNumber)?
+    - List the additional resources (links to web pages) available for [SENG](courseName) [408](courseNumber).
+    - Can you give me the links to additional resources for [SENG](courseName) [420](courseNumber)?
+
+
+- intent: content_details
+  examples: |
+    - Detail the content (slides, worksheets, readings) available for lecture [2](lecture) in [COMP](courseName) [472](courseNumber).
+    - What content (slides, worksheets, readings) is available for lecture [3](lecture) in [COMP](courseName) [474](courseNumber)?
+    - Provide details about the content (slides, worksheets, readings) available for lecture [4](lecture) in [COMP](courseName) [476](courseNumber).
+    - Can you detail the content (slides, worksheets, readings) for lecture [5](lecture) in [COMP](courseName) [478](courseNumber)?
+    - Detail all content (slides, worksheets, readings) available for lecture [6](lecture) in [COMP](courseName) [480](courseNumber).
+    - What materials (slides, worksheets, readings) are available for lecture [7](lecture) in [COMP](courseName) [482](courseNumber)?
+    - List the content (slides, worksheets, readings) for lecture [8](lecture) in [COMP](courseName) [484](courseNumber).
+    - Provide information about the content (slides, worksheets, readings) available for lecture [9](lecture) in [COMP](courseName) [486](courseNumber).
+    - What resources (slides, worksheets, readings) are provided for lecture [10](lecture) in [COMP](courseName) [488](courseNumber)?
+    - Detail the available content (slides, worksheets, readings) for lecture [11](lecture) in [COMP](courseName) [490](courseNumber).
+    - What materials (slides, worksheets, readings) are included for lecture [12](lecture) in [COMP](courseName) [492](courseNumber)?
+    - Provide details about the content (slides, worksheets, readings) for lecture [13](lecture) in [COMP](courseName) [494](courseNumber).
+    - List all available content (slides, worksheets, readings) for lecture [14](lecture) in [COMP](courseName) [496](courseNumber).
+    - Detail the resources (slides, worksheets, readings) provided for lecture [15](lecture) in [COMP](courseName) [498](courseNumber).
+    - What materials (slides, worksheets, readings) can be accessed for lecture [16](lecture) in [COMP](courseName) [500](courseNumber)?
+    - Provide information on the content (slides, worksheets, readings) available for lecture [17](lecture) in [COMP](courseName) [502](courseNumber).
+    - Detail the available resources (slides, worksheets, readings) for lecture [18](lecture) in [COMP](courseName) [504](courseNumber).
+    - List all content (slides, worksheets, readings) for lecture [19](lecture) in [COMP](courseName) [506](courseNumber).
+    - What resources (slides, worksheets, readings) are provided for lecture [20](lecture) in [COMP](courseName) [508](courseNumber)?
+    - Detail the content (slides, worksheets, readings) available for lecture [21](lecture) in [COMP](courseName) [510](courseNumber).
+
+- intent: reading_material
+  examples: |
+    - What reading materials are recommended for studying [k-means clustering](discussedTopic) in [COMP](courseName) [472](courseNumber)?
+    - Can you suggest reading materials for learning about [neural networks](discussedTopic) in [COMP](courseName) [550](courseNumber)?
+    - I'm interested in studying [database management systems](discussedTopic) in [COMP](courseName) [352](courseNumber). What reading materials do you recommend?
+    - Could you provide some recommended reading materials for understanding [software engineering principles](discussedTopic) in [COMP](courseName) [646](courseNumber)?
+    - What are some good reading materials for learning [data structures and algorithms](discussedTopic) in [COMP](courseName) [215](courseNumber)?
+    - What reading materials would you suggest for studying [machine learning algorithms](discussedTopic) in [COMP](courseName) [652](courseNumber)?
+    - I'm looking for reading materials to understand [natural language processing techniques](discussedTopic) in [COMP](courseName) [765](courseNumber). Can you recommend any?
+    - Can you provide reading materials for [parallel computing](discussedTopic) in [COMP](courseName) [480](courseNumber)?
+    - What books or articles do you recommend for learning [cloud computing concepts](discussedTopic) in [COMP](courseName) [678](courseNumber)?
+    - I need some reading materials on [cybersecurity practices](discussedTopic) in [COMP](courseName) [720](courseNumber). Any suggestions?
+    - Could you suggest some reading materials for [graph theory](discussedTopic) in [COMP](courseName) [310](courseNumber)?
+    - What are the recommended reading materials for studying [operating system design](discussedTopic) in [COMP](courseName) [430](courseNumber)?
+    - I'm interested in learning about [computer networks](discussedTopic) in [COMP](courseName) [535](courseNumber). What reading materials should I start with?
+
+- intent: gained_competencies
+  examples: |
+    - What competencies would a student acquire after completing [COMP](courseName) [652](courseNumber)?
+    - After finishing [COMP](courseName) [765](courseNumber), what competencies does a student typically develop?
+    - Can you tell me about the competencies gained from [COMP](courseName) [480](courseNumber)?
+    - What skills and competencies does a student gain from completing [COMP](courseName) [678](courseNumber)?
+    - I'm curious about the competencies acquired from [COMP](courseName) [720](courseNumber). Can you provide some information?
+    - After taking [COMP](courseName) [310](courseNumber), what new competencies does a student usually possess?
+    - What are the expected competencies after completing [COMP](courseName) [430](courseNumber)?
+    - Could you outline the competencies gained from [COMP](courseName) [535](courseNumber)?
+    - What competencies will I gain from [COMP](courseName) [382](courseNumber)?
+    - Upon finishing [COMP](courseName) [540](courseNumber), what competencies should I expect to have?
+    - What are the typical competencies obtained after completing [COMP](courseName) [624](courseNumber)?
+    - Can you list the competencies acquired from [COMP](courseName) [448](courseNumber)?
+    - What skills and knowledge does a student develop after taking [COMP](courseName) [512](courseNumber)?
+    - I'm interested in knowing the competencies gained from [COMP](courseName) [698](courseNumber). Could you provide more details?
+    - After completing [COMP](courseName) [712](courseNumber), what competencies are students expected to possess?
+    - What competencies are emphasized in [COMP](courseName) [610](courseNumber)?
+    - Could you outline the competencies acquired from [COMP](courseName) [620](courseNumber)?
+    - What new abilities will I have after finishing [COMP](courseName) [350](courseNumber)?
+
+- intent: student_grade
+  examples: |
+    - What grades did [Alice](studentFirstName) [Smith](studentLastName) achieve in [COMP](courseName) [382](courseNumber)?
+    - Can you tell me the grades obtained by [John](studentFirstName) [Doe](studentLastName) in [COMP](courseName) [540](courseNumber)?
+    - What were [Sarah](studentFirstName) [Johnson](studentLastName)'s grades in [COMP](courseName) [624](courseNumber)?
+    - Could you provide the grades of [Michael](studentFirstName) [Brown](studentLastName) for [COMP](courseName) [448](courseNumber)?
+    - What grades did [Emma](studentFirstName) [Wilson](studentLastName) get in [COMP](courseName) [512](courseNumber)?
+    - I'm interested in knowing the grades earned by [David](studentFirstName) [Jones](studentLastName) in [COMP](courseName) [698](courseNumber).
+    - What were the grades of [Sophia](studentFirstName) [Miller](studentLastName) in [COMP](courseName) [712](courseNumber)?
+    - Could you please tell me the grades of [Olivia](studentFirstName) [Martinez](studentLastName) in [COMP](courseName) [610](courseNumber)?
+    - What grades did [James](studentFirstName) [Taylor](studentLastName) receive in [COMP](courseName) [620](courseNumber)?
+    - Can you provide the grades of [William](studentFirstName) [Anderson](studentLastName) for [COMP](courseName) [350](courseNumber)?
+
+- intent: students_completed_course
+  examples: |
+    - Which students have completed [COMP](courseName) [472](courseNumber)?
+    - Can you list the students who completed [ENGR](courseName) [101](courseNumber)?
+    - Provide a list of students who have finished [MATH](courseName) [205](courseNumber).
+    - Who are the students that completed [PHYS](courseName) [211](courseNumber)?
+    - Show me the students who completed [COMP](courseName) [352](courseNumber).
+    - I want to know which students finished [ECON](courseName) [201](courseNumber).
+    - List the students who completed [CHEM](courseName) [101](courseNumber).
+    - Provide the names of students who completed [PSYC](courseName) [101](courseNumber).
+    - Can you give me a list of students who completed [PHIL](courseName) [110](courseNumber)?
+
+- intent: print_transcript
+  examples: |
+    - Print a transcript for [Eeham](studentFirstName) [Khan](studentLastName), listing all the courses taken with their grades.
+    - Print a transcript for [John](studentFirstName) [Doe](studentLastName), listing all the courses taken with their grades.
+    - Print a transcript for [studentFirstName] [studentLastName], listing all the courses taken with their grades.
+    - Please print the transcript for [studentFirstName] [studentLastName], including all courses and grades.
+    - Could you generate a transcript for [studentFirstName] [studentLastName], showing all courses and corresponding grades?
+    - I'd like to see a transcript for [studentFirstName] [studentLastName], with details of courses and grades.
+    - Print a transcript for [studentFirstName] [studentLastName], listing all completed courses and their respective grades.
+    - Can you generate a transcript for [studentFirstName] [studentLastName], showing all courses taken along with grades?
+    - Please provide a transcript for [studentFirstName] [studentLastName], including details of courses and grades.
+    - I need a transcript for [studentFirstName] [studentLastName], with information on courses and grades.
+
+- intent: about_course
+  examples: |
+    - What is [COMP](courseName) [472](courseNumber) about?
+    - Can you tell me about [CHEM](courseName) [301](courseNumber)?
+    - I'm curious, what does [ECON](courseName) [101](courseNumber) cover?
+    - Tell me more about [PSYC](courseName) [202](courseNumber), please.
+    - What topics are included in [MATH](courseName) [201](courseNumber)?
+    - I'd like to know what [BIOL](courseName) [101](courseNumber) is about.
+    - Could you provide information on [PHYS](courseName) [201](courseNumber)?
+    - Tell me about [HIST](courseName) [202](courseNumber), please.
+    - What's covered in [ENGL](courseName) [101](courseNumber)?
+    - What does [MUSC](courseName) [301](courseNumber) entail?
+
+- intent: covered_topics
+  examples: |
+    - What topics are covered in [Lecture](courseEvent) [3](lecture) of [COMP](courseName) [474](courseNumber)?
+    - Which topics are covered in [Lab](courseEvent) [4](lecture) of [CHEM](courseName) [301](courseNumber)?
+    - What are the topics covered in [Seminar](courseEvent) [1](lecture) of [BIO](courseName) [101](courseNumber)?
+    - Can you tell me the topics discussed in [Workshop](courseEvent) [2](lecture) of [PHYS](courseName) [201](courseNumber)?
+    - Which topics will be covered in [Tutorial](courseEvent) [5](lecture) of [MATH](courseName) [221](courseNumber)?
+    - What topics are included in [Practice](courseEvent) [3](lecture) of [ECON](courseName) [101](courseNumber)?
+    - Can you provide the topics covered in [Review session](courseEvent) [2](lecture) of [PSYC](courseName) [301](courseNumber)?
+    - I'm curious about the topics discussed in [Lab](courseEvent) [7](lecture) of [CHEM](courseName) [201](courseNumber).
+    - What subjects will be addressed during [Workshop](courseEvent) [3](lecture) of [COMP](courseName) [474](courseNumber)?
+    - Could you list the topics covered in [Seminar](courseEvent) [4](lecture) of [BIO](courseName) [301](courseNumber)?
+    - I'm interested in knowing the content discussed in [Lab session](courseEvent) [6](lecture) for [PHYS](courseName) [101](courseNumber).
+    - Provide an overview of the topics presented in [Tutorial](courseEvent) [2](lecture) within [ECON](courseName) [101](courseNumber).
+
+- intent: event_covers_topic
+  examples: |
+    - Can you tell me which course events cover [rdf](topicCovers)?
+    - I'm curious, which events discuss [Data Structures](topicCovers)?
+    - What course events encompass the topic of [Quantum Mechanics](topicCovers)?
+    - Could you provide information on which events address [Machine Learning](topicCovers)?
+    - I'm interested in knowing which course events cover [Neural Networks](topicCovers).
+    - Which events are focused on [Software Engineering](topicCovers)?
+    - Can you list the course events that discuss [Computer Graphics](topicCovers)?
+    - What events cover [Database Management](topicCovers)?
+    - Which course events include discussions on [Cybersecurity](topicCovers)?
+    - I'd like to know which events cover [Artificial Intelligence](topicCovers).
+    - Can you provide information on course events related to [Machine Learning](topicCovers)?
+    - Which events address topics in [Web Development](topicCovers)?
+    - What course events cover [Data Science](topicCovers)?
+    - Could you list the events that include [Operating Systems](topicCovers) in their curriculum?
+    - Which events cover the topic of [Artificial Intelligence](topicCovers)?
