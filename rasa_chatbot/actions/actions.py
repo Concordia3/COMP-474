@@ -3,6 +3,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rasa_sdk.events import SlotSet
+import re
 
 
 class ActionListCourses(Action):
@@ -50,25 +51,27 @@ class DiscussedTopic(Action):
     def run(self, dispatcher, tracker, domain):
         discussedTopic = tracker.get_slot('discussedTopic')
 
+        # Escape special characters in the discussed topic
+        escaped_topic = re.escape(discussedTopic)
+
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
             PREFIX ns1: <http://example.org/>
 
             SELECT ?courseTitle
             WHERE {{
-            ?course a ns1:Course;
-            ns1:hasTitle ?courseTitle;
-            ns1:hasDescription ?description;
-            FILTER
-            regex(?description, "{tracker.slots['discussedTopic']}", "i").
+              ?course a ns1:Course;
+                      ns1:hasTitle ?courseTitle;
+                      ns1:hasDescription ?description.
+              FILTER regex(?description, "{escaped_topic}", "i").
             }}
-
         """)
+
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
         if not results["results"]["bindings"]:
-            message = f"There are no courses where '{discussedTopic}' is explicitly discussed."
+            message = f"There are no courses where the mentioned topic is explicitly discussed."
         else:
             message = f"The courses in which {discussedTopic} is discussed are:\n"
             for result in results["results"]["bindings"]:
