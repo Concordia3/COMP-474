@@ -304,11 +304,11 @@ nlu:
     - What is [COMP](courseName) [472](courseNumber) about?
     - Can you tell me about [CHEM](courseName) [301](courseNumber)?
     - I'm curious, what does [ECON](courseName) [101](courseNumber) cover?
-    - Tell me more about [PSYC](courseName) [202](courseNumber), please.
+    - Tell me more about [ACCO](courseName) [202](courseNumber), please.
     - What topics are included in [MATH](courseName) [201](courseNumber)?
     - I'd like to know what [BIOL](courseName) [101](courseNumber) is about.
     - Could you provide information on [PHYS](courseName) [201](courseNumber)?
-    - Tell me about [HIST](courseName) [202](courseNumber), please.
+    - Tell me about [ACCO](courseName) [202](courseNumber), please.
     - What's covered in [ENGL](courseName) [101](courseNumber)?
     - What does [MUSC](courseName) [301](courseNumber) entail?
 

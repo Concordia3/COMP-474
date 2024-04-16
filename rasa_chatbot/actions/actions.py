@@ -618,7 +618,7 @@ class PrintTranscript(Action):
                 firstName = result.get('first_name', {}).get('value', 'N/A')
                 lastName = result.get('last_name', {}).get('value', 'N/A')
                 course_code = result.get('course_code', {}).get('value', 'N/A')
-                course_number = float(result["course_number"]["value"])
+                course_number = int(result["course_number"]["value"])
                 course_desc = result.get('course_desc', {}).get('value', 'N/A')
                 course_credits = float(result["course_credits"]["value"])
                 website = result.get('course_website', {}).get('value', 'N/A')
