@@ -3,6 +3,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action
 from SPARQLWrapper import SPARQLWrapper, JSON
 from rasa_sdk.events import SlotSet
+import re
 
 
 class ActionListCourses(Action):
@@ -50,25 +51,27 @@ class DiscussedTopic(Action):
     def run(self, dispatcher, tracker, domain):
         discussedTopic = tracker.get_slot('discussedTopic')
 
+        # Escape special characters in the discussed topic
+        escaped_topic = re.escape(discussedTopic)
+
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
             PREFIX ns1: <http://example.org/>
 
             SELECT ?courseTitle
             WHERE {{
-            ?course a ns1:Course;
-            ns1:hasTitle ?courseTitle;
-            ns1:hasDescription ?description;
-            FILTER
-            regex(?description, "{tracker.slots['discussedTopic']}", "i").
+              ?course a ns1:Course;
+                      ns1:hasTitle ?courseTitle;
+                      ns1:hasDescription ?description.
+              FILTER regex(?description, "{escaped_topic}", "i").
             }}
-
         """)
+
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
         if not results["results"]["bindings"]:
-            message = f"There are no courses where '{discussedTopic}' is explicitly discussed."
+            message = f"There are no courses where the mentioned topic is explicitly discussed."
         else:
             message = f"The courses in which {discussedTopic} is discussed are:\n"
             for result in results["results"]["bindings"]:
@@ -172,39 +175,43 @@ class RecommendedMaterials(Action):
     def run(self, dispatcher, tracker, domain):
         courseName = tracker.get_slot('courseName')
         courseNumber = tracker.get_slot('courseNumber')
-        topic = tracker.get_slot('topic')
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         if courseName is None:
             courseName = ''
         if courseNumber is None:
             courseNumber = 0
-        if topic is None:
+        if discussedTopic is None:
             topic = ''
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
         PREFIX ns1: <http://example.org/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
 
         SELECT ?materialType ?materialName ?materialLink
         WHERE {{
-        ?lecture a ns1:Lecture ;
-        ns1:contentFor <http://example.org/{tracker.slots['courseName']}/{tracker.slots['courseNumber']}> ;
-        ns1:topic "{tracker.slots['topic']}" ;
-        ns1:contentName ?materialName ;
-        ns1:contentLink ?materialLink .
-        BIND("slides" AS ?materialType) .
+          ?topic rdfs:label "{discussedTopic}" .
+          ?lecture a ns1:Lecture ;
+                   ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
+                   ns1:contentTopic ?topic ;
+                   ns1:contentName ?materialName ;
+                   ns1:contentLink ?materialLink .
+          BIND("slides" AS ?materialType) .
         }}
         """)
 
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The courses are:\n"
-        for result in results["results"]["bindings"]:
-            material_type = result["materialType"]["value"]
-            material_name = result["materialName"]["value"]
-            material_link = result["materialLink"]["value"]
-            message += f'- Material Type: {material_type}, Material Name: {material_name}, Material Link: {material_link}\n'
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"No materials found."
+            message = f"The recommended materials for {discussedTopic} in {courseName} {courseNumber} are:\n"
+            for result in results["results"]["bindings"]:
+                material_type = result["materialType"]["value"]
+                material_name = result["materialName"]["value"]
+                material_link = result["materialLink"]["value"]
+                message += f'- Material Type: {material_type}, Material Name: {material_name}, Material Link: {material_link}\n'
 
         dispatcher.utter_message(text=message)
 
@@ -611,7 +618,7 @@ class PrintTranscript(Action):
                 firstName = result.get('first_name', {}).get('value', 'N/A')
                 lastName = result.get('last_name', {}).get('value', 'N/A')
                 course_code = result.get('course_code', {}).get('value', 'N/A')
-                course_number = float(result["course_number"]["value"])
+                course_number = int(result["course_number"]["value"])
                 course_desc = result.get('course_desc', {}).get('value', 'N/A')
                 course_credits = float(result["course_credits"]["value"])
                 website = result.get('course_website', {}).get('value', 'N/A')
@@ -720,7 +727,7 @@ class EventCoversTopic(Action):
         return "action_event_covers_topic"
 
     def run(self, dispatcher, tracker, domain):
-        topicCovers = tracker.get_slot('topicCovers')
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -729,7 +736,7 @@ class EventCoversTopic(Action):
 
         SELECT DISTINCT ?course ?event (COUNT(?event) as ?frequency)
         WHERE {{
-          ?topic rdfs:label "{topicCovers}" .
+          ?topic rdfs:label "{discussedTopic}" .
 
           ?course ns1:hasCourseCode ?course_code ;
                   ns1:hasCourseNumber ?course_number .
@@ -746,7 +753,7 @@ class EventCoversTopic(Action):
         if not results["results"]["bindings"]:
             message = f"No course events found."
         else:
-            message = f"The events that cover {topicCovers} are:\n"
+            message = f"The events that cover {discussedTopic} are:\n"
             for result in results["results"]["bindings"]:
                 course_uri = result.get('course', {}).get('value', 'N/A')
                 event_uri = result.get('event', {}).get('value', 'N/A')
