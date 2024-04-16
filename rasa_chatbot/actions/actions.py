@@ -727,7 +727,7 @@ class EventCoversTopic(Action):
         return "action_event_covers_topic"
 
     def run(self, dispatcher, tracker, domain):
-        topicCovers = tracker.get_slot('topicCovers')
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -736,7 +736,7 @@ class EventCoversTopic(Action):
 
         SELECT DISTINCT ?course ?event (COUNT(?event) as ?frequency)
         WHERE {{
-          ?topic rdfs:label "{topicCovers}" .
+          ?topic rdfs:label "{discussedTopic}" .
 
           ?course ns1:hasCourseCode ?course_code ;
                   ns1:hasCourseNumber ?course_number .
@@ -753,7 +753,7 @@ class EventCoversTopic(Action):
         if not results["results"]["bindings"]:
             message = f"No course events found."
         else:
-            message = f"The events that cover {topicCovers} are:\n"
+            message = f"The events that cover {discussedTopic} are:\n"
             for result in results["results"]["bindings"]:
                 course_uri = result.get('course', {}).get('value', 'N/A')
                 event_uri = result.get('event', {}).get('value', 'N/A')
