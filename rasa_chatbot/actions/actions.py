@@ -175,39 +175,43 @@ class RecommendedMaterials(Action):
     def run(self, dispatcher, tracker, domain):
         courseName = tracker.get_slot('courseName')
         courseNumber = tracker.get_slot('courseNumber')
-        topic = tracker.get_slot('topic')
+        discussedTopic = tracker.get_slot('discussedTopic')
 
         if courseName is None:
             courseName = ''
         if courseNumber is None:
             courseNumber = 0
-        if topic is None:
+        if discussedTopic is None:
             topic = ''
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
         PREFIX ns1: <http://example.org/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
 
         SELECT ?materialType ?materialName ?materialLink
         WHERE {{
-        ?lecture a ns1:Lecture ;
-        ns1:contentFor <http://example.org/{tracker.slots['courseName']}/{tracker.slots['courseNumber']}> ;
-        ns1:topic "{tracker.slots['topic']}" ;
-        ns1:contentName ?materialName ;
-        ns1:contentLink ?materialLink .
-        BIND("slides" AS ?materialType) .
+          ?topic rdfs:label "{discussedTopic}" .
+          ?lecture a ns1:Lecture ;
+                   ns1:contentFor <http://example.org/{courseName}/{courseNumber}> ;
+                   ns1:contentTopic ?topic ;
+                   ns1:contentName ?materialName ;
+                   ns1:contentLink ?materialLink .
+          BIND("slides" AS ?materialType) .
         }}
         """)
 
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        message = "The courses are:\n"
-        for result in results["results"]["bindings"]:
-            material_type = result["materialType"]["value"]
-            material_name = result["materialName"]["value"]
-            material_link = result["materialLink"]["value"]
-            message += f'- Material Type: {material_type}, Material Name: {material_name}, Material Link: {material_link}\n'
+        if not results["results"]["bindings"]:  # Check if any results exist
+            message = f"No materials found."
+            message = f"The recommended materials for {discussedTopic} in {courseName} {courseNumber} are:\n"
+            for result in results["results"]["bindings"]:
+                material_type = result["materialType"]["value"]
+                material_name = result["materialName"]["value"]
+                material_link = result["materialLink"]["value"]
+                message += f'- Material Type: {material_type}, Material Name: {material_name}, Material Link: {material_link}\n'
 
         dispatcher.utter_message(text=message)
 
