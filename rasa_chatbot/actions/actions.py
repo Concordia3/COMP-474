@@ -44,15 +44,15 @@ class ActionListCourses(Action):
         return []
 
 
+import re
+
+
 class DiscussedTopic(Action):
     def name(self):
         return "action_discussed_topic"
 
     def run(self, dispatcher, tracker, domain):
-        discussedTopic = tracker.get_slot('discussedTopic')
-
-        # Escape special characters in the discussed topic
-        escaped_topic = re.escape(discussedTopic)
+        subject = tracker.get_slot('subject')
 
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
@@ -63,7 +63,7 @@ class DiscussedTopic(Action):
               ?course a ns1:Course;
                       ns1:hasTitle ?courseTitle;
                       ns1:hasDescription ?description.
-              FILTER regex(?description, "{escaped_topic}", "i").
+              FILTER regex(?description, "{subject}", "i").
             }}
         """)
 
@@ -73,7 +73,7 @@ class DiscussedTopic(Action):
         if not results["results"]["bindings"]:
             message = f"There are no courses where the mentioned topic is explicitly discussed."
         else:
-            message = f"The courses in which {discussedTopic} is discussed are:\n"
+            message = f"The courses in which {subject} is discussed are:\n"
             for result in results["results"]["bindings"]:
                 message += f'- {result["courseTitle"]["value"]}\n'
 
@@ -187,8 +187,8 @@ class RecommendedMaterials(Action):
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
         PREFIX ns1: <http://example.org/>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
-
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        
         SELECT ?materialType ?materialName ?materialLink
         WHERE {{
           ?topic rdfs:label "{discussedTopic}" .
@@ -206,6 +206,7 @@ class RecommendedMaterials(Action):
 
         if not results["results"]["bindings"]:  # Check if any results exist
             message = f"No materials found."
+        else:
             message = f"The recommended materials for {discussedTopic} in {courseName} {courseNumber} are:\n"
             for result in results["results"]["bindings"]:
                 material_type = result["materialType"]["value"]
@@ -290,7 +291,7 @@ class AdditionalResources(Action):
         if not results["results"]["bindings"]:  # Check if any results exist
             message = f"No additional resources found for {courseName} {courseNumber}."
         else:
-            message = "The additional resources for {courseName} {courseNumber} are:\n"
+            message = f"The additional resources for {courseName} {courseNumber} are:\n"
             for result in results["results"]["bindings"]:
                 message += f'- {result["website"]["value"]}\n'
 

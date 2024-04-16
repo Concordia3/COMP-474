@@ -15,6 +15,11 @@ pipeline:
   - name: WhitespaceTokenizer
     case_sensitive: False
   - name: RegexFeaturizer
+  - name: RegexEntityExtractor
+    case_sensitive: False
+    use_lookup_tables: True
+    use_regexes: True
+    use_word_boundaries: True
   - name: LexicalSyntacticFeaturizer
   - name: EntitySynonymMapper
   - name: CountVectorsFeaturizer
