@@ -187,8 +187,8 @@ class RecommendedMaterials(Action):
         sparql = SPARQLWrapper("http://localhost:3030/concordia/query")
         sparql.setQuery(f"""
         PREFIX ns1: <http://example.org/>
-        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema>
-
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        
         SELECT ?materialType ?materialName ?materialLink
         WHERE {{
           ?topic rdfs:label "{discussedTopic}" .
@@ -206,6 +206,7 @@ class RecommendedMaterials(Action):
 
         if not results["results"]["bindings"]:  # Check if any results exist
             message = f"No materials found."
+        else:
             message = f"The recommended materials for {discussedTopic} in {courseName} {courseNumber} are:\n"
             for result in results["results"]["bindings"]:
                 material_type = result["materialType"]["value"]
