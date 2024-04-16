@@ -1,10 +1,12 @@
 PREFIX ns1: <http://example.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?materialType ?materialName ?materialLink
 WHERE {
+  ?topic rdfs:label "machine learning" .
   ?lecture a ns1:Lecture ;
            ns1:contentFor <http://example.org/COMP/472> ;
-           ns1:topic "intro to ml naive bayes classification" ;
+           ns1:contentTopic ?topic ;
            ns1:contentName ?materialName ;
            ns1:contentLink ?materialLink .
   BIND("slides" AS ?materialType) .
